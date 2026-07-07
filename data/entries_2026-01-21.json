@@ -97,17 +97,22 @@
       "risk_note": "Ganhamos com 2+ gols totais na partida. BTTS geral médio: 75.0%.",
       "passed_filters": true,
       "filter_rejections": [],
-      "stage": "pre_filter",
-      "status": "pending",
-      "final_score": "",
-      "pnl": 0.0,
+      "stage": "operation",
+      "status": "green",
+      "final_score": "2x0",
+      "pnl": 477.5,
       "resistance_index": 0.0,
       "recommended_odd": 1.19,
       "league_avg_goals": 0.0,
       "league_edge_pct": 0.0,
       "fair_odd": 1.08,
       "prob_lose_pct": 93.0,
-      "fair_note": "xG 1.90/2.26 | Poisson P(Over 1.5) | P(Over 1.5) | sem mercado → só modelo"
+      "fair_note": "xG 1.90/2.26 | Poisson P(Over 1.5) | P(Over 1.5) | sem mercado → só modelo",
+      "manual_odd": 1.5,
+      "lay_stake": 1000.0,
+      "lay_profit_green": 477.5,
+      "lay_loss_red": -1000.0,
+      "ev_pct": 39.5
     },
     {
       "fixture_id": 1450968,
@@ -203,7 +208,7 @@
       "risk_note": "Ganhamos com 2+ gols totais na partida. BTTS geral médio: 70.0%.",
       "passed_filters": true,
       "filter_rejections": [],
-      "stage": "pre_filter",
+      "stage": "rejected_by_odd",
       "status": "pending",
       "final_score": "",
       "pnl": 0.0,
@@ -213,7 +218,10 @@
       "league_edge_pct": 0.0,
       "fair_odd": 1.09,
       "prob_lose_pct": 91.78,
-      "fair_note": "xG 2.15/1.82 | Poisson P(Over 1.5) | P(Over 1.5) | sem mercado → só modelo"
+      "fair_note": "xG 2.15/1.82 | Poisson P(Over 1.5) | P(Over 1.5) | sem mercado → só modelo",
+      "manual_odd": 50.0,
+      "reject_reason": "Odd Lay muito alta para over_15 (50.0 > 25.0)",
+      "ev_pct": 4489.0
     },
     {
       "fixture_id": 1451138,
@@ -309,7 +317,7 @@
       "risk_note": "Ganhamos com 2+ gols totais na partida. BTTS geral médio: 70.0%.",
       "passed_filters": true,
       "filter_rejections": [],
-      "stage": "pre_filter",
+      "stage": "rejected_by_odd",
       "status": "pending",
       "final_score": "",
       "pnl": 0.0,
@@ -319,7 +327,10 @@
       "league_edge_pct": 0.0,
       "fair_odd": 1.05,
       "prob_lose_pct": 95.54,
-      "fair_note": "xG 3.36/1.37 | Poisson P(Over 1.5) | P(Over 1.5) | sem mercado → só modelo"
+      "fair_note": "xG 3.36/1.37 | Poisson P(Over 1.5) | P(Over 1.5) | sem mercado → só modelo",
+      "manual_odd": 50.0,
+      "reject_reason": "Odd Lay muito alta para over_15 (50.0 > 25.0)",
+      "ev_pct": 4677.0
     },
     {
       "fixture_id": 1451137,
@@ -415,7 +426,7 @@
       "risk_note": "Ganhamos com 2+ gols totais na partida. BTTS geral médio: 60.0%.",
       "passed_filters": true,
       "filter_rejections": [],
-      "stage": "pre_filter",
+      "stage": "rejected_by_odd",
       "status": "pending",
       "final_score": "",
       "pnl": 0.0,
@@ -425,7 +436,10 @@
       "league_edge_pct": 0.0,
       "fair_odd": 1.28,
       "prob_lose_pct": 78.33,
-      "fair_note": "xG 1.62/1.16 | Poisson P(Over 1.5) | P(Over 1.5) | sem mercado → só modelo"
+      "fair_note": "xG 1.62/1.16 | Poisson P(Over 1.5) | P(Over 1.5) | sem mercado → só modelo",
+      "manual_odd": 50.0,
+      "reject_reason": "Odd Lay muito alta para over_15 (50.0 > 25.0)",
+      "ev_pct": 3816.5
     },
     {
       "fixture_id": 1500406,
@@ -521,17 +535,22 @@
       "risk_note": "Ganhamos com 2+ gols totais na partida. BTTS geral médio: 65.0%.",
       "passed_filters": true,
       "filter_rejections": [],
-      "stage": "pre_filter",
-      "status": "pending",
-      "final_score": "",
-      "pnl": 0.0,
+      "stage": "operation",
+      "status": "green",
+      "final_score": "1x1",
+      "pnl": 639.85,
       "resistance_index": 0.0,
       "recommended_odd": 1.67,
       "league_avg_goals": 2.17,
       "league_edge_pct": 0.0,
       "fair_odd": 1.52,
       "prob_lose_pct": 65.77,
-      "fair_note": "xG 1.28/0.89 | Poisson P(Over 1.5) | P(Over 1.5) | sem mercado → só modelo"
+      "fair_note": "xG 1.28/0.89 | Poisson P(Over 1.5) | P(Over 1.5) | sem mercado → só modelo",
+      "manual_odd": 1.67,
+      "lay_stake": 1000.0,
+      "lay_profit_green": 639.85,
+      "lay_loss_red": -1000.0,
+      "ev_pct": 9.84
     }
   ]
 }
