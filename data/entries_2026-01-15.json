@@ -1,6 +1,6 @@
 {
   "date": "2026-01-15",
-  "generated_at": "2026-07-07T10:28:01.800021",
+  "generated_at": "2026-07-07T15:28:58.578259",
   "count": 1,
   "entries": [
     {
@@ -102,7 +102,7 @@
       "final_score": "",
       "pnl": 0.0,
       "resistance_index": 0.0,
-      "recommended_odd": 1.25,
+      "recommended_odd": 1.2,
       "league_avg_goals": 3.3,
       "league_edge_pct": 0.0,
       "fair_odd": 1.09,
