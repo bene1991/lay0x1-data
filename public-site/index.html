@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ViniTrader — Jogos do Dia</title>
+  <style>
+    :root {
+      --bg: #080808;
+      --bg2: #111;
+      --card: #141414;
+      --card2: #1a1a1a;
+      --border: rgba(255,255,255,0.07);
+      --green: #22c55e;
+      --green-dim: rgba(34,197,94,0.12);
+      --red: #ef4444;
+      --red-dim: rgba(239,68,68,0.12);
+      --yellow: #f59e0b;
+      --yellow-dim: rgba(245,158,11,0.12);
+      --muted: #6b7280;
+      --text: #f1f5f9;
+      --text2: #cbd5e1;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; min-height: 100vh; }
+
+    /* HEADER */
+    header {
+      background: rgba(8,8,8,0.95);
+      border-bottom: 1px solid var(--border);
+      padding: 14px 16px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      backdrop-filter: blur(12px);
+    }
+    .logo { font-size: 18px; font-weight: 900; letter-spacing: -0.5px; white-space: nowrap; }
+    .logo span { color: var(--green); }
+    .header-right { display: flex; align-items: center; gap: 8px; }
+
+    /* DATE NAV */
+    .date-nav {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 6px 10px;
+    }
+    .date-nav button {
+      background: none;
+      border: none;
+      color: var(--muted);
+      cursor: pointer;
+      font-size: 16px;
+      padding: 0 4px;
+      line-height: 1;
+      transition: color .15s;
+    }
+    .date-nav button:hover { color: var(--text); }
+    .date-nav span {
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--text2);
+      min-width: 90px;
+      text-align: center;
+    }
+
+    /* MAIN */
+    main { max-width: 540px; margin: 0 auto; padding: 16px 12px 80px; }
+
+    /* SUMMARY BAR */
+    .summary {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 8px;
+      margin-bottom: 16px;
+    }
+    .sum-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 10px 8px;
+      text-align: center;
+    }
+    .sum-lbl { font-size: 9px; text-transform: uppercase; font-weight: 700; color: var(--muted); letter-spacing: 0.5px; margin-bottom: 4px; }
+    .sum-val { font-size: 18px; font-weight: 800; }
+    .sum-val.green { color: var(--green); }
+    .sum-val.red { color: var(--red); }
+    .sum-val.yellow { color: var(--yellow); }
+
+    /* STRATEGY FILTERS */
+    .filters {
+      display: flex;
+      gap: 6px;
+      margin-bottom: 14px;
+      flex-wrap: wrap;
+    }
+    .filter-btn {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      color: var(--muted);
+      cursor: pointer;
+      font-size: 11px;
+      font-weight: 700;
+      padding: 5px 12px;
+      transition: all .15s;
+      white-space: nowrap;
+    }
+    .filter-btn.active {
+      background: var(--green);
+      border-color: var(--green);
+      color: #000;
+    }
+
+    /* SECTION LABEL */
+    .section-lbl {
+      font-size: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: var(--muted);
+      letter-spacing: 0.6px;
+      margin: 16px 0 8px;
+    }
+
+    /* GAME CARD */
+    .game-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      margin-bottom: 10px;
+      overflow: hidden;
+      transition: border-color .15s;
+    }
+    .game-card.green { border-color: rgba(34,197,94,0.3); }
+    .game-card.red { border-color: rgba(239,68,68,0.3); }
+    .game-card.pending { border-color: var(--border); }
+
+    .card-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 14px 8px;
+      border-bottom: 1px solid var(--border);
+    }
+    .league-info { display: flex; align-items: center; gap: 6px; }
+    .league-logo { width: 16px; height: 16px; object-fit: contain; border-radius: 2px; }
+    .league-name { font-size: 11px; color: var(--muted); font-weight: 600; }
+    .card-meta { display: flex; align-items: center; gap: 8px; }
+    .game-time { font-size: 11px; color: var(--muted); }
+    .result-badge {
+      font-size: 10px;
+      font-weight: 800;
+      padding: 3px 8px;
+      border-radius: 6px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .result-badge.green { background: var(--green-dim); color: var(--green); }
+    .result-badge.red { background: var(--red-dim); color: var(--red); }
+    .result-badge.pending { background: rgba(255,255,255,0.05); color: var(--muted); }
+
+    .card-teams {
+      padding: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+    }
+    .team {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 6px;
+      flex: 1;
+      min-width: 0;
+    }
+    .team img {
+      width: 40px;
+      height: 40px;
+      object-fit: contain;
+    }
+    .team-name {
+      font-size: 12px;
+      font-weight: 700;
+      text-align: center;
+      color: var(--text2);
+      line-height: 1.3;
+      word-break: break-word;
+    }
+    .team-rank { font-size: 10px; color: var(--muted); }
+    .vs-col { display: flex; flex-direction: column; align-items: center; gap: 6px; }
+    .vs-score {
+      font-size: 22px;
+      font-weight: 900;
+      color: var(--text);
+      letter-spacing: 2px;
+      min-width: 60px;
+      text-align: center;
+    }
+    .vs-label { font-size: 10px; color: var(--muted); font-weight: 600; }
+
+    .card-bottom {
+      padding: 10px 14px;
+      border-top: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    .market-badge {
+      font-size: 11px;
+      font-weight: 800;
+      background: rgba(34,197,94,0.1);
+      color: var(--green);
+      border: 1px solid rgba(34,197,94,0.2);
+      border-radius: 6px;
+      padding: 4px 10px;
+    }
+    .score-pill {
+      font-size: 11px;
+      font-weight: 800;
+      background: rgba(245,158,11,0.1);
+      color: var(--yellow);
+      border: 1px solid rgba(245,158,11,0.2);
+      border-radius: 6px;
+      padding: 4px 10px;
+    }
+    .pnl-pill {
+      font-size: 12px;
+      font-weight: 800;
+      border-radius: 6px;
+      padding: 4px 10px;
+    }
+    .pnl-pill.green { background: var(--green-dim); color: var(--green); }
+    .pnl-pill.red { background: var(--red-dim); color: var(--red); }
+    .pnl-pill.pending { background: rgba(255,255,255,0.04); color: var(--muted); }
+
+    .just { font-size: 10px; color: var(--muted); line-height: 1.5; padding: 0 14px 10px; }
+
+    /* EMPTY */
+    .empty {
+      text-align: center;
+      padding: 60px 20px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+    .empty .icon { font-size: 40px; margin-bottom: 12px; }
+
+    /* LOADING */
+    .loading { text-align: center; padding: 60px 20px; color: var(--muted); }
+    .spinner {
+      width: 32px; height: 32px;
+      border: 3px solid var(--border);
+      border-top-color: var(--green);
+      border-radius: 50%;
+      animation: spin .7s linear infinite;
+      margin: 0 auto 12px;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* FOOTER */
+    footer {
+      position: fixed;
+      bottom: 0; left: 0; right: 0;
+      background: rgba(8,8,8,0.95);
+      border-top: 1px solid var(--border);
+      padding: 10px 16px;
+      text-align: center;
+      font-size: 10px;
+      color: var(--muted);
+      backdrop-filter: blur(12px);
+    }
+    footer span { color: var(--green); font-weight: 700; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">VINI<span>TRADER.</span></div>
+  <div class="header-right">
+    <div class="date-nav">
+      <button onclick="changeDay(-1)">‹</button>
+      <span id="dateLabel">—</span>
+      <button onclick="changeDay(1)">›</button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div id="summaryBar" class="summary" style="display:none;"></div>
+
+  <div class="filters" id="filterBar">
+    <button class="filter-btn active" data-strat="all" onclick="setFilter('all')">Todos</button>
+    <button class="filter-btn" data-strat="back_favorito" onclick="setFilter('back_favorito')">🎯 Back Favorito</button>
+    <button class="filter-btn" data-strat="over_15" onclick="setFilter('over_15')">⚽ Over 1.5</button>
+    <button class="filter-btn" data-strat="back_btts" onclick="setFilter('back_btts')">🥅 Back BTTS</button>
+  </div>
+
+  <div id="content">
+    <div class="loading"><div class="spinner"></div>Carregando...</div>
+  </div>
+</main>
+
+<footer>
+  <span>VINITRADER</span> — Trading Esportivo Pré-Jogo
+</footer>
+
+<script>
+  // ── CONFIG ────────────────────────────────────────────────────────────────
+  // Em preview local usa localhost; em produção usa GitHub raw
+  const IS_LOCAL = location.hostname === 'localhost' || location.hostname === '127.0.0.1';
+  const LOCAL_API = 'http://localhost:8001';
+  // Altere para sua URL do GitHub raw após criar o repositório
+  const GITHUB_RAW = 'https://raw.githubusercontent.com/SEU_USUARIO/vinitrader-public/main/data';
+
+  // ── STATE ─────────────────────────────────────────────────────────────────
+  const ACTIVE_STRATEGIES = ['back_favorito', 'over_15', 'back_btts'];
+  let currentDate = todayStr();
+  let allEntries = [];
+  let activeFilter = 'all';
+
+  function todayStr() {
+    const d = new Date();
+    return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+  }
+
+  function fmtDateLabel(iso) {
+    const [y,m,d] = iso.split('-');
+    const weekdays = ['Dom','Seg','Ter','Qua','Qui','Sex','Sáb'];
+    const dt = new Date(+y, +m-1, +d);
+    const isToday = iso === todayStr();
+    return `${isToday ? '🟢 ' : ''}${weekdays[dt.getDay()]} ${d}/${m}`;
+  }
+
+  function changeDay(delta) {
+    const d = new Date(currentDate + 'T12:00:00');
+    d.setDate(d.getDate() + delta);
+    currentDate = d.toISOString().slice(0,10);
+    loadDay(currentDate);
+  }
+
+  function setFilter(strat) {
+    activeFilter = strat;
+    document.querySelectorAll('.filter-btn').forEach(b => {
+      b.classList.toggle('active', b.dataset.strat === strat);
+    });
+    renderSummary();
+    renderCards();
+  }
+
+  // ── DATA ──────────────────────────────────────────────────────────────────
+  async function loadDay(date) {
+    document.getElementById('dateLabel').textContent = fmtDateLabel(date);
+    document.getElementById('content').innerHTML = '<div class="loading"><div class="spinner"></div>Carregando...</div>';
+    document.getElementById('summaryBar').style.display = 'none';
+
+    try {
+      let data;
+      if (IS_LOCAL) {
+        const res = await fetch(`${LOCAL_API}/api/entries/${date}`);
+        if (!res.ok) throw new Error('not found');
+        data = await res.json();
+        allEntries = (data.entries || []).filter(e => ACTIVE_STRATEGIES.includes(e.strategy) && e.stage !== 'rejected_by_odd');
+      } else {
+        const res = await fetch(`${GITHUB_RAW}/entries_${date}.json?t=${Date.now()}`);
+        if (!res.ok) throw new Error('not found');
+        data = await res.json();
+        allEntries = (data.entries || []).filter(e => ACTIVE_STRATEGIES.includes(e.strategy) && e.stage !== 'rejected_by_odd');
+      }
+      renderSummary();
+      renderCards();
+    } catch(e) {
+      allEntries = [];
+      renderSummary();
+      renderCards();
+    }
+  }
+
+  // ── RENDER SUMMARY ────────────────────────────────────────────────────────
+  function getResult(e) { return e.status || e.result || ''; }
+
+  function renderSummary() {
+    const view = activeFilter === 'all' ? allEntries : allEntries.filter(e => e.strategy === activeFilter);
+    const decided = view.filter(e => getResult(e) === 'green' || getResult(e) === 'red');
+    const greens = decided.filter(e => getResult(e) === 'green');
+    const reds = decided.filter(e => getResult(e) === 'red');
+    const pnl = decided.reduce((s,e) => {
+      let v = parseFloat(e.pnl || 0);
+      const r = getResult(e);
+      if (v === 0 && r === 'green' && e.lay_profit_green) v = parseFloat(e.lay_profit_green);
+      if (v === 0 && r === 'red' && e.lay_loss_red) v = parseFloat(e.lay_loss_red);
+      return s + v;
+    }, 0);
+    const pending = view.filter(e => !getResult(e) || getResult(e) === 'pending' || getResult(e) === '');
+    const wr = decided.length > 0 ? (greens.length / decided.length * 100).toFixed(0) : '—';
+
+    const bar = document.getElementById('summaryBar');
+    if (view.length === 0) { bar.style.display = 'none'; return; }
+    bar.style.display = 'grid';
+    bar.innerHTML = `
+      <div class="sum-card">
+        <div class="sum-lbl">Alertas</div>
+        <div class="sum-val">${view.length}</div>
+      </div>
+      <div class="sum-card">
+        <div class="sum-lbl">G / R</div>
+        <div class="sum-val">${greens.length > 0 || reds.length > 0 ? `<span style="color:var(--green)">${greens.length}</span>/<span style="color:var(--red)">${reds.length}</span>` : '—'}</div>
+      </div>
+      <div class="sum-card">
+        <div class="sum-lbl">Win Rate</div>
+        <div class="sum-val ${wr !== '—' && +wr >= 60 ? 'green' : wr !== '—' && +wr < 50 ? 'red' : ''}">${wr !== '—' ? wr+'%' : '—'}</div>
+      </div>
+      <div class="sum-card">
+        <div class="sum-lbl">PnL</div>
+        <div class="sum-val ${pnl > 0 ? 'green' : pnl < 0 ? 'red' : ''}">${decided.length > 0 ? (pnl >= 0 ? '+' : '') + 'R$'+Math.round(pnl) : '—'}</div>
+      </div>
+    `;
+  }
+
+  // ── RENDER CARDS ──────────────────────────────────────────────────────────
+  const STRAT_LABEL = {
+    back_favorito: '🎯 Back Favorito',
+    over_15:       '⚽ Over 1.5',
+    back_btts:     '🥅 Back BTTS',
+  };
+
+  function renderCards() {
+    const filtered = activeFilter === 'all' ? allEntries : allEntries.filter(e => e.strategy === activeFilter);
+    const content = document.getElementById('content');
+
+    if (filtered.length === 0) {
+      content.innerHTML = `<div class="empty"><div class="icon">📭</div>Nenhum alerta para este dia${activeFilter !== 'all' ? ' neste método' : ''}.</div>`;
+      return;
+    }
+
+    // Agrupar por estratégia
+    const groups = {};
+    filtered.forEach(e => {
+      const s = e.strategy || 'outros';
+      if (!groups[s]) groups[s] = [];
+      groups[s].push(e);
+    });
+
+    let html = '';
+    for (const [strat, entries] of Object.entries(groups)) {
+      if (activeFilter === 'all') {
+        html += `<div class="section-lbl">${STRAT_LABEL[strat] || strat}</div>`;
+      }
+      entries.forEach(e => { html += buildCard(e); });
+    }
+    content.innerHTML = html;
+  }
+
+  function buildCard(e) {
+    const result = getResult(e) || 'pending';
+    const resultClass = result === 'green' ? 'green' : result === 'red' ? 'red' : 'pending';
+    const resultLabel = result === 'green' ? '🟢 Green' : result === 'red' ? '🔴 Red' : '⏳ Pendente';
+
+    const score = e.final_score || e.score_final || '';
+    const scoreDisplay = score ? score : '—';
+
+    const isDecided = result === 'green' || result === 'red';
+    // pnl pode estar zerado em registros antigos — usar lay_profit_green/lay_loss_red como fallback
+    let pnl = parseFloat(e.pnl || 0);
+    if (isDecided && pnl === 0) {
+      if (result === 'green' && e.lay_profit_green) pnl = parseFloat(e.lay_profit_green);
+      if (result === 'red' && e.lay_loss_red) pnl = parseFloat(e.lay_loss_red);
+    }
+    const pnlLabel = isDecided ? (pnl >= 0 ? `+R$ ${pnl.toFixed(2)}` : `-R$ ${Math.abs(pnl).toFixed(2)}`) : '—';
+    const pnlClass = pnl > 0 ? 'green' : pnl < 0 ? 'red' : 'pending';
+
+    const homeLogo = e.home_team_logo || '';
+    const awayLogo = e.away_team_logo || '';
+    const leagueLogo = e.league_logo || '';
+    const homeRank = e.home_stats?.rank ? `#${e.home_stats.rank}` : '';
+    const awayRank = e.away_stats?.rank ? `#${e.away_stats.rank}` : '';
+
+    const pts = e.score ? `${e.score} pts` : '';
+
+    return `
+    <div class="game-card ${resultClass}">
+      <div class="card-top">
+        <div class="league-info">
+          ${leagueLogo ? `<img class="league-logo" src="${leagueLogo}" onerror="this.style.display='none'" />` : ''}
+          <span class="league-name">${e.league || '—'} · ${e.league_country || ''}</span>
+        </div>
+        <div class="card-meta">
+          <span class="game-time">🕐 ${e.time || '—'}</span>
+          <span class="result-badge ${resultClass}">${resultLabel}</span>
+        </div>
+      </div>
+
+      <div class="card-teams">
+        <div class="team">
+          ${homeLogo ? `<img src="${homeLogo}" onerror="this.style.display='none'" />` : '<div style="width:40px;height:40px;"></div>'}
+          <div class="team-name">${e.home_team || '—'}</div>
+          ${homeRank ? `<div class="team-rank">${homeRank}</div>` : ''}
+        </div>
+
+        <div class="vs-col">
+          <div class="vs-score">${scoreDisplay !== '—' ? scoreDisplay : 'vs'}</div>
+          <div class="vs-label">${scoreDisplay !== '—' ? 'Placar' : ''}</div>
+        </div>
+
+        <div class="team">
+          ${awayLogo ? `<img src="${awayLogo}" onerror="this.style.display='none'" />` : '<div style="width:40px;height:40px;"></div>'}
+          <div class="team-name">${e.away_team || '—'}</div>
+          ${awayRank ? `<div class="team-rank">${awayRank}</div>` : ''}
+        </div>
+      </div>
+
+      <div class="card-bottom">
+        <span class="market-badge">${e.market || e.strategy || '—'}</span>
+        ${pts ? `<span class="score-pill">⚡ ${pts}</span>` : ''}
+        ${e.recommended_odd > 0
+          ? `<span style="font-size:11px; font-weight:800; background:rgba(34,197,94,0.12); color:#4ade80; border:1px solid rgba(34,197,94,0.35); border-radius:6px; padding:4px 10px;">✅ Sugerida ${parseFloat(e.recommended_odd).toFixed(2)}</span>`
+          : (e.fair_odd > 0 ? `<span style="font-size:11px; font-weight:700; background:rgba(148,163,184,0.08); color:#94a3b8; border:1px solid rgba(148,163,184,0.2); border-radius:6px; padding:4px 10px;">📐 Poisson ${parseFloat(e.fair_odd).toFixed(2)}</span>` : '')
+        }
+        ${isDecided ? `<span class="pnl-pill ${pnlClass}">${pnlLabel}</span>` : ''}
+      </div>
+      ${e.justification ? `<div class="just">${e.justification}</div>` : ''}
+    </div>`;
+  }
+
+  // ── INIT ──────────────────────────────────────────────────────────────────
+  loadDay(currentDate);
+
+  // Auto-refresh a cada 60s quando está no dia de hoje
+  setInterval(() => {
+    if (currentDate === todayStr()) loadDay(currentDate);
+  }, 60000);
+</script>
+</body>
+</html>
