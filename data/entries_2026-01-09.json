@@ -97,17 +97,22 @@
       "risk_note": "Ganhamos com 2+ gols totais na partida. BTTS geral médio: 60.0%.",
       "passed_filters": true,
       "filter_rejections": [],
-      "stage": "pre_filter",
-      "status": "pending",
-      "final_score": "",
-      "pnl": 0.0,
+      "stage": "operation",
+      "status": "green",
+      "final_score": "1x1",
+      "pnl": 477.5,
       "resistance_index": 0.0,
       "recommended_odd": 1.31,
       "league_avg_goals": 3.01,
       "league_edge_pct": 0.0,
       "fair_odd": 1.17,
       "prob_lose_pct": 85.18,
-      "fair_note": "xG 1.81/1.45 | Poisson P(Over 1.5) | P(Over 1.5) | sem mercado → só modelo"
+      "fair_note": "xG 1.81/1.45 | Poisson P(Over 1.5) | P(Over 1.5) | sem mercado → só modelo",
+      "manual_odd": 1.5,
+      "lay_stake": 1000.0,
+      "lay_profit_green": 477.5,
+      "lay_loss_red": -1000.0,
+      "ev_pct": 27.77
     },
     {
       "fixture_id": 1388446,
@@ -203,7 +208,7 @@
       "risk_note": "Ganhamos com 2+ gols totais na partida. BTTS geral médio: 55.0%.",
       "passed_filters": true,
       "filter_rejections": [],
-      "stage": "pre_filter",
+      "stage": "rejected_by_odd",
       "status": "pending",
       "final_score": "",
       "pnl": 0.0,
@@ -213,7 +218,10 @@
       "league_edge_pct": 0.0,
       "fair_odd": 1.16,
       "prob_lose_pct": 86.13,
-      "fair_note": "xG 1.30/2.05 | Poisson P(Over 1.5) | P(Over 1.5) | sem mercado → só modelo"
+      "fair_note": "xG 1.30/2.05 | Poisson P(Over 1.5) | P(Over 1.5) | sem mercado → só modelo",
+      "manual_odd": 50.0,
+      "reject_reason": "Odd Lay muito alta para over_15 (50.0 > 25.0)",
+      "ev_pct": 4206.5
     },
     {
       "fixture_id": 1491793,
@@ -309,17 +317,22 @@
       "risk_note": "Ganhamos com 2+ gols totais na partida. BTTS geral médio: 80.0%.",
       "passed_filters": true,
       "filter_rejections": [],
-      "stage": "pre_filter",
-      "status": "pending",
-      "final_score": "",
-      "pnl": 0.0,
+      "stage": "operation",
+      "status": "green",
+      "final_score": "1x2",
+      "pnl": 477.5,
       "resistance_index": 0.0,
       "recommended_odd": 1.38,
       "league_avg_goals": 2.74,
       "league_edge_pct": 0.0,
       "fair_odd": 1.14,
       "prob_lose_pct": 87.48,
-      "fair_note": "xG 1.91/1.56 | Poisson P(Over 1.5) | P(Over 1.5) | sem mercado → só modelo"
+      "fair_note": "xG 1.91/1.56 | Poisson P(Over 1.5) | P(Over 1.5) | sem mercado → só modelo",
+      "manual_odd": 1.5,
+      "lay_stake": 1000.0,
+      "lay_profit_green": 477.5,
+      "lay_loss_red": -1000.0,
+      "ev_pct": 31.22
     }
   ]
 }
