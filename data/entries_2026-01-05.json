@@ -1,6 +1,6 @@
 {
   "date": "2026-01-05",
-  "generated_at": "2026-07-05T19:25:08.119573",
+  "generated_at": "2026-07-07T15:27:09.967527",
   "count": 2,
   "entries": [
     {
@@ -99,19 +99,19 @@
       "filter_rejections": [],
       "stage": "operation",
       "status": "green",
-      "final_score": "0x2",
-      "pnl": 477.5,
+      "final_score": "",
+      "pnl": 0.0,
       "resistance_index": 0.0,
-      "recommended_odd": 1.48,
+      "recommended_odd": 1.43,
       "league_avg_goals": 2.49,
       "league_edge_pct": 0.0,
-      "fair_odd": 1.3,
-      "prob_lose_pct": 77.05,
-      "fair_note": "xG 1.66/1.05 | Poisson P(Over 1.5) | P(Over 1.5) | sem mercado → só modelo",
       "manual_odd": 1.5,
       "lay_stake": 1000.0,
       "lay_profit_green": 477.5,
       "lay_loss_red": -1000.0,
+      "fair_odd": 1.3,
+      "prob_lose_pct": 77.05,
+      "fair_note": "xG 1.66/1.05 | Poisson P(Over 1.5) | P(Over 1.5) | sem mercado → só modelo",
       "ev_pct": 15.57
     },
     {
@@ -210,21 +210,20 @@
       "filter_rejections": [],
       "stage": "operation",
       "status": "green",
-      "final_score": "0x2",
-      "pnl": 477.5,
+      "final_score": "",
+      "pnl": 0.0,
       "resistance_index": 0.0,
-      "recommended_odd": 1.48,
+      "recommended_odd": 1.63,
       "league_avg_goals": 2.49,
       "league_edge_pct": 0.0,
-      "fair_odd": 1.48,
-      "prob_lose_pct": 67.52,
-      "fair_note": "xG 0.78/1.47 | Poisson P(Over 1.5) | P(Over 1.5) | sem mercado → só modelo",
       "manual_odd": 1.5,
       "lay_stake": 1000.0,
       "lay_profit_green": 477.5,
       "lay_loss_red": -1000.0,
-      "ev_pct": 1.28
+      "fair_odd": 1.48,
+      "prob_lose_pct": 67.52,
+      "fair_note": "xG 0.78/1.47 | Poisson P(Over 1.5) | P(Over 1.5) | sem mercado → só modelo",
+      "ev_pct": 1.27
     }
-  ],
-  "updated_at": "2026-07-06T10:33:10.600041"
+  ]
 }
