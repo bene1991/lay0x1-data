@@ -441,21 +441,11 @@
       return;
     }
 
-    // Agrupar por estratégia
-    const groups = {};
-    filtered.forEach(e => {
-      const s = e.strategy || 'outros';
-      if (!groups[s]) groups[s] = [];
-      groups[s].push(e);
-    });
+    // Sempre ordenar por horário (independente do método/filtro)
+    const sorted = [...filtered].sort((a, b) => (a.time || '99:99').localeCompare(b.time || '99:99'));
 
     let html = '';
-    for (const [strat, entries] of Object.entries(groups)) {
-      if (activeFilter === 'all') {
-        html += `<div class="section-lbl">${STRAT_LABEL[strat] || strat}</div>`;
-      }
-      entries.forEach(e => { html += buildCard(e); });
-    }
+    sorted.forEach(e => { html += buildCard(e); });
     content.innerHTML = html;
   }
 
