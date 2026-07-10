@@ -97,7 +97,7 @@
       "risk_note": "Ganhamos com 2+ gols totais na partida. BTTS geral médio: 65.0%.",
       "passed_filters": true,
       "filter_rejections": [],
-      "stage": "pre_filter",
+      "stage": "operation",
       "status": "pending",
       "final_score": "",
       "pnl": 0.0,
@@ -107,7 +107,12 @@
       "league_edge_pct": 0.0,
       "fair_odd": 1.19,
       "prob_lose_pct": 83.74,
-      "fair_note": "xG 1.91/1.24 | Poisson P(Over 1.5) | P(Over 1.5) | sem mercado → só modelo"
+      "fair_note": "xG 1.91/1.24 | Poisson P(Over 1.5) | P(Over 1.5) | sem mercado → só modelo",
+      "manual_odd": 1.5,
+      "lay_stake": 1000.0,
+      "lay_profit_green": 477.5,
+      "lay_loss_red": -1000.0,
+      "ev_pct": 25.61
     },
     {
       "fixture_id": 1512111,
