@@ -1,6 +1,6 @@
 {
   "date": "2026-07-12",
-  "generated_at": "2026-07-11T21:42:48.851918",
+  "generated_at": "2026-07-11T21:52:27.028656",
   "count": 7,
   "entries": [
     {
@@ -102,9 +102,9 @@
       "final_score": "",
       "pnl": 0.0,
       "resistance_index": 0.0,
-      "recommended_odd": 1.35,
+      "recommended_odd": 1.39,
       "league_avg_goals": 2.85,
-      "league_edge_pct": 19.0,
+      "league_edge_pct": 0.0,
       "fair_odd": 1.26,
       "prob_lose_pct": 79.5,
       "fair_note": "xG 1.30/1.88 | calibrado c/ O2.5 | Poisson P(Over 1.5) | mercado Over 1.5 proxy → 73.9% | P(Over 1.5) | blend 55/45"
@@ -314,9 +314,9 @@
       "final_score": "",
       "pnl": 0.0,
       "resistance_index": 0.0,
-      "recommended_odd": 1.27,
+      "recommended_odd": 1.33,
       "league_avg_goals": 3.17,
-      "league_edge_pct": 19.5,
+      "league_edge_pct": 0.0,
       "fair_odd": 1.21,
       "prob_lose_pct": 82.46,
       "fair_note": "xG 2.49/0.87 | calibrado c/ O2.5 | Poisson P(Over 1.5) | mercado Over 1.5 proxy → 78.2% | P(Over 1.5) | blend 55/45"
@@ -420,7 +420,7 @@
       "final_score": "",
       "pnl": 0.0,
       "resistance_index": 0.0,
-      "recommended_odd": 1.18,
+      "recommended_odd": 1.11,
       "league_avg_goals": 3.77,
       "league_edge_pct": 0.0,
       "fair_odd": 1.01,
@@ -632,9 +632,9 @@
       "final_score": "",
       "pnl": 0.0,
       "resistance_index": 0.0,
-      "recommended_odd": 1.53,
+      "recommended_odd": 1.77,
       "league_avg_goals": 2.37,
-      "league_edge_pct": 51.6,
+      "league_edge_pct": 0.0,
       "fair_odd": 1.61,
       "prob_lose_pct": 61.94,
       "fair_note": "xG 1.16/1.23 | calibrado c/ O2.5 | Poisson P(Over 1.5) | mercado Over 1.5 proxy → 51.1% | P(Over 1.5) | blend 55/45"
@@ -738,7 +738,7 @@
       "final_score": "",
       "pnl": 0.0,
       "resistance_index": 0.0,
-      "recommended_odd": 1.57,
+      "recommended_odd": 1.26,
       "league_avg_goals": 2.3,
       "league_edge_pct": 0.0,
       "fair_odd": 1.15,
