@@ -75,17 +75,12 @@
       "risk_note": "Lembre-se: Ganhamos se o favorito marcar ou se o jogo empatar/zebra não fizer 1x0. Odd limite do Lay: 20.0.",
       "passed_filters": true,
       "filter_rejections": [],
-      "stage": "rejected_by_odd",
-      "status": "pending",
-      "final_score": "",
-      "pnl": 0.0,
+      "stage": "pre_filter",
+      "pnl": 0,
       "resistance_index": 0.0,
       "fair_odd": 8.64,
       "prob_lose_pct": 11.57,
-      "fair_note": "xG 0.51/2.03 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 14.9% | blend 55/45",
-      "manual_odd": 50.0,
-      "reject_reason": "Odd Lay muito alta para lay_0x1_zebra (50.0 > 20.0)",
-      "ev_pct": -478.5
+      "fair_note": "xG 0.51/2.03 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 14.9% | blend 55/45"
     },
     {
       "fixture_id": 1545105,
@@ -1249,18 +1244,12 @@
       "risk_note": "Lembre-se: Ganhamos se o favorito marcar ou se o jogo empatar/zebra não fizer 0x1. Odd limite do Lay: 20.0.",
       "passed_filters": true,
       "filter_rejections": [],
-      "stage": "operation",
-      "status": "pending",
-      "final_score": "",
-      "pnl": 0.0,
+      "stage": "pre_filter",
+      "pnl": 0,
       "resistance_index": 0.0,
       "fair_odd": 12.24,
       "prob_lose_pct": 8.17,
-      "fair_note": "xG 1.47/1.14 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 8.7% | blend 55/45",
-      "lay_stake": 71.43,
-      "lay_profit_green": 68.21,
-      "lay_loss_red": -1000.0,
-      "ev_pct": -22.55
+      "fair_note": "xG 1.47/1.14 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 8.7% | blend 55/45"
     },
     {
       "fixture_id": 1535328,
