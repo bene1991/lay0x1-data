@@ -1007,7 +1007,7 @@
       "passed_filters": true,
       "filter_rejections": [],
       "stage": "operation",
-      "pnl": 0,
+      "pnl": 63.67,
       "resistance_index": 0.0,
       "fair_odd": 14.64,
       "prob_lose_pct": 6.83,
@@ -1016,7 +1016,9 @@
       "lay_stake": 66.67,
       "lay_profit_green": 63.67,
       "lay_loss_red": -1000.0,
-      "ev_pct": -9.28
+      "ev_pct": -9.28,
+      "status": "green",
+      "final_score": "0x2"
     },
     {
       "fixture_id": 1518071,
@@ -1567,7 +1569,7 @@
       "passed_filters": true,
       "filter_rejections": [],
       "stage": "operation",
-      "pnl": 0,
+      "pnl": 79.58,
       "resistance_index": 0.0,
       "fair_odd": 14.16,
       "prob_lose_pct": 7.06,
@@ -1577,7 +1579,9 @@
       "lay_stake": 83.33,
       "lay_profit_green": 79.58,
       "lay_loss_red": -1000.0,
-      "ev_pct": 8.22
+      "ev_pct": 8.22,
+      "status": "green",
+      "final_score": "0x4"
     },
     {
       "fixture_id": 1387094,
@@ -4014,7 +4018,7 @@
       "passed_filters": true,
       "filter_rejections": [],
       "stage": "operation",
-      "pnl": 0,
+      "pnl": 68.21,
       "resistance_index": 0.0,
       "fair_odd": 11.03,
       "prob_lose_pct": 9.07,
@@ -4024,7 +4028,9 @@
       "lay_stake": 71.43,
       "lay_profit_green": 68.21,
       "lay_loss_red": -1000.0,
-      "ev_pct": -36.05
+      "ev_pct": -36.05,
+      "status": "green",
+      "final_score": "0x0"
     },
     {
       "fixture_id": 1398689,
@@ -4184,13 +4190,18 @@
       "risk_note": "Lembre-se: Ganhamos se o favorito marcar ou se o jogo empatar/zebra não fizer 0x1. Odd limite do Lay: 20.0.",
       "passed_filters": true,
       "filter_rejections": [],
-      "stage": "pre_filter",
+      "stage": "operation",
       "pnl": 0,
       "resistance_index": 0.0,
       "fair_odd": 13.6,
       "prob_lose_pct": 7.35,
       "fair_note": "xG 1.52/1.25 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 7.9% | blend 55/45",
-      "manual_pnl": -148.76
+      "manual_pnl": -148.76,
+      "manual_odd": 16.0,
+      "lay_stake": 66.67,
+      "lay_profit_green": 63.67,
+      "lay_loss_red": -1000.0,
+      "ev_pct": -17.6
     },
     {
       "fixture_id": 1539696,
