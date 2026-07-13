@@ -4191,7 +4191,7 @@
       "passed_filters": true,
       "filter_rejections": [],
       "stage": "operation",
-      "pnl": 0,
+      "pnl": -1000.0,
       "resistance_index": 0.0,
       "fair_odd": 13.6,
       "prob_lose_pct": 7.35,
@@ -4201,7 +4201,9 @@
       "lay_stake": 66.67,
       "lay_profit_green": 63.67,
       "lay_loss_red": -1000.0,
-      "ev_pct": -17.6
+      "ev_pct": -17.6,
+      "status": "red",
+      "final_score": "0x1"
     },
     {
       "fixture_id": 1539696,
@@ -4532,7 +4534,7 @@
       "passed_filters": true,
       "filter_rejections": [],
       "stage": "operation",
-      "pnl": 0,
+      "pnl": 63.67,
       "resistance_index": 0.0,
       "fair_odd": 18.91,
       "prob_lose_pct": 5.29,
@@ -4541,7 +4543,9 @@
       "lay_stake": 66.67,
       "lay_profit_green": 63.67,
       "lay_loss_red": -1000.0,
-      "ev_pct": 15.36
+      "ev_pct": 15.36,
+      "status": "green",
+      "final_score": "1x2"
     },
     {
       "fixture_id": 1388590,
@@ -6097,7 +6101,7 @@
       "passed_filters": true,
       "filter_rejections": [],
       "stage": "operation",
-      "pnl": 0,
+      "pnl": 63.67,
       "resistance_index": 0.0,
       "fair_odd": 9.61,
       "prob_lose_pct": 10.4,
@@ -6106,7 +6110,9 @@
       "lay_stake": 66.67,
       "lay_profit_green": 63.67,
       "lay_loss_red": -1000.0,
-      "ev_pct": -66.4
+      "ev_pct": -66.4,
+      "status": "green",
+      "final_score": "2x1"
     },
     {
       "fixture_id": 1391157,
@@ -6718,7 +6724,7 @@
       "passed_filters": true,
       "filter_rejections": [],
       "stage": "operation",
-      "pnl": 0,
+      "pnl": 63.67,
       "resistance_index": 0.0,
       "fair_odd": 14.56,
       "prob_lose_pct": 6.87,
@@ -6727,7 +6733,9 @@
       "lay_stake": 66.67,
       "lay_profit_green": 63.67,
       "lay_loss_red": -1000.0,
-      "ev_pct": -9.92
+      "ev_pct": -9.92,
+      "status": "green",
+      "final_score": "2x0"
     },
     {
       "fixture_id": 1381153,
@@ -9667,7 +9675,7 @@
       "passed_filters": true,
       "filter_rejections": [],
       "stage": "operation",
-      "pnl": 0,
+      "pnl": 63.67,
       "resistance_index": 0.0,
       "fair_odd": 14.88,
       "prob_lose_pct": 6.72,
@@ -9677,7 +9685,9 @@
       "lay_stake": 66.67,
       "lay_profit_green": 63.67,
       "lay_loss_red": -1000.0,
-      "ev_pct": -7.52
+      "ev_pct": -7.52,
+      "status": "green",
+      "final_score": "1x1"
     },
     {
       "fixture_id": 1394720,
@@ -10608,7 +10618,7 @@
       "passed_filters": true,
       "filter_rejections": [],
       "stage": "operation",
-      "pnl": 0,
+      "pnl": 63.67,
       "resistance_index": 0.0,
       "fair_odd": 11.22,
       "prob_lose_pct": 8.91,
@@ -10618,7 +10628,9 @@
       "lay_stake": 66.67,
       "lay_profit_green": 63.67,
       "lay_loss_red": -1000.0,
-      "ev_pct": -42.56
+      "ev_pct": -42.56,
+      "status": "green",
+      "final_score": "1x0"
     },
     {
       "fixture_id": 1452162,
@@ -11490,7 +11502,7 @@
       "passed_filters": true,
       "filter_rejections": [],
       "stage": "operation",
-      "pnl": 0,
+      "pnl": 63.67,
       "resistance_index": 0.0,
       "fair_odd": 15.39,
       "prob_lose_pct": 6.5,
@@ -11499,7 +11511,9 @@
       "lay_stake": 66.67,
       "lay_profit_green": 63.67,
       "lay_loss_red": -1000.0,
-      "ev_pct": -4.0
+      "ev_pct": -4.0,
+      "status": "green",
+      "final_score": "0x1"
     },
     {
       "fixture_id": 1388900,
@@ -13059,7 +13073,7 @@
       "passed_filters": true,
       "filter_rejections": [],
       "stage": "operation",
-      "pnl": 0,
+      "pnl": 63.67,
       "resistance_index": 0.0,
       "fair_odd": 13.29,
       "prob_lose_pct": 7.52,
@@ -13068,7 +13082,9 @@
       "lay_stake": 66.67,
       "lay_profit_green": 63.67,
       "lay_loss_red": -1000.0,
-      "ev_pct": -20.32
+      "ev_pct": -20.32,
+      "status": "green",
+      "final_score": "1x2"
     },
     {
       "fixture_id": 1391155,
@@ -13229,7 +13245,7 @@
       "passed_filters": true,
       "filter_rejections": [],
       "stage": "operation",
-      "pnl": 0,
+      "pnl": 100.53,
       "resistance_index": 0.0,
       "fair_odd": 6.53,
       "prob_lose_pct": 15.32,
@@ -13239,7 +13255,9 @@
       "lay_stake": 105.26,
       "lay_profit_green": 100.53,
       "lay_loss_red": -1000.0,
-      "ev_pct": -60.86
+      "ev_pct": -60.86,
+      "status": "green",
+      "final_score": "0x0"
     },
     {
       "fixture_id": 1492241,
@@ -13400,7 +13418,7 @@
       "passed_filters": true,
       "filter_rejections": [],
       "stage": "operation",
-      "pnl": 0,
+      "pnl": 68.21,
       "resistance_index": 0.0,
       "fair_odd": 7.24,
       "prob_lose_pct": 13.82,
@@ -13410,7 +13428,9 @@
       "lay_stake": 71.43,
       "lay_profit_green": 68.21,
       "lay_loss_red": -1000.0,
-      "ev_pct": -107.3
+      "ev_pct": -107.3,
+      "status": "green",
+      "final_score": "1x2"
     },
     {
       "fixture_id": 1512588,
@@ -13485,7 +13505,7 @@
       "passed_filters": true,
       "filter_rejections": [],
       "stage": "operation",
-      "pnl": 0,
+      "pnl": 65.86,
       "resistance_index": 0.0,
       "fair_odd": 11.43,
       "prob_lose_pct": 8.75,
@@ -13494,7 +13514,9 @@
       "lay_stake": 68.97,
       "lay_profit_green": 65.86,
       "lay_loss_red": -1000.0,
-      "ev_pct": -35.62
+      "ev_pct": -35.62,
+      "status": "green",
+      "final_score": "1x0"
     },
     {
       "fixture_id": 1490253,
@@ -13913,7 +13935,7 @@
       "passed_filters": true,
       "filter_rejections": [],
       "stage": "operation",
-      "pnl": 0,
+      "pnl": 100.53,
       "resistance_index": 0.0,
       "fair_odd": 10.36,
       "prob_lose_pct": 9.65,
@@ -13923,7 +13945,9 @@
       "lay_stake": 105.26,
       "lay_profit_green": 100.53,
       "lay_loss_red": -1000.0,
-      "ev_pct": -1.32
+      "ev_pct": -1.32,
+      "status": "green",
+      "final_score": "4x1"
     },
     {
       "fixture_id": 1492247,
@@ -14686,7 +14710,7 @@
       "passed_filters": true,
       "filter_rejections": [],
       "stage": "operation",
-      "pnl": 0,
+      "pnl": 79.58,
       "resistance_index": 0.0,
       "fair_odd": 10.93,
       "prob_lose_pct": 9.15,
@@ -14696,7 +14720,9 @@
       "lay_stake": 83.33,
       "lay_profit_green": 79.58,
       "lay_loss_red": -1000.0,
-      "ev_pct": -18.95
+      "ev_pct": -18.95,
+      "status": "green",
+      "final_score": "1x3"
     },
     {
       "fixture_id": 1490261,
