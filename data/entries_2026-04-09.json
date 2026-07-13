@@ -739,12 +739,17 @@
       "risk_note": "Amed forte defensivamente (60% clean sheets); Amed em boa fase (WWWWW); risco combinado moderado (21.2%)",
       "passed_filters": true,
       "filter_rejections": [],
-      "stage": "pre_filter",
+      "stage": "operation",
       "pnl": 0,
       "strategy": "lay_0x1_zebra",
       "fair_odd": 14.39,
       "prob_lose_pct": 6.95,
-      "fair_note": "xG 1.45/1.53 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 8.2% | blend 55/45"
+      "fair_note": "xG 1.45/1.53 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 8.2% | blend 55/45",
+      "manual_odd": 16.0,
+      "lay_stake": 66.67,
+      "lay_profit_green": 63.67,
+      "lay_loss_red": -1000.0,
+      "ev_pct": -11.2
     },
     {
       "fixture_id": 1535337,
