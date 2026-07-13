@@ -661,12 +661,17 @@
       "risk_note": "risco combinado moderado (24.7%)",
       "passed_filters": true,
       "filter_rejections": [],
-      "stage": "pre_filter",
+      "stage": "operation",
       "pnl": 0,
       "strategy": "lay_0x1_zebra",
       "fair_odd": 9.82,
       "prob_lose_pct": 10.18,
-      "fair_note": "xG 0.61/2.15 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 13.4% | blend 55/45"
+      "fair_note": "xG 0.61/2.15 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 13.4% | blend 55/45",
+      "manual_odd": 16.0,
+      "lay_stake": 66.67,
+      "lay_profit_green": 63.67,
+      "lay_loss_red": -1000.0,
+      "ev_pct": -62.88
     },
     {
       "fixture_id": 1398648,
