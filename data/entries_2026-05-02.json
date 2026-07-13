@@ -6096,12 +6096,17 @@
       "risk_note": "Lembre-se: Ganhamos se o favorito marcar ou se o jogo empatar/zebra não fizer 1x0. Odd limite do Lay: 20.0.",
       "passed_filters": true,
       "filter_rejections": [],
-      "stage": "pre_filter",
+      "stage": "operation",
       "pnl": 0,
       "resistance_index": 0.0,
       "fair_odd": 9.61,
       "prob_lose_pct": 10.4,
-      "fair_note": "xG 0.96/1.73 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 14.0% | blend 55/45"
+      "fair_note": "xG 0.96/1.73 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 14.0% | blend 55/45",
+      "manual_odd": 16.0,
+      "lay_stake": 66.67,
+      "lay_profit_green": 63.67,
+      "lay_loss_red": -1000.0,
+      "ev_pct": -66.4
     },
     {
       "fixture_id": 1391157,
