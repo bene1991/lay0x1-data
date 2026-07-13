@@ -284,17 +284,20 @@
       },
       "score": 55.5,
       "score_class": "FRACA",
-      "market": "LAY 0x1",
+      "market": "LAY 1x0",
       "justification": "Al-Qadisiyah FC artilheiro (2.3 gols/jogo); Damac frágil (1.5 sofridos/jogo); alta tendência Over 2.5 (60%); boa forma (LWWDW)",
       "risk_note": "risco combinado moderado (19.4%)",
       "passed_filters": true,
       "filter_rejections": [],
-      "stage": "pre_filter",
+      "stage": "rejected_by_odd",
       "pnl": 0,
       "strategy": "lay_0x1_zebra",
       "fair_odd": 12.04,
       "prob_lose_pct": 8.31,
-      "fair_note": "xG 1.15/1.91 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 11.6% | blend 55/45"
+      "fair_note": "xG 1.15/1.91 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 11.6% | blend 55/45",
+      "manual_odd": 540.0,
+      "reject_reason": "Odd Lay muito alta para lay_0x1_zebra (540.0 > 20.0)",
+      "ev_pct": -4387.4
     },
     {
       "fixture_id": 1499064,
