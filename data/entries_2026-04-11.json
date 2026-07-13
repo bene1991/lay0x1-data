@@ -4844,7 +4844,7 @@
       "passed_filters": true,
       "filter_rejections": [],
       "stage": "operation",
-      "pnl": 0,
+      "pnl": 70.74,
       "resistance_index": 0.0,
       "recommended_odd": 0.0,
       "league_avg_goals": 0.0,
@@ -4856,7 +4856,9 @@
       "lay_stake": 74.07,
       "lay_profit_green": 70.74,
       "lay_loss_red": -1000.0,
-      "ev_pct": -64.57
+      "ev_pct": -64.57,
+      "status": "green",
+      "final_score": "0x3"
     },
     {
       "fixture_id": 1439328,
@@ -5551,7 +5553,7 @@
       "passed_filters": true,
       "filter_rejections": [],
       "stage": "operation",
-      "pnl": 0,
+      "pnl": 63.67,
       "resistance_index": 0.0,
       "recommended_odd": 0.0,
       "league_avg_goals": 0.0,
@@ -5563,7 +5565,9 @@
       "lay_stake": 66.67,
       "lay_profit_green": 63.67,
       "lay_loss_red": -1000.0,
-      "ev_pct": -25.6
+      "ev_pct": -25.6,
+      "status": "green",
+      "final_score": "0x0"
     },
     {
       "fixture_id": 1528518,
@@ -6959,7 +6963,7 @@
       "passed_filters": true,
       "filter_rejections": [],
       "stage": "operation",
-      "pnl": 0,
+      "pnl": 83.04,
       "resistance_index": 0.0,
       "recommended_odd": 0.0,
       "league_avg_goals": 0.0,
@@ -6971,7 +6975,9 @@
       "lay_stake": 86.96,
       "lay_profit_green": 83.04,
       "lay_loss_red": -1000.0,
-      "ev_pct": -18.5
+      "ev_pct": -18.5,
+      "status": "green",
+      "final_score": "0x0"
     },
     {
       "fixture_id": 1531268,
@@ -7368,7 +7374,7 @@
       "passed_filters": true,
       "filter_rejections": [],
       "stage": "operation",
-      "pnl": 0,
+      "pnl": 79.58,
       "resistance_index": 0.0,
       "recommended_odd": 0.0,
       "league_avg_goals": 0.0,
@@ -7380,7 +7386,9 @@
       "lay_stake": 83.33,
       "lay_profit_green": 79.58,
       "lay_loss_red": -1000.0,
-      "ev_pct": -8.68
+      "ev_pct": -8.68,
+      "status": "green",
+      "final_score": "1x1"
     },
     {
       "fixture_id": 1536982,
@@ -8730,7 +8738,7 @@
       "passed_filters": true,
       "filter_rejections": [],
       "stage": "operation",
-      "pnl": 0,
+      "pnl": 65.86,
       "resistance_index": 0.0,
       "recommended_odd": 0.0,
       "league_avg_goals": 0.0,
@@ -8742,7 +8750,9 @@
       "lay_stake": 68.97,
       "lay_profit_green": 65.86,
       "lay_loss_red": -1000.0,
-      "ev_pct": -21.83
+      "ev_pct": -21.83,
+      "status": "green",
+      "final_score": "0x0"
     },
     {
       "fixture_id": 1519318,
