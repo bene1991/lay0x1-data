@@ -651,7 +651,7 @@
       "stage": "operation",
       "status": "green",
       "final_score": "0x3",
-      "pnl": 63.67,
+      "pnl": 318.33,
       "resistance_index": 0.0,
       "recommended_odd": 20.87,
       "league_avg_goals": 0.0,
@@ -660,9 +660,9 @@
       "prob_lose_pct": 5.27,
       "fair_note": "xG 1.37/2.37 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 7.7% | blend 55/45",
       "manual_odd": 16.0,
-      "lay_stake": 66.67,
-      "lay_profit_green": 63.67,
-      "lay_loss_red": -1000.0,
+      "lay_stake": 333.33,
+      "lay_profit_green": 318.33,
+      "lay_loss_red": -5000.0,
       "ev_pct": 15.68
     },
     {

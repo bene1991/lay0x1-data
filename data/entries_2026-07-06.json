@@ -546,7 +546,7 @@
       "stage": "operation",
       "status": "green",
       "final_score": "2x1",
-      "pnl": 76.4,
+      "pnl": 382.0,
       "resistance_index": 0.0,
       "recommended_odd": 11.9,
       "league_avg_goals": 0.0,
@@ -555,9 +555,9 @@
       "prob_lose_pct": 9.24,
       "fair_note": "xG 1.28/1.12 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 9.6% | blend 55/45",
       "manual_odd": 13.5,
-      "lay_stake": 80.0,
-      "lay_profit_green": 76.4,
-      "lay_loss_red": -1000.0,
+      "lay_stake": 400.0,
+      "lay_profit_green": 382.0,
+      "lay_loss_red": -5000.0,
       "ev_pct": -24.74
     },
     {
@@ -877,7 +877,7 @@
       "stage": "operation",
       "status": "green",
       "final_score": "1x2",
-      "pnl": 63.67,
+      "pnl": 318.33,
       "resistance_index": 0.0,
       "recommended_odd": 12.86,
       "league_avg_goals": 0.0,
@@ -886,9 +886,9 @@
       "prob_lose_pct": 8.55,
       "fair_note": "xG 1.40/1.15 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 9.2% | blend 55/45",
       "manual_odd": 16.0,
-      "lay_stake": 66.67,
-      "lay_profit_green": 63.67,
-      "lay_loss_red": -1000.0,
+      "lay_stake": 333.33,
+      "lay_profit_green": 318.33,
+      "lay_loss_red": -5000.0,
       "ev_pct": -36.8
     },
     {
