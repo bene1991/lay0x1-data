@@ -1,6 +1,6 @@
 {
   "date": "2026-06-28",
-  "generated_at": "2026-07-14T17:38:41.385943",
+  "generated_at": "2026-07-14T17:39:05.054573",
   "count": 10,
   "entries": [
     {
@@ -435,14 +435,14 @@
       "recommended_odd": 10.56,
       "league_avg_goals": 0.0,
       "league_edge_pct": 0.0,
-      "fair_odd": 9.6,
-      "prob_lose_pct": 10.42,
-      "fair_note": "xG 1.76/0.50 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 10.5% | blend 55/45",
       "manual_odd": 12.5,
       "lay_stake": 434.78,
       "lay_profit_green": 415.22,
       "lay_loss_red": -5000.0,
-      "ev_pct": -30.25
+      "fair_odd": 9.6,
+      "prob_lose_pct": 10.42,
+      "fair_note": "xG 1.76/0.50 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 10.5% | blend 55/45",
+      "ev_pct": -30.22
     },
     {
       "fixture_id": 1520741,
