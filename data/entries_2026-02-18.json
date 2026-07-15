@@ -1,6 +1,6 @@
 {
   "date": "2026-02-18",
-  "generated_at": "2026-07-05T18:14:24.443957",
+  "generated_at": "2026-07-15T00:12:28.056305",
   "count": 4,
   "entries": [
     {
@@ -102,15 +102,14 @@
       "final_score": "",
       "pnl": 0.0,
       "resistance_index": 0.0,
-      "recommended_odd": 0.0,
+      "recommended_odd": 1.11,
       "league_avg_goals": 0.0,
       "league_edge_pct": 0.0,
+      "manual_odd": 50.0,
       "fair_odd": 1.01,
       "prob_lose_pct": 99.1,
       "fair_note": "xG 5.86/0.78 | Poisson P(Over 1.5) | P(Over 1.5) | sem mercado → só modelo",
-      "manual_odd": 50.0,
-      "reject_reason": "Odd Lay muito alta para over_15 (50.0 > 25.0)",
-      "ev_pct": 4855.0
+      "ev_pct": 4854.83
     },
     {
       "fixture_id": 1518745,
@@ -211,15 +210,14 @@
       "final_score": "",
       "pnl": 0.0,
       "resistance_index": 0.0,
-      "recommended_odd": 0.0,
+      "recommended_odd": 1.12,
       "league_avg_goals": 0.0,
       "league_edge_pct": 0.0,
+      "manual_odd": 50.0,
       "fair_odd": 1.02,
       "prob_lose_pct": 98.16,
       "fair_note": "xG 2.84/2.86 | Poisson P(Over 1.5) | P(Over 1.5) | sem mercado → só modelo",
-      "manual_odd": 50.0,
-      "reject_reason": "Odd Lay muito alta para over_15 (50.0 > 25.0)",
-      "ev_pct": 4808.0
+      "ev_pct": 4807.87
     },
     {
       "fixture_id": 1515518,
@@ -320,7 +318,7 @@
       "final_score": "",
       "pnl": 0.0,
       "resistance_index": 0.0,
-      "recommended_odd": 1.23,
+      "recommended_odd": 1.22,
       "league_avg_goals": 3.38,
       "league_edge_pct": 0.0,
       "fair_odd": 1.11,
@@ -426,13 +424,12 @@
       "final_score": "",
       "pnl": 0.0,
       "resistance_index": 0.0,
-      "recommended_odd": 0.0,
+      "recommended_odd": 1.36,
       "league_avg_goals": 0.0,
       "league_edge_pct": 0.0,
       "fair_odd": 1.24,
       "prob_lose_pct": 80.5,
       "fair_note": "xG 0.97/1.96 | Poisson P(Over 1.5) | P(Over 1.5) | sem mercado → só modelo"
     }
-  ],
-  "updated_at": "2026-07-05T18:14:42.397215"
+  ]
 }
