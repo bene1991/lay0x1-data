@@ -1862,7 +1862,7 @@
       "risk_note": "Ganhamos com 2+ gols totais na partida. BTTS geral médio: 80.0%.",
       "passed_filters": true,
       "filter_rejections": [],
-      "stage": "pre_filter",
+      "stage": "operation",
       "status": "pending",
       "final_score": "",
       "pnl": 0.0,
@@ -1872,7 +1872,12 @@
       "league_edge_pct": 0.0,
       "fair_odd": 1.59,
       "prob_lose_pct": 62.81,
-      "fair_note": "xG 1.70/0.72 | calibrado c/ O2.5 | Poisson P(Over 1.5) | mercado Over 1.5 proxy → 52.4% | P(Over 1.5) | blend 55/45"
+      "fair_note": "xG 1.70/0.72 | calibrado c/ O2.5 | Poisson P(Over 1.5) | mercado Over 1.5 proxy → 52.4% | P(Over 1.5) | blend 55/45",
+      "manual_odd": 1.5,
+      "lay_stake": 1000.0,
+      "lay_profit_green": 477.5,
+      "lay_loss_red": -1000.0,
+      "ev_pct": -5.78
     }
   ],
   "updated_at": "2026-07-23T13:20:32.553652"
