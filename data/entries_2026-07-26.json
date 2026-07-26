@@ -521,7 +521,7 @@
       "risk_note": "Perde se empate (odd 4.59) ou vitória da zebra. Comissão 4.5% aplicada no green.",
       "passed_filters": true,
       "filter_rejections": [],
-      "stage": "rejected_by_odd",
+      "stage": "operation",
       "status": "pending",
       "final_score": "",
       "pnl": 0.0,
@@ -532,9 +532,11 @@
       "fair_odd": 1.53,
       "prob_lose_pct": 65.53,
       "fair_note": "xG 2.31/0.95 | calibrado c/ O2.5 | mercado 1x2 fav → 64.3% | P(Fav Win) | blend 55/45",
-      "manual_odd": 50.0,
-      "reject_reason": "Odd Lay muito alta para back_favorito (50.0 > 25.0)",
-      "ev_pct": 3176.5
+      "manual_odd": 1.35,
+      "lay_stake": 1000.0,
+      "lay_profit_green": 334.25,
+      "lay_loss_red": -1000.0,
+      "ev_pct": -11.53
     },
     {
       "fixture_id": 1547595,
@@ -1054,7 +1056,7 @@
       "risk_note": "Perde se empate (odd 4.60) ou vitória da zebra. Comissão 4.5% aplicada no green.",
       "passed_filters": true,
       "filter_rejections": [],
-      "stage": "rejected_by_odd",
+      "stage": "pre_filter",
       "status": "pending",
       "final_score": "",
       "pnl": 0.0,
@@ -1064,10 +1066,7 @@
       "league_edge_pct": 0.0,
       "fair_odd": 1.39,
       "prob_lose_pct": 71.72,
-      "fair_note": "xG 2.75/0.71 | calibrado c/ O2.5 | mercado 1x2 fav → 63.0% | P(Fav Win) | blend 55/45",
-      "manual_odd": 50.0,
-      "reject_reason": "Odd Lay muito alta para back_favorito (50.0 > 25.0)",
-      "ev_pct": 3486.0
+      "fair_note": "xG 2.75/0.71 | calibrado c/ O2.5 | mercado 1x2 fav → 63.0% | P(Fav Win) | blend 55/45"
     },
     {
       "fixture_id": 1492301,
