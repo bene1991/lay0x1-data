@@ -98,9 +98,9 @@
       "passed_filters": true,
       "filter_rejections": [],
       "stage": "operation",
-      "status": "pending",
-      "final_score": "",
-      "pnl": 0.0,
+      "status": "red",
+      "final_score": "0x0",
+      "pnl": -1000.0,
       "resistance_index": 0.0,
       "recommended_odd": 1.35,
       "league_avg_goals": 2.85,
@@ -208,7 +208,7 @@
       "risk_note": "Perde se qualquer time zerar. Casa sofre em casa 71%, Fora sofre fora 100%.",
       "passed_filters": true,
       "filter_rejections": [],
-      "stage": "pre_filter",
+      "stage": "rejected_by_odd",
       "status": "pending",
       "final_score": "",
       "pnl": 0.0,
@@ -218,7 +218,10 @@
       "league_edge_pct": 0.0,
       "fair_odd": 1.78,
       "prob_lose_pct": 56.27,
-      "fair_note": "xG 1.71/1.13 | calibrado c/ O2.5 | Poisson+DC P(BTTS) | mercado BTTS Sim → 55.3% | P(BTTS Sim) | blend 55/45"
+      "fair_note": "xG 1.71/1.13 | calibrado c/ O2.5 | Poisson+DC P(BTTS) | mercado BTTS Sim → 55.3% | P(BTTS Sim) | blend 55/45",
+      "manual_odd": 50.0,
+      "reject_reason": "Odd Lay muito alta para back_btts (50.0 > 25.0)",
+      "ev_pct": 2713.5
     },
     {
       "fixture_id": 1560203,
