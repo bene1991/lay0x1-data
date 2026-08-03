@@ -1,6 +1,6 @@
 {
   "date": "2026-02-01",
-  "generated_at": "2026-07-14T19:33:32.108912",
+  "generated_at": "2026-08-03T16:27:27.864120",
   "count": 9,
   "entries": [
     {
@@ -992,6 +992,5 @@
       "reject_reason": "Odd Lay muito alta para over_15 (50.0 > 25.0)",
       "ev_pct": 4764.0
     }
-  ],
-  "updated_at": "2026-07-14T19:35:04.599647"
+  ]
 }
