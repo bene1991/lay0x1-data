@@ -1,7 +1,7 @@
 {
   "date": "2026-08-03",
-  "generated_at": "2026-08-03T15:36:08.837840",
-  "count": 14,
+  "generated_at": "2026-08-04T08:18:19.143339",
+  "count": 10,
   "entries": [
     {
       "fixture_id": 1547602,
@@ -134,6 +134,9 @@
       "away_team_id": 3529,
       "away_team_logo": "https://media.api-sports.io/football/teams/3529.png",
       "favorite_side": "home",
+      "force_margin": 0.0,
+      "force_favorite": 0.0,
+      "force_underdog": 0.0,
       "favorite": "Viimsi",
       "underdog": "Tallinna Kalev",
       "odds": {
@@ -219,12 +222,11 @@
       "recommended_odd": 1.26,
       "league_avg_goals": 3.77,
       "league_edge_pct": 0.0,
+      "manual_odd": 50.0,
       "fair_odd": 1.15,
       "prob_lose_pct": 87.15,
       "fair_note": "xG 1.83/1.82 | calibrado c/ O2.5 | Poisson P(Over 1.5) | mercado Over 1.5 proxy → 84.7% | P(Over 1.5) | blend 55/45",
-      "manual_odd": 50.0,
-      "reject_reason": "Odd Lay muito alta para over_15 (50.0 > 25.0)",
-      "ev_pct": 4257.5
+      "ev_pct": 4257.61
     },
     {
       "fixture_id": 1492947,
@@ -243,6 +245,9 @@
       "away_team_id": 3841,
       "away_team_logo": "https://media.api-sports.io/football/teams/3841.png",
       "favorite_side": "home",
+      "force_margin": 0.0,
+      "force_favorite": 0.0,
+      "force_underdog": 0.0,
       "favorite": "Longford Town",
       "underdog": "Finn Harps",
       "odds": {
@@ -322,19 +327,19 @@
       "filter_rejections": [],
       "stage": "operation",
       "status": "green",
-      "final_score": "5x0",
-      "pnl": 487.05,
+      "final_score": "",
+      "pnl": 0.0,
       "resistance_index": 0.0,
       "recommended_odd": 1.57,
       "league_avg_goals": 2.79,
       "league_edge_pct": 0.0,
-      "fair_odd": 1.43,
-      "prob_lose_pct": 70.15,
-      "fair_note": "xG 2.13/0.60 | calibrado c/ O2.5 | Poisson P(Over 1.5) | mercado Over 1.5 proxy → 61.8% | P(Over 1.5) | blend 55/45",
       "manual_odd": 1.51,
       "lay_stake": 1000.0,
       "lay_profit_green": 487.05,
       "lay_loss_red": -1000.0,
+      "fair_odd": 1.43,
+      "prob_lose_pct": 70.15,
+      "fair_note": "xG 2.13/0.60 | calibrado c/ O2.5 | Poisson P(Over 1.5) | mercado Over 1.5 proxy → 61.8% | P(Over 1.5) | blend 55/45",
       "ev_pct": 5.93
     },
     {
@@ -696,6 +701,9 @@
       "away_team_id": 370,
       "away_team_logo": "https://media.api-sports.io/football/teams/370.png",
       "favorite_side": "away",
+      "force_margin": 0.0,
+      "force_favorite": 0.0,
+      "force_underdog": 0.0,
       "favorite": "Sirius",
       "underdog": "Halmstad",
       "odds": {
@@ -781,12 +789,11 @@
       "recommended_odd": 1.33,
       "league_avg_goals": 2.85,
       "league_edge_pct": 0.0,
+      "manual_odd": 50.0,
       "fair_odd": 1.21,
       "prob_lose_pct": 82.42,
       "fair_note": "xG 1.08/2.27 | calibrado c/ O2.5 | Poisson P(Over 1.5) | mercado Over 1.5 proxy → 78.0% | P(Over 1.5) | blend 55/45",
-      "manual_odd": 50.0,
-      "reject_reason": "Odd Lay muito alta para over_15 (50.0 > 25.0)",
-      "ev_pct": 4021.0
+      "ev_pct": 4020.86
     },
     {
       "fixture_id": 1553110,
