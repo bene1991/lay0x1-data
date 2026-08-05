@@ -100,7 +100,7 @@
       "risk_note": "Perde se qualquer time zerar. Casa sofre em casa 50%, Fora sofre fora 50%.",
       "passed_filters": true,
       "filter_rejections": [],
-      "stage": "pre_filter",
+      "stage": "operation",
       "status": "pending",
       "final_score": "",
       "pnl": 0.0,
@@ -110,7 +110,12 @@
       "league_edge_pct": 0.0,
       "fair_odd": 1.81,
       "prob_lose_pct": 55.3,
-      "fair_note": "xG 1.36/1.26 | calibrado c/ O2.5 | Poisson+DC P(BTTS) | mercado BTTS Sim → 55.6% | P(BTTS Sim) | blend 55/45"
+      "fair_note": "xG 1.36/1.26 | calibrado c/ O2.5 | Poisson+DC P(BTTS) | mercado BTTS Sim → 55.6% | P(BTTS Sim) | blend 55/45",
+      "manual_odd": 1.99,
+      "lay_stake": 1000.0,
+      "lay_profit_green": 945.45,
+      "lay_loss_red": -1000.0,
+      "ev_pct": 10.05
     },
     {
       "fixture_id": 1607166,
