@@ -99,8 +99,7 @@
       "filter_rejections": [],
       "stage": "operation",
       "status": "green",
-      "final_score": "",
-      "pnl": 0.0,
+      "final_score": "3x1",
       "resistance_index": 0.0,
       "recommended_odd": 1.57,
       "league_avg_goals": 3.28,
@@ -112,7 +111,8 @@
       "fair_odd": 1.43,
       "prob_lose_pct": 69.75,
       "fair_note": "xG 1.84/0.86 | calibrado c/ O2.5 | Poisson P(Over 1.5) | mercado Over 1.5 proxy → 61.0% | P(Over 1.5) | blend 55/45",
-      "ev_pct": 9.51
+      "ev_pct": 9.51,
+      "pnl": 544.35
     },
     {
       "fixture_id": 1554388,
@@ -210,8 +210,7 @@
       "filter_rejections": [],
       "stage": "operation",
       "status": "red",
-      "final_score": "",
-      "pnl": 0.0,
+      "final_score": "1x0",
       "resistance_index": 0.0,
       "recommended_odd": 1.42,
       "league_avg_goals": 3.38,
@@ -223,7 +222,8 @@
       "fair_odd": 1.29,
       "prob_lose_pct": 77.78,
       "fair_note": "xG 1.69/1.40 | calibrado c/ O2.5 | Poisson P(Over 1.5) | mercado Over 1.5 proxy → 71.5% | P(Over 1.5) | blend 55/45",
-      "ev_pct": 16.66
+      "ev_pct": 16.66,
+      "pnl": -1000.0
     },
     {
       "fixture_id": 1554375,
@@ -429,8 +429,7 @@
       "filter_rejections": [],
       "stage": "operation",
       "status": "green",
-      "final_score": "",
-      "pnl": 0.0,
+      "final_score": "0x2",
       "resistance_index": 0.0,
       "recommended_odd": 1.46,
       "league_avg_goals": 3.38,
@@ -442,7 +441,8 @@
       "fair_odd": 1.33,
       "prob_lose_pct": 75.25,
       "fair_note": "xG 1.05/1.91 | calibrado c/ O2.5 | Poisson P(Over 1.5) | mercado Over 1.5 proxy → 68.2% | P(Over 1.5) | blend 55/45",
-      "ev_pct": 12.87
+      "ev_pct": 12.87,
+      "pnl": 477.5
     },
     {
       "fixture_id": 1554386,
@@ -540,8 +540,7 @@
       "filter_rejections": [],
       "stage": "operation",
       "status": "green",
-      "final_score": "",
-      "pnl": 0.0,
+      "final_score": "0x2",
       "resistance_index": 0.0,
       "recommended_odd": 2.0,
       "league_avg_goals": 0.0,
@@ -553,7 +552,8 @@
       "fair_odd": 1.82,
       "prob_lose_pct": 55.08,
       "fair_note": "xG 1.05/1.91 | calibrado c/ O2.5 | mercado 1x2 fav → 54.3% | P(Fav Win) | blend 55/45",
-      "ev_pct": 0.8
+      "ev_pct": 0.8,
+      "pnl": 792.65
     },
     {
       "fixture_id": 1554386,

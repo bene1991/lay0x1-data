@@ -410,8 +410,7 @@
       "filter_rejections": [],
       "stage": "operation",
       "status": "green",
-      "final_score": "",
-      "pnl": 0.0,
+      "final_score": "1x1",
       "resistance_index": 0.0,
       "recommended_odd": 1.25,
       "league_avg_goals": 3.29,
@@ -423,7 +422,8 @@
       "fair_odd": 1.31,
       "prob_lose_pct": 76.62,
       "fair_note": "xG 2.02/1.01 | calibrado c/ O2.5 | Poisson P(Over 1.5) | mercado Over 1.5 proxy → 70.0% | P(Over 1.5) | blend 55/45",
-      "ev_pct": 14.93
+      "ev_pct": 14.93,
+      "pnl": 477.5
     },
     {
       "fixture_id": 1495713,

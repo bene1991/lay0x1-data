@@ -550,8 +550,7 @@
       "filter_rejections": [],
       "stage": "operation",
       "status": "green",
-      "final_score": "",
-      "pnl": 0.0,
+      "final_score": "4x1",
       "resistance_index": 0.0,
       "recommended_odd": 1.79,
       "league_avg_goals": 0.0,
@@ -563,7 +562,8 @@
       "fair_odd": 1.63,
       "prob_lose_pct": 61.35,
       "fair_note": "xG 1.84/0.77 | calibrado c/ O2.5 | mercado 1x2 fav → 61.6% | P(Fav Win) | blend 55/45",
-      "ev_pct": -3.07
+      "ev_pct": -3.07,
+      "pnl": 553.9
     },
     {
       "fixture_id": 1541888,
@@ -861,8 +861,7 @@
       "filter_rejections": [],
       "stage": "operation",
       "status": "green",
-      "final_score": "",
-      "pnl": 0.0,
+      "final_score": "1x0",
       "resistance_index": 0.0,
       "recommended_odd": 1.91,
       "league_avg_goals": 0.0,
@@ -874,7 +873,8 @@
       "fair_odd": 1.74,
       "prob_lose_pct": 57.33,
       "fair_note": "xG 1.89/1.11 | calibrado c/ O2.5 | mercado 1x2 fav → 61.6% | P(Fav Win) | blend 55/45",
-      "ev_pct": -7.13
+      "ev_pct": -7.13,
+      "pnl": 592.1
     },
     {
       "fixture_id": 1492889,
@@ -2040,8 +2040,7 @@
       "filter_rejections": [],
       "stage": "operation",
       "status": "red",
-      "final_score": "",
-      "pnl": 0.0,
+      "final_score": "0x1",
       "resistance_index": 0.0,
       "recommended_odd": 2.01,
       "league_avg_goals": 0.0,
@@ -2053,7 +2052,8 @@
       "fair_odd": 1.83,
       "prob_lose_pct": 54.54,
       "fair_note": "xG 1.77/0.78 | calibrado c/ O2.5 | mercado 1x2 fav → 48.6% | P(Fav Win) | blend 55/45",
-      "ev_pct": 21.09
+      "ev_pct": 21.09,
+      "pnl": -1000.0
     },
     {
       "fixture_id": 1436185,

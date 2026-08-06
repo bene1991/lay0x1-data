@@ -99,8 +99,7 @@
       "filter_rejections": [],
       "stage": "operation",
       "status": "green",
-      "final_score": "",
-      "pnl": 0.0,
+      "final_score": "2x0",
       "resistance_index": 0.0,
       "recommended_odd": 1.46,
       "league_avg_goals": 2.52,
@@ -112,7 +111,8 @@
       "fair_odd": 1.19,
       "prob_lose_pct": 84.12,
       "fair_note": "xG 1.82/1.35 | Poisson P(Over 1.5) | P(Over 1.5) | sem mercado → só modelo",
-      "ev_pct": 26.17
+      "ev_pct": 26.17,
+      "pnl": 477.5
     }
   ]
 }

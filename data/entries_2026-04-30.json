@@ -517,8 +517,7 @@
       "filter_rejections": [],
       "stage": "operation",
       "status": "green",
-      "final_score": "",
-      "pnl": 0.0,
+      "final_score": "2x0",
       "resistance_index": 0.0,
       "manual_odd": 1.96,
       "lay_stake": 1000.0,
@@ -527,7 +526,8 @@
       "fair_odd": 1.74,
       "prob_lose_pct": 57.38,
       "fair_note": "xG 1.83/0.78 | calibrado c/ O2.5 | mercado 1x2 fav → 53.2% | P(Fav Win) | blend 55/45",
-      "ev_pct": 12.46
+      "ev_pct": 12.46,
+      "pnl": 916.8
     }
   ]
 }

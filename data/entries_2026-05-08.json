@@ -389,8 +389,7 @@
       "filter_rejections": [],
       "stage": "operation",
       "status": "green",
-      "final_score": "",
-      "pnl": 0.0,
+      "final_score": "4x3",
       "resistance_index": 0.0,
       "manual_odd": 1.62,
       "lay_stake": 1000.0,
@@ -399,7 +398,8 @@
       "fair_odd": 1.57,
       "prob_lose_pct": 63.5,
       "fair_note": "xG 2.27/0.89 | calibrado c/ O2.5 | mercado 1x2 fav → 58.9% | P(Fav Win) | blend 55/45",
-      "ev_pct": 2.86
+      "ev_pct": 2.86,
+      "pnl": 592.1
     },
     {
       "fixture_id": 1504218,
@@ -807,8 +807,7 @@
       "filter_rejections": [],
       "stage": "operation",
       "status": "red",
-      "final_score": "",
-      "pnl": 0.0,
+      "final_score": "0x0",
       "resistance_index": 0.0,
       "manual_odd": 1.64,
       "lay_stake": 1000.0,
@@ -817,7 +816,8 @@
       "fair_odd": 1.99,
       "prob_lose_pct": 50.27,
       "fair_note": "xG 1.54/1.80 | calibrado c/ O2.5 | mercado 1x2 fav → 59.5% | P(Fav Win) | blend 55/45",
-      "ev_pct": -17.56
+      "ev_pct": -17.56,
+      "pnl": -1000.0
     },
     {
       "fixture_id": 1495675,
@@ -893,8 +893,7 @@
       "filter_rejections": [],
       "stage": "operation",
       "status": "red",
-      "final_score": "",
-      "pnl": 0.0,
+      "final_score": "0x0",
       "resistance_index": 0.0,
       "manual_odd": 1.72,
       "lay_stake": 1000.0,
@@ -903,7 +902,8 @@
       "fair_odd": 2.34,
       "prob_lose_pct": 42.68,
       "fair_note": "xG 1.41/1.68 | calibrado c/ O2.5 | mercado 1x2 fav → 57.2% | P(Fav Win) | blend 55/45",
-      "ev_pct": -26.6
+      "ev_pct": -26.6,
+      "pnl": -1000.0
     },
     {
       "fixture_id": 1540775,
@@ -1504,8 +1504,7 @@
       "filter_rejections": [],
       "stage": "operation",
       "status": "red",
-      "final_score": "",
-      "pnl": 0.0,
+      "final_score": "2x2",
       "resistance_index": 0.0,
       "manual_odd": 1.78,
       "lay_stake": 1000.0,
@@ -1514,7 +1513,8 @@
       "fair_odd": 1.73,
       "prob_lose_pct": 57.83,
       "fair_note": "xG 1.95/0.94 | calibrado c/ O2.5 | mercado 1x2 fav → 55.8% | P(Fav Win) | blend 55/45",
-      "ev_pct": 2.94
+      "ev_pct": 2.94,
+      "pnl": -1000.0
     },
     {
       "fixture_id": 1419962,

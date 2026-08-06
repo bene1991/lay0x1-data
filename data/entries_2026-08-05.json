@@ -672,11 +672,11 @@
       "fair_odd": 10.03,
       "prob_lose_pct": 9.97,
       "fair_note": "xG 1.14/1.13 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 10.3% | blend 55/45",
+      "ev_pct": 76.77,
       "manual_odd": 2.33,
       "lay_stake": 1000.0,
       "lay_profit_green": 1270.15,
-      "lay_loss_red": -1000.0,
-      "ev_pct": 76.77
+      "lay_loss_red": -1000.0
     },
     {
       "fixture_id": 1546855,

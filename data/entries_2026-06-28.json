@@ -211,8 +211,7 @@
       "filter_rejections": [],
       "stage": "operation",
       "status": "green",
-      "final_score": "",
-      "pnl": 0.0,
+      "final_score": "1x1",
       "resistance_index": 0.0,
       "recommended_odd": 1.27,
       "league_avg_goals": 3.18,
@@ -224,7 +223,8 @@
       "fair_odd": 1.4,
       "prob_lose_pct": 71.56,
       "fair_note": "xG 1.85/0.94 | calibrado c/ O2.5 | Poisson P(Over 1.5) | mercado Over 1.5 proxy → 63.3% | P(Over 1.5) | blend 55/45",
-      "ev_pct": 7.35
+      "ev_pct": 7.35,
+      "pnl": 477.5
     },
     {
       "fixture_id": 1513584,
@@ -1221,8 +1221,7 @@
       "filter_rejections": [],
       "stage": "operation",
       "status": "red",
-      "final_score": "",
-      "pnl": 0.0,
+      "final_score": "0x0",
       "resistance_index": 0.0,
       "recommended_odd": 1.57,
       "league_avg_goals": 2.3,
@@ -1234,7 +1233,8 @@
       "fair_odd": 1.51,
       "prob_lose_pct": 66.1,
       "fair_note": "xG 1.60/0.96 | calibrado c/ O2.5 | Poisson P(Over 1.5) | mercado Over 1.5 proxy → 56.3% | P(Over 1.5) | blend 55/45",
-      "ev_pct": 10.38
+      "ev_pct": 10.38,
+      "pnl": -1000.0
     },
     {
       "fixture_id": 1554062,
@@ -1332,8 +1332,7 @@
       "filter_rejections": [],
       "stage": "operation",
       "status": "red",
-      "final_score": "",
-      "pnl": 0.0,
+      "final_score": "0x0",
       "resistance_index": 0.0,
       "recommended_odd": 0.0,
       "league_avg_goals": 0.0,
@@ -1345,7 +1344,8 @@
       "fair_odd": 1.99,
       "prob_lose_pct": 50.21,
       "fair_note": "xG 1.60/0.96 | calibrado c/ O2.5 | Poisson+DC P(BTTS) | mercado BTTS Sim → 49.4% | P(BTTS Sim) | blend 55/45",
-      "ev_pct": 0.42
+      "ev_pct": 0.42,
+      "pnl": -1000.0
     },
     {
       "fixture_id": 1544464,
@@ -1551,8 +1551,7 @@
       "filter_rejections": [],
       "stage": "operation",
       "status": "green",
-      "final_score": "",
-      "pnl": 0.0,
+      "final_score": "1x1",
       "resistance_index": 0.0,
       "recommended_odd": 0.0,
       "league_avg_goals": 0.0,
@@ -1564,7 +1563,8 @@
       "fair_odd": 1.66,
       "prob_lose_pct": 60.15,
       "fair_note": "xG 1.73/1.35 | calibrado c/ O2.5 | Poisson+DC P(BTTS) | mercado BTTS Sim → 57.3% | P(BTTS Sim) | blend 55/45",
-      "ev_pct": 5.87
+      "ev_pct": 5.87,
+      "pnl": 725.8
     },
     {
       "fixture_id": 1526870,

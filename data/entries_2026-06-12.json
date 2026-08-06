@@ -322,8 +322,7 @@
       "filter_rejections": [],
       "stage": "operation",
       "status": "green",
-      "final_score": "",
-      "pnl": 0.0,
+      "final_score": "1x1",
       "resistance_index": 0.0,
       "recommended_odd": 1.22,
       "league_avg_goals": 3.44,
@@ -335,7 +334,8 @@
       "fair_odd": 1.12,
       "prob_lose_pct": 89.36,
       "fair_note": "xG 2.13/1.68 | calibrado c/ O2.5 | Poisson P(Over 1.5) | mercado Over 1.5 proxy → 87.9% | P(Over 1.5) | blend 55/45",
-      "ev_pct": 34.04
+      "ev_pct": 34.04,
+      "pnl": 477.5
     },
     {
       "fixture_id": 1522825,

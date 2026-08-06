@@ -208,8 +208,7 @@
       "filter_rejections": [],
       "stage": "operation",
       "status": "green",
-      "final_score": "",
-      "pnl": 0.0,
+      "final_score": "2x2",
       "resistance_index": 0.0,
       "recommended_odd": 1.18,
       "league_avg_goals": 2.94,
@@ -221,7 +220,8 @@
       "fair_odd": 1.07,
       "prob_lose_pct": 93.43,
       "fair_note": "xG 2.20/2.04 | Poisson P(Over 1.5) | P(Over 1.5) | sem mercado → só modelo",
-      "ev_pct": 40.15
+      "ev_pct": 40.15,
+      "pnl": 477.5
     },
     {
       "fixture_id": 1450964,

@@ -208,8 +208,7 @@
       "filter_rejections": [],
       "stage": "operation",
       "status": "red",
-      "final_score": "",
-      "pnl": 0.0,
+      "final_score": "0x2",
       "resistance_index": 0.0,
       "recommended_odd": 0.0,
       "league_avg_goals": 0.0,
@@ -221,7 +220,8 @@
       "fair_odd": 1.8,
       "prob_lose_pct": 55.67,
       "fair_note": "xG 1.01/1.72 | calibrado c/ O2.5 | Poisson+DC P(BTTS) | mercado BTTS Sim → 57.7% | P(BTTS Sim) | blend 55/45",
-      "ev_pct": 5.77
+      "ev_pct": 5.77,
+      "pnl": -1000.0
     },
     {
       "fixture_id": 1536928,
@@ -319,8 +319,7 @@
       "filter_rejections": [],
       "stage": "operation",
       "status": "green",
-      "final_score": "",
-      "pnl": 0.0,
+      "final_score": "1x1",
       "resistance_index": 0.0,
       "recommended_odd": 0.0,
       "league_avg_goals": 0.0,
@@ -332,7 +331,8 @@
       "fair_odd": 1.88,
       "prob_lose_pct": 53.18,
       "fair_note": "xG 1.26/1.28 | calibrado c/ O2.5 | Poisson+DC P(BTTS) | mercado BTTS Sim → 52.7% | P(BTTS Sim) | blend 55/45",
-      "ev_pct": 5.3
+      "ev_pct": 5.3,
+      "pnl": 935.9
     },
     {
       "fixture_id": 1547221,
@@ -430,8 +430,7 @@
       "filter_rejections": [],
       "stage": "operation",
       "status": "green",
-      "final_score": "",
-      "pnl": 0.0,
+      "final_score": "1x2",
       "resistance_index": 0.0,
       "recommended_odd": 0.0,
       "league_avg_goals": 0.0,
@@ -443,7 +442,8 @@
       "fair_odd": 2.01,
       "prob_lose_pct": 49.64,
       "fair_note": "xG 1.12/1.27 | calibrado c/ O2.5 | Poisson+DC P(BTTS) | mercado BTTS Sim → 48.9% | P(BTTS Sim) | blend 55/45",
-      "ev_pct": 4.74
+      "ev_pct": 4.74,
+      "pnl": 1060.05
     },
     {
       "fixture_id": 1547221,
@@ -541,8 +541,7 @@
       "filter_rejections": [],
       "stage": "operation",
       "status": "green",
-      "final_score": "",
-      "pnl": 0.0,
+      "final_score": "1x2",
       "resistance_index": 0.0,
       "recommended_odd": 0.0,
       "league_avg_goals": 0.0,
@@ -554,7 +553,8 @@
       "fair_odd": 1.61,
       "prob_lose_pct": 61.93,
       "fair_note": "xG 1.12/1.27 | calibrado c/ O2.5 | Poisson P(Over 1.5) | mercado Over 1.5 proxy → 51.1% | P(Over 1.5) | blend 55/45",
-      "ev_pct": -0.29
+      "ev_pct": -0.29,
+      "pnl": 582.55
     }
   ],
   "updated_at": "2026-08-04T14:51:08.193738"

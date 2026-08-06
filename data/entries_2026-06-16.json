@@ -735,8 +735,7 @@
       "filter_rejections": [],
       "stage": "operation",
       "status": "green",
-      "final_score": "",
-      "pnl": 0.0,
+      "final_score": "1x4",
       "resistance_index": 0.0,
       "recommended_odd": 0.0,
       "league_avg_goals": 0.0,
@@ -748,7 +747,8 @@
       "fair_odd": 1.31,
       "prob_lose_pct": 76.57,
       "fair_note": "xG 0.90/2.13 | calibrado c/ O2.5 | Poisson P(Over 1.5) | mercado Over 1.5 proxy → 70.0% | P(Over 1.5) | blend 55/45",
-      "ev_pct": 14.85
+      "ev_pct": 14.85,
+      "pnl": 477.5
     }
   ]
 }

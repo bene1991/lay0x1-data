@@ -1247,8 +1247,7 @@
       "filter_rejections": [],
       "stage": "operation",
       "status": "green",
-      "final_score": "",
-      "pnl": 0.0,
+      "final_score": "2x3",
       "resistance_index": 0.0,
       "recommended_odd": 0.0,
       "league_avg_goals": 0.0,
@@ -1260,7 +1259,8 @@
       "fair_odd": 1.7,
       "prob_lose_pct": 58.88,
       "fair_note": "xG 1.54/1.30 | calibrado c/ O2.5 | Poisson+DC P(BTTS) | mercado BTTS Sim → 58.8% | P(BTTS Sim) | blend 55/45",
-      "ev_pct": 47.2
+      "ev_pct": 47.2,
+      "pnl": 1432.5
     },
     {
       "fixture_id": 1495702,
@@ -1806,8 +1806,7 @@
       "filter_rejections": [],
       "stage": "operation",
       "status": "green",
-      "final_score": "",
-      "pnl": 0.0,
+      "final_score": "1x2",
       "resistance_index": 0.0,
       "recommended_odd": 0.0,
       "league_avg_goals": 0.0,
@@ -1819,7 +1818,8 @@
       "fair_odd": 1.87,
       "prob_lose_pct": 53.46,
       "fair_note": "xG 1.33/1.21 | calibrado c/ O2.5 | Poisson+DC P(BTTS) | mercado BTTS Sim → 53.6% | P(BTTS Sim) | blend 55/45",
-      "ev_pct": 5.32
+      "ev_pct": 5.32,
+      "pnl": 926.35
     },
     {
       "fixture_id": 1505460,

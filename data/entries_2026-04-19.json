@@ -99,8 +99,7 @@
       "filter_rejections": [],
       "stage": "operation",
       "status": "green",
-      "final_score": "",
-      "pnl": 0.0,
+      "final_score": "2x1",
       "resistance_index": 0.0,
       "recommended_odd": 0.0,
       "league_avg_goals": 0.0,
@@ -112,7 +111,8 @@
       "fair_odd": 1.8,
       "prob_lose_pct": 55.67,
       "fair_note": "xG 1.29/1.35 | calibrado c/ O2.5 | Poisson+DC P(BTTS) | mercado BTTS Sim → 55.8% | P(BTTS Sim) | blend 55/45",
-      "ev_pct": 5.76
+      "ev_pct": 5.76,
+      "pnl": 859.5
     },
     {
       "fixture_id": 1519531,
@@ -319,8 +319,7 @@
       "filter_rejections": [],
       "stage": "operation",
       "status": "red",
-      "final_score": "",
-      "pnl": 0.0,
+      "final_score": "0x0",
       "resistance_index": 0.0,
       "recommended_odd": 0.0,
       "league_avg_goals": 0.0,
@@ -332,7 +331,8 @@
       "fair_odd": 2.0,
       "prob_lose_pct": 50.03,
       "fair_note": "xG 1.05/1.32 | calibrado c/ O2.5 | Poisson+DC P(BTTS) | mercado BTTS Sim → 50.6% | P(BTTS Sim) | blend 55/45",
-      "ev_pct": 5.06
+      "ev_pct": 5.06,
+      "pnl": -1000.0
     },
     {
       "fixture_id": 1384888,
@@ -430,8 +430,7 @@
       "filter_rejections": [],
       "stage": "operation",
       "status": "green",
-      "final_score": "",
-      "pnl": 0.0,
+      "final_score": "2x1",
       "resistance_index": 0.0,
       "recommended_odd": 0.0,
       "league_avg_goals": 0.0,
@@ -443,7 +442,8 @@
       "fair_odd": 1.87,
       "prob_lose_pct": 53.53,
       "fair_note": "xG 1.52/1.14 | calibrado c/ O2.5 | Poisson+DC P(BTTS) | mercado BTTS Sim → 51.6% | P(BTTS Sim) | blend 55/45",
-      "ev_pct": 5.45
+      "ev_pct": 5.45,
+      "pnl": 926.35
     },
     {
       "fixture_id": 1388878,
@@ -870,8 +870,7 @@
       "filter_rejections": [],
       "stage": "operation",
       "status": "red",
-      "final_score": "",
-      "pnl": 0.0,
+      "final_score": "1x0",
       "resistance_index": 0.0,
       "recommended_odd": 0.0,
       "league_avg_goals": 0.0,
@@ -883,7 +882,8 @@
       "fair_odd": 1.81,
       "prob_lose_pct": 55.24,
       "fair_note": "xG 1.50/1.24 | calibrado c/ O2.5 | Poisson+DC P(BTTS) | mercado BTTS Sim → 53.1% | P(BTTS Sim) | blend 55/45",
-      "ev_pct": 5.5
+      "ev_pct": 5.5,
+      "pnl": -1000.0
     },
     {
       "fixture_id": 1494129,
@@ -1203,8 +1203,7 @@
       "filter_rejections": [],
       "stage": "operation",
       "status": "green",
-      "final_score": "",
-      "pnl": 0.0,
+      "final_score": "1x2",
       "resistance_index": 0.0,
       "recommended_odd": 0.0,
       "league_avg_goals": 0.0,
@@ -1216,7 +1215,8 @@
       "fair_odd": 1.75,
       "prob_lose_pct": 57.25,
       "fair_note": "xG 1.63/1.15 | calibrado c/ O2.5 | Poisson+DC P(BTTS) | mercado BTTS Sim → 57.9% | P(BTTS Sim) | blend 55/45",
-      "ev_pct": 5.92
+      "ev_pct": 5.92,
+      "pnl": 811.75
     },
     {
       "fixture_id": 1517146,
@@ -1863,8 +1863,7 @@
       "filter_rejections": [],
       "stage": "operation",
       "status": "green",
-      "final_score": "",
-      "pnl": 0.0,
+      "final_score": "2x1",
       "resistance_index": 0.0,
       "recommended_odd": 0.0,
       "league_avg_goals": 0.0,
@@ -1876,7 +1875,8 @@
       "fair_odd": 1.88,
       "prob_lose_pct": 53.18,
       "fair_note": "xG 1.66/0.97 | calibrado c/ O2.5 | Poisson+DC P(BTTS) | mercado BTTS Sim → 54.8% | P(BTTS Sim) | blend 55/45",
-      "ev_pct": 5.29
+      "ev_pct": 5.29,
+      "pnl": 935.9
     },
     {
       "fixture_id": 1536986,
@@ -2958,8 +2958,7 @@
       "filter_rejections": [],
       "stage": "operation",
       "status": "green",
-      "final_score": "",
-      "pnl": 0.0,
+      "final_score": "1x1",
       "resistance_index": 0.0,
       "recommended_odd": 0.0,
       "league_avg_goals": 0.0,
@@ -2971,7 +2970,8 @@
       "fair_odd": 1.86,
       "prob_lose_pct": 53.82,
       "fair_note": "xG 1.23/1.32 | calibrado c/ O2.5 | Poisson+DC P(BTTS) | mercado BTTS Sim → 53.9% | P(BTTS Sim) | blend 55/45",
-      "ev_pct": 5.49
+      "ev_pct": 5.49,
+      "pnl": 916.8
     }
   ]
 }

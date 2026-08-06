@@ -77,8 +77,7 @@
       "filter_rejections": [],
       "stage": "operation",
       "status": "red",
-      "final_score": "",
-      "pnl": 0.0,
+      "final_score": "0x0",
       "resistance_index": 0.0,
       "manual_odd": 7.8,
       "lay_stake": 1000.0,
@@ -87,7 +86,8 @@
       "fair_odd": 1.83,
       "prob_lose_pct": 54.51,
       "fair_note": "xG 1.54/0.88 | calibrado c/ O2.5 | mercado 1x2 fav → 59.1% | P(Fav Win) | blend 55/45",
-      "ev_pct": 325.15
+      "ev_pct": 325.15,
+      "pnl": -1000.0
     },
     {
       "fixture_id": 1553769,
@@ -358,8 +358,7 @@
       "filter_rejections": [],
       "stage": "operation",
       "status": "red",
-      "final_score": "",
-      "pnl": 0.0,
+      "final_score": "1x1",
       "resistance_index": 0.0,
       "manual_odd": 1.97,
       "lay_stake": 1000.0,
@@ -368,7 +367,8 @@
       "fair_odd": 1.9,
       "prob_lose_pct": 52.5,
       "fair_note": "xG 1.59/0.88 | calibrado c/ O2.5 | mercado 1x2 fav → 52.7% | P(Fav Win) | blend 55/45",
-      "ev_pct": 3.42
+      "ev_pct": 3.42,
+      "pnl": -1000.0
     },
     {
       "fixture_id": 1539004,
@@ -531,8 +531,7 @@
       "filter_rejections": [],
       "stage": "operation",
       "status": "green",
-      "final_score": "",
-      "pnl": 0.0,
+      "final_score": "0x1",
       "resistance_index": 0.0,
       "manual_odd": 2.0,
       "lay_stake": 1000.0,
@@ -541,7 +540,8 @@
       "fair_odd": 2.13,
       "prob_lose_pct": 46.99,
       "fair_note": "xG 1.52/1.80 | calibrado c/ O2.5 | mercado 1x2 fav → 51.9% | P(Fav Win) | blend 55/45",
-      "ev_pct": -6.02
+      "ev_pct": -6.02,
+      "pnl": 955.0
     },
     {
       "fixture_id": 1539005,
@@ -639,8 +639,7 @@
       "filter_rejections": [],
       "stage": "operation",
       "status": "green",
-      "final_score": "",
-      "pnl": 0.0,
+      "final_score": "4x1",
       "resistance_index": 0.0,
       "recommended_odd": 0.0,
       "league_avg_goals": 0.0,
@@ -652,7 +651,8 @@
       "fair_odd": 1.51,
       "prob_lose_pct": 66.08,
       "fair_note": "xG 1.45/1.10 | calibrado c/ O2.5 | Poisson P(Over 1.5) | mercado Over 1.5 proxy → 56.2% | P(Over 1.5) | blend 55/45",
-      "ev_pct": 2.43
+      "ev_pct": 2.43,
+      "pnl": 525.25
     },
     {
       "fixture_id": 1520738,

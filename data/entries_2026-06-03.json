@@ -291,8 +291,7 @@
       "filter_rejections": [],
       "stage": "operation",
       "status": "green",
-      "final_score": "",
-      "pnl": 0.0,
+      "final_score": "2x2",
       "resistance_index": 0.0,
       "recommended_odd": 0.0,
       "league_avg_goals": 0.0,
@@ -304,7 +303,8 @@
       "fair_odd": 1.94,
       "prob_lose_pct": 51.63,
       "fair_note": "xG 1.11/1.37 | calibrado c/ O2.5 | Poisson+DC P(BTTS) | mercado BTTS Sim → 51.3% | P(BTTS Sim) | blend 55/45",
-      "ev_pct": 5.33
+      "ev_pct": 5.33,
+      "pnl": 993.2
     },
     {
       "fixture_id": 1545541,
