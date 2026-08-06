@@ -1456,7 +1456,7 @@
       "risk_note": "Ganhamos se o favorito marcar ou se a zebra não vencer por 1x0. Favoritismo definido só por estatística (Índice de Força).",
       "passed_filters": true,
       "filter_rejections": [],
-      "stage": "pre_filter",
+      "stage": "operation",
       "status": "pending",
       "final_score": "",
       "pnl": 0.0,
@@ -1466,7 +1466,12 @@
       "league_edge_pct": 0.0,
       "fair_odd": 9.38,
       "prob_lose_pct": 10.67,
-      "fair_note": "xG 0.82/1.76 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 13.8% | blend 55/45"
+      "fair_note": "xG 0.82/1.76 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 13.8% | blend 55/45",
+      "manual_odd": 14.5,
+      "lay_stake": 370.37,
+      "lay_profit_green": 353.7,
+      "lay_loss_red": -5000.0,
+      "ev_pct": -54.72
     },
     {
       "fixture_id": 1546854,
