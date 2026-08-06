@@ -1,6 +1,6 @@
 {
   "date": "2026-04-01",
-  "generated_at": "2026-08-06T18:12:47.562247",
+  "generated_at": "2026-08-06T18:24:16.725759",
   "count": 10,
   "entries": [
     {
@@ -108,12 +108,11 @@
       "recommended_odd": 16.65,
       "league_avg_goals": 0.0,
       "league_edge_pct": 0.0,
+      "manual_odd": 50.0,
       "fair_odd": 15.14,
       "prob_lose_pct": 6.6,
       "fair_note": "xG 1.22/1.61 | P(avg 1x0/0x1) | sem mercado → só modelo",
-      "manual_odd": 50.0,
-      "reject_reason": "Odd Lay muito alta para lay_0x1_manual (50.0 > 25.0)",
-      "ev_pct": -230.0
+      "ev_pct": -230.22
     },
     {
       "fixture_id": 1405260,
@@ -220,12 +219,11 @@
       "recommended_odd": 46.71,
       "league_avg_goals": 0.0,
       "league_edge_pct": 0.0,
+      "manual_odd": 50.0,
       "fair_odd": 42.46,
       "prob_lose_pct": 2.36,
       "fair_note": "xG 3.57/0.74 | P(avg 1x0/0x1) | sem mercado → só modelo",
-      "manual_odd": 50.0,
-      "reject_reason": "Odd Lay muito alta para lay_0x1_manual (50.0 > 25.0)",
-      "ev_pct": -18.0
+      "ev_pct": -17.76
     },
     {
       "fixture_id": 1379854,
@@ -332,12 +330,11 @@
       "recommended_odd": 12.66,
       "league_avg_goals": 0.0,
       "league_edge_pct": 0.0,
+      "manual_odd": 50.0,
       "fair_odd": 11.51,
       "prob_lose_pct": 8.69,
       "fair_note": "xG 1.09/1.35 | P(avg 1x0/0x1) | sem mercado → só modelo",
-      "manual_odd": 50.0,
-      "reject_reason": "Odd Lay muito alta para lay_0x1_manual (50.0 > 25.0)",
-      "ev_pct": -334.5
+      "ev_pct": -334.28
     },
     {
       "fixture_id": 1461578,
@@ -444,12 +441,11 @@
       "recommended_odd": 8.29,
       "league_avg_goals": 0.0,
       "league_edge_pct": 0.0,
+      "manual_odd": 50.0,
       "fair_odd": 7.54,
       "prob_lose_pct": 13.27,
       "fair_note": "xG 0.69/1.06 | P(avg 1x0/0x1) | sem mercado → só modelo",
-      "manual_odd": 50.0,
-      "reject_reason": "Odd Lay muito alta para lay_0x1_manual (50.0 > 25.0)",
-      "ev_pct": -563.5
+      "ev_pct": -563.42
     },
     {
       "fixture_id": 1506068,
@@ -883,12 +879,11 @@
       "recommended_odd": 18.4,
       "league_avg_goals": 0.0,
       "league_edge_pct": 0.0,
+      "manual_odd": 50.0,
       "fair_odd": 16.73,
       "prob_lose_pct": 5.98,
       "fair_note": "xG 1.99/1.01 | P(avg 1x0/0x1) | sem mercado → só modelo",
-      "manual_odd": 50.0,
-      "reject_reason": "Odd Lay muito alta para lay_0x1_manual (50.0 > 25.0)",
-      "ev_pct": -199.0
+      "ev_pct": -198.82
     },
     {
       "fixture_id": 1492196,
