@@ -1916,9 +1916,9 @@
       "favorite": "Waalwijk",
       "underdog": "MVV",
       "odds": {
-        "home_win": 0.0,
+        "home_win": 5.1,
         "draw": 0.0,
-        "away_win": 0.0,
+        "away_win": 1.65,
         "score_1x0": 0.0,
         "score_0x1": 0.0,
         "over25": 0.0,
@@ -1926,7 +1926,7 @@
         "prob_1x0": 1.5,
         "prob_0x1": 4.5,
         "short_score_risk": 6.0,
-        "favorite_odd": 0.0,
+        "favorite_odd": 1.65,
         "best_goleada_odd": 0.0
       },
       "home_stats": {
@@ -1990,7 +1990,7 @@
       "risk_note": "Pré-aprovado só pelos filtros estatísticos — a odd do favorito ainda não foi validada.",
       "passed_filters": true,
       "filter_rejections": [],
-      "stage": "pre_filter",
+      "stage": "rejected_by_odd",
       "status": "pending",
       "final_score": "",
       "pnl": 0.0,
@@ -2000,7 +2000,10 @@
       "league_edge_pct": 0.0,
       "fair_odd": 24.6,
       "prob_lose_pct": 4.06,
-      "fair_note": "xG 1.29/2.18 | P(avg 1x0/0x1) | sem mercado → só modelo"
+      "fair_note": "xG 1.29/2.18 | P(avg 1x0/0x1) | sem mercado → só modelo",
+      "manual_odd": 50.0,
+      "reject_reason": "Odd Lay muito alta para lay_0x1_manual (50.0 > 20.0)",
+      "ev_pct": -103.0
     },
     {
       "fixture_id": 1382251,
