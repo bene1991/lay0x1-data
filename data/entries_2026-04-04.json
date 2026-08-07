@@ -3808,9 +3808,9 @@
       "favorite": "Trento",
       "underdog": "Alcione",
       "odds": {
-        "home_win": 0.0,
+        "home_win": 1.68,
         "draw": 0.0,
-        "away_win": 0.0,
+        "away_win": 6.2,
         "score_1x0": 0.0,
         "score_0x1": 0.0,
         "over25": 0.0,
@@ -3818,7 +3818,7 @@
         "prob_1x0": 21.2,
         "prob_0x1": 12.3,
         "short_score_risk": 33.5,
-        "favorite_odd": 0.0,
+        "favorite_odd": 1.68,
         "best_goleada_odd": 0.0
       },
       "home_stats": {
@@ -3882,7 +3882,7 @@
       "risk_note": "Pré-aprovado só pelos filtros estatísticos — a odd do favorito ainda não foi validada.",
       "passed_filters": true,
       "filter_rejections": [],
-      "stage": "pre_filter",
+      "stage": "operation",
       "status": "pending",
       "final_score": "",
       "pnl": 0.0,
@@ -3892,7 +3892,12 @@
       "league_edge_pct": 0.0,
       "fair_odd": 8.27,
       "prob_lose_pct": 12.1,
-      "fair_note": "xG 1.26/0.68 | P(avg 1x0/0x1) | sem mercado → só modelo"
+      "fair_note": "xG 1.26/0.68 | P(avg 1x0/0x1) | sem mercado → só modelo",
+      "manual_odd": 16.0,
+      "lay_stake": 333.33,
+      "lay_profit_green": 318.33,
+      "lay_loss_red": -5000.0,
+      "ev_pct": -93.6
     },
     {
       "fixture_id": 1380339,
