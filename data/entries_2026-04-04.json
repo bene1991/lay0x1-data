@@ -2253,9 +2253,9 @@
       "favorite": "Al Hussein",
       "underdog": "Al Salt",
       "odds": {
-        "home_win": 0.0,
+        "home_win": 1.25,
         "draw": 0.0,
-        "away_win": 0.0,
+        "away_win": 17.0,
         "score_1x0": 0.0,
         "score_0x1": 0.0,
         "over25": 0.0,
@@ -2263,7 +2263,7 @@
         "prob_1x0": 4.4,
         "prob_0x1": 1.0,
         "short_score_risk": 5.4,
-        "favorite_odd": 0.0,
+        "favorite_odd": 1.25,
         "best_goleada_odd": 0.0
       },
       "home_stats": {
@@ -2325,9 +2325,11 @@
       "market": "LAY 0x1",
       "justification": "[odd manual] Força Al Hussein 94 vs Al Salt 38 (margem 57). Aguardando odd do favorito para o gate 1.65–2.15.",
       "risk_note": "Pré-aprovado só pelos filtros estatísticos — a odd do favorito ainda não foi validada.",
-      "passed_filters": true,
-      "filter_rejections": [],
-      "stage": "pre_filter",
+      "passed_filters": false,
+      "filter_rejections": [
+        "Favorito muito forte (1.25 < 1.65) — odd da zebra seria muito alta"
+      ],
+      "stage": "rejected_by_odd",
       "status": "pending",
       "final_score": "",
       "pnl": 0.0,
@@ -2337,7 +2339,8 @@
       "league_edge_pct": 0.0,
       "fair_odd": 30.67,
       "prob_lose_pct": 3.26,
-      "fair_note": "xG 2.95/0.89 | P(avg 1x0/0x1) | sem mercado → só modelo"
+      "fair_note": "xG 2.95/0.89 | P(avg 1x0/0x1) | sem mercado → só modelo",
+      "reject_reason": "Favorito muito forte (1.25 < 1.65) — odd da zebra seria muito alta"
     },
     {
       "fixture_id": 1537230,
@@ -2473,9 +2476,9 @@
       "favorite": "Mariehamn",
       "underdog": "Turku PS",
       "odds": {
-        "home_win": 0.0,
+        "home_win": 1.46,
         "draw": 0.0,
-        "away_win": 0.0,
+        "away_win": 9.0,
         "score_1x0": 0.0,
         "score_0x1": 0.0,
         "over25": 0.0,
@@ -2483,7 +2486,7 @@
         "prob_1x0": 14.3,
         "prob_0x1": 3.5,
         "short_score_risk": 17.8,
-        "favorite_odd": 0.0,
+        "favorite_odd": 1.46,
         "best_goleada_odd": 0.0
       },
       "home_stats": {
@@ -2545,9 +2548,11 @@
       "market": "LAY 0x1",
       "justification": "[odd manual] Força Mariehamn 58 vs Turku PS 25 (margem 33). Aguardando odd do favorito para o gate 1.65–2.15.",
       "risk_note": "Pré-aprovado só pelos filtros estatísticos — a odd do favorito ainda não foi validada.",
-      "passed_filters": true,
-      "filter_rejections": [],
-      "stage": "pre_filter",
+      "passed_filters": false,
+      "filter_rejections": [
+        "Favorito muito forte (1.46 < 1.65) — odd da zebra seria muito alta"
+      ],
+      "stage": "rejected_by_odd",
       "status": "pending",
       "final_score": "",
       "pnl": 0.0,
@@ -2557,7 +2562,8 @@
       "league_edge_pct": 0.0,
       "fair_odd": 13.4,
       "prob_lose_pct": 7.46,
-      "fair_note": "xG 2.06/0.69 | P(avg 1x0/0x1) | sem mercado → só modelo"
+      "fair_note": "xG 2.06/0.69 | P(avg 1x0/0x1) | sem mercado → só modelo",
+      "reject_reason": "Favorito muito forte (1.46 < 1.65) — odd da zebra seria muito alta"
     },
     {
       "fixture_id": 1495645,

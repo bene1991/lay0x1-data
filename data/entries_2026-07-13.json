@@ -1,7 +1,7 @@
 {
   "date": "2026-07-13",
-  "generated_at": "2026-08-03T17:37:58.033288",
-  "count": 2,
+  "generated_at": "2026-08-06T22:20:45.567695",
+  "count": 1,
   "entries": [
     {
       "fixture_id": 1547588,
@@ -115,6 +115,5 @@
       "reject_reason": "Odd Lay muito alta para lay_0x1_numeros (50.0 > 20.0)",
       "ev_pct": -274.5
     }
-  ],
-  "updated_at": "2026-08-03T17:38:04.856993"
+  ]
 }
