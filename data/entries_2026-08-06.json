@@ -2598,9 +2598,9 @@
       "favorite": "FK Partizan",
       "underdog": "FK Tobol Kostanay",
       "odds": {
-        "home_win": 0.0,
+        "home_win": 50.0,
         "draw": 0.0,
-        "away_win": 0.0,
+        "away_win": 50.0,
         "score_1x0": 0.0,
         "score_0x1": 0.0,
         "over25": 0.0,
@@ -2608,7 +2608,7 @@
         "prob_1x0": 9.9,
         "prob_0x1": 7.8,
         "short_score_risk": 17.7,
-        "favorite_odd": 0.0,
+        "favorite_odd": 50.0,
         "best_goleada_odd": 0.0
       },
       "home_stats": {
@@ -2670,9 +2670,12 @@
       "market": "LAY 0x1",
       "justification": "[odd manual] Força FK Partizan 71 vs FK Tobol Kostanay 51 (margem 20). Aguardando odd do favorito para o gate 1.65–2.15.",
       "risk_note": "Pré-aprovado só pelos filtros estatísticos — a odd do favorito ainda não foi validada.",
-      "passed_filters": true,
-      "filter_rejections": [],
-      "stage": "pre_filter",
+      "passed_filters": false,
+      "filter_rejections": [
+        "Favoritismo fraco (50.00 > 2.15) — risco da zebra vencer",
+        "Zebra marca muito (2.0 > 1.3 gols/j)"
+      ],
+      "stage": "rejected_by_odd",
       "status": "pending",
       "final_score": "",
       "pnl": 0.0,
@@ -2682,7 +2685,8 @@
       "league_edge_pct": 0.0,
       "fair_odd": 14.78,
       "prob_lose_pct": 6.77,
-      "fair_note": "xG 1.68/1.12 | P(avg 1x0/0x1) | sem mercado → só modelo"
+      "fair_note": "xG 1.68/1.12 | P(avg 1x0/0x1) | sem mercado → só modelo",
+      "reject_reason": "Favoritismo fraco (50.00 > 2.15) — risco da zebra vencer | Zebra marca muito (2.0 > 1.3 gols/j)"
     },
     {
       "fixture_id": 1605372,
@@ -2707,9 +2711,9 @@
       "favorite": "Tre Fiori",
       "underdog": "Drita",
       "odds": {
-        "home_win": 0.0,
+        "home_win": 50.0,
         "draw": 0.0,
-        "away_win": 0.0,
+        "away_win": 50.0,
         "score_1x0": 0.0,
         "score_0x1": 0.0,
         "over25": 0.0,
@@ -2717,7 +2721,7 @@
         "prob_1x0": 14.1,
         "prob_0x1": 6.2,
         "short_score_risk": 20.2,
-        "favorite_odd": 0.0,
+        "favorite_odd": 50.0,
         "best_goleada_odd": 0.0
       },
       "home_stats": {
@@ -2779,9 +2783,13 @@
       "market": "LAY 0x1",
       "justification": "[odd manual] Força Tre Fiori 46 vs Drita 19 (margem 27). Aguardando odd do favorito para o gate 1.65–2.15.",
       "risk_note": "Pré-aprovado só pelos filtros estatísticos — a odd do favorito ainda não foi validada.",
-      "passed_filters": true,
-      "filter_rejections": [],
-      "stage": "pre_filter",
+      "passed_filters": false,
+      "filter_rejections": [
+        "Favoritismo fraco (50.00 > 2.15) — risco da zebra vencer",
+        "Ataque do favorito fraco (1.0 < 1.2 gols/j)",
+        "Defesa do favorito vazada (1.9 > 1.4 gols/j)"
+      ],
+      "stage": "rejected_by_odd",
       "status": "pending",
       "final_score": "",
       "pnl": 0.0,
@@ -2791,7 +2799,8 @@
       "league_edge_pct": 0.0,
       "fair_odd": 12.81,
       "prob_lose_pct": 7.81,
-      "fair_note": "xG 1.79/0.85 | P(avg 1x0/0x1) | sem mercado → só modelo"
+      "fair_note": "xG 1.79/0.85 | P(avg 1x0/0x1) | sem mercado → só modelo",
+      "reject_reason": "Favoritismo fraco (50.00 > 2.15) — risco da zebra vencer | Ataque do favorito fraco (1.0 < 1.2 gols/j) | Defesa do favorito vazada (1.9 > 1.4 gols/j)"
     },
     {
       "fixture_id": 1607589,
@@ -3682,7 +3691,7 @@
       "risk_note": "Pré-aprovado só pelos filtros estatísticos — a odd do favorito ainda não foi validada.",
       "passed_filters": true,
       "filter_rejections": [],
-      "stage": "pre_filter",
+      "stage": "rejected_by_odd",
       "status": "pending",
       "final_score": "",
       "pnl": 0.0,
@@ -3692,7 +3701,10 @@
       "league_edge_pct": 0.0,
       "fair_odd": 19.07,
       "prob_lose_pct": 5.24,
-      "fair_note": "xG 2.15/1.06 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 5.4% | blend 55/45"
+      "fair_note": "xG 2.15/1.06 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 5.4% | blend 55/45",
+      "manual_odd": 50.0,
+      "reject_reason": "Odd Lay muito alta para lay_0x1_manual (50.0 > 20.0)",
+      "ev_pct": -162.0
     },
     {
       "fixture_id": 1530122,
