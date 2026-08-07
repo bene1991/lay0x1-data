@@ -4366,7 +4366,7 @@
       "risk_note": "Pré-aprovado só pelos filtros estatísticos — a odd do favorito ainda não foi validada.",
       "passed_filters": true,
       "filter_rejections": [],
-      "stage": "pre_filter",
+      "stage": "rejected_by_odd",
       "status": "pending",
       "final_score": "",
       "pnl": 0.0,
@@ -4376,7 +4376,10 @@
       "league_edge_pct": 0.0,
       "fair_odd": 14.4,
       "prob_lose_pct": 6.95,
-      "fair_note": "xG 1.09/1.86 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 7.9% | blend 55/45"
+      "fair_note": "xG 1.09/1.86 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 7.9% | blend 55/45",
+      "manual_odd": 50.0,
+      "reject_reason": "Odd Lay muito alta para lay_0x1_manual (50.0 > 20.0)",
+      "ev_pct": -247.5
     },
     {
       "fixture_id": 1530120,
