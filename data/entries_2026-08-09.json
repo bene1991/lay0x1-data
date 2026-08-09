@@ -1,7 +1,7 @@
 {
   "date": "2026-08-09",
   "generated_at": "2026-08-09T11:02:07.932143",
-  "count": 52,
+  "count": 51,
   "entries": [
     {
       "fixture_id": 1552122,
@@ -328,7 +328,9 @@
       "league_edge_pct": 0.0,
       "fair_odd": 12.56,
       "prob_lose_pct": 7.96,
-      "fair_note": "xG 1.67/1.00 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 8.5% | blend 55/45"
+      "fair_note": "xG 1.67/1.00 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 8.5% | blend 55/45",
+      "watch_notify": true,
+      "notified": false
     },
     {
       "fixture_id": 1495755,
@@ -754,7 +756,7 @@
       "risk_note": "Lembre-se: Ganhamos se o favorito marcar ou se o jogo empatar/zebra não fizer 1x0. Odd limite do Lay: 20.0.",
       "passed_filters": true,
       "filter_rejections": [],
-      "stage": "pre_filter",
+      "stage": "operation",
       "status": "pending",
       "final_score": "",
       "pnl": 0.0,
@@ -764,7 +766,14 @@
       "league_edge_pct": 0.0,
       "fair_odd": 10.55,
       "prob_lose_pct": 9.48,
-      "fair_note": "xG 1.21/1.53 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 12.4% | blend 55/45"
+      "fair_note": "xG 1.21/1.53 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 12.4% | blend 55/45",
+      "watch_notify": true,
+      "notified": false,
+      "manual_odd": 15.0,
+      "lay_stake": 357.14,
+      "lay_profit_green": 341.07,
+      "lay_loss_red": -5000.0,
+      "ev_pct": -42.2
     },
     {
       "fixture_id": 1560217,
@@ -1091,116 +1100,9 @@
       "league_edge_pct": 0.0,
       "fair_odd": 11.07,
       "prob_lose_pct": 9.04,
-      "fair_note": "xG 1.69/0.74 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 9.1% | blend 55/45"
-    },
-    {
-      "fixture_id": 1546097,
-      "strategy": "over_15",
-      "league": "Copa Paulista",
-      "league_id": 742,
-      "league_country": "Brazil",
-      "league_logo": "https://media.api-sports.io/football/leagues/742.png",
-      "date": "2026-08-09",
-      "time": "11:00",
-      "venue": null,
-      "home_team": "Oeste",
-      "home_team_id": 143,
-      "home_team_logo": "https://media.api-sports.io/football/teams/143.png",
-      "away_team": "Paulista",
-      "away_team_id": 10038,
-      "away_team_logo": "https://media.api-sports.io/football/teams/10038.png",
-      "favorite_side": "home",
-      "force_margin": 0.0,
-      "force_favorite": 0.0,
-      "force_underdog": 0.0,
-      "favorite": "Oeste",
-      "underdog": "Paulista",
-      "odds": {
-        "home_win": 2.5529999999999995,
-        "draw": 3.001,
-        "away_win": 2.6160000000000005,
-        "score_1x0": 6.2,
-        "score_0x1": 6.43,
-        "over25": 2.2375000000000003,
-        "btts_yes": 1.9083333333333332,
-        "prob_1x0": 16.1,
-        "prob_0x1": 15.6,
-        "short_score_risk": 31.7,
-        "favorite_odd": 2.5529999999999995,
-        "best_goleada_odd": 19.6
-      },
-      "home_stats": {
-        "rank": null,
-        "goals_avg": 1.4,
-        "goals_conceded_avg": 1.1,
-        "over25_pct": 50.0,
-        "over15_pct": 90.0,
-        "goals_scored_home_avg": 1.25,
-        "goals_scored_away_avg": 1.5,
-        "goals_conceded_home_avg": 1.0,
-        "goals_conceded_away_avg": 1.1666666666666667,
-        "scored_in_home_pct": 75.0,
-        "scored_in_away_pct": 83.33333333333334,
-        "conceded_in_home_pct": 75.0,
-        "conceded_in_away_pct": 83.33333333333334,
-        "over15_home_pct": 75.0,
-        "over15_away_pct": 100.0,
-        "btts_pct": 60.0,
-        "draw_pct": 10.0,
-        "form": "WLLLW",
-        "offensive_strength": 1.08,
-        "defensive_fragility": 0.85,
-        "avg_shots_on_goal": 0.0,
-        "avg_possession": 0.0,
-        "avg_corners": 0.0,
-        "pressure_index": 0.0,
-        "win_pct": 50.0
-      },
-      "away_stats": {
-        "rank": null,
-        "goals_avg": 1.5,
-        "goals_conceded_avg": 1.0,
-        "over25_pct": 50.0,
-        "over15_pct": 80.0,
-        "goals_scored_home_avg": 1.3333333333333333,
-        "goals_scored_away_avg": 1.75,
-        "goals_conceded_home_avg": 0.8333333333333334,
-        "goals_conceded_away_avg": 1.25,
-        "scored_in_home_pct": 66.66666666666666,
-        "scored_in_away_pct": 100.0,
-        "conceded_in_home_pct": 50.0,
-        "conceded_in_away_pct": 75.0,
-        "over15_home_pct": 66.66666666666666,
-        "over15_away_pct": 100.0,
-        "btts_pct": 50.0,
-        "draw_pct": 30.0,
-        "form": "LLWWW",
-        "offensive_strength": 1.15,
-        "defensive_fragility": 0.77,
-        "avg_shots_on_goal": 0.0,
-        "avg_possession": 0.0,
-        "avg_corners": 0.0,
-        "pressure_index": 0.0,
-        "win_pct": 50.0
-      },
-      "score": 71.0,
-      "score_class": "BOA",
-      "market": "OVER 1.5",
-      "justification": "Média Gols: 2.90; Over 1.5 geral médio: 85.0%; Casa marca em casa: 75.0%; Fora marca fora: 100.0%",
-      "risk_note": "Ganhamos com 2+ gols totais na partida. BTTS geral médio: 55.0%.",
-      "passed_filters": true,
-      "filter_rejections": [],
-      "stage": "pre_filter",
-      "status": "pending",
-      "final_score": "",
-      "pnl": 0.0,
-      "resistance_index": 0.0,
-      "recommended_odd": 1.79,
-      "league_avg_goals": 0.0,
-      "league_edge_pct": 0.0,
-      "fair_odd": 1.63,
-      "prob_lose_pct": 61.48,
-      "fair_note": "xG 1.24/1.13 | calibrado c/ O2.5 | Poisson P(Over 1.5) | mercado Over 1.5 proxy → 50.6% | P(Over 1.5) | blend 55/45"
+      "fair_note": "xG 1.69/0.74 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 9.1% | blend 55/45",
+      "watch_notify": true,
+      "notified": false
     },
     {
       "fixture_id": 1492324,
@@ -1309,7 +1211,9 @@
       "league_edge_pct": 0.0,
       "fair_odd": 13.04,
       "prob_lose_pct": 7.67,
-      "fair_note": "xG 1.76/0.84 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 7.3% | blend 55/45"
+      "fair_note": "xG 1.76/0.84 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 7.3% | blend 55/45",
+      "watch_notify": true,
+      "notified": true
     },
     {
       "fixture_id": 1558582,
@@ -2508,7 +2412,9 @@
       "league_edge_pct": 0.0,
       "fair_odd": 12.59,
       "prob_lose_pct": 7.94,
-      "fair_note": "xG 1.44/1.20 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 8.4% | blend 55/45"
+      "fair_note": "xG 1.44/1.20 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 8.4% | blend 55/45",
+      "watch_notify": true,
+      "notified": false
     },
     {
       "fixture_id": 1495752,
@@ -2617,7 +2523,9 @@
       "league_edge_pct": 0.0,
       "fair_odd": 12.61,
       "prob_lose_pct": 7.93,
-      "fair_note": "xG 1.23/1.75 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 10.3% | blend 55/45"
+      "fair_note": "xG 1.23/1.75 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 10.3% | blend 55/45",
+      "watch_notify": true,
+      "notified": false
     },
     {
       "fixture_id": 1505485,
@@ -2726,7 +2634,9 @@
       "league_edge_pct": 0.0,
       "fair_odd": 11.34,
       "prob_lose_pct": 8.81,
-      "fair_note": "xG 1.91/0.65 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 9.2% | blend 55/45"
+      "fair_note": "xG 1.91/0.65 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 9.2% | blend 55/45",
+      "watch_notify": true,
+      "notified": false
     },
     {
       "fixture_id": 1558588,
@@ -2835,7 +2745,9 @@
       "league_edge_pct": 0.0,
       "fair_odd": 12.79,
       "prob_lose_pct": 7.82,
-      "fair_note": "xG 1.71/0.93 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 7.9% | blend 55/45"
+      "fair_note": "xG 1.71/0.93 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 7.9% | blend 55/45",
+      "watch_notify": true,
+      "notified": false
     },
     {
       "fixture_id": 1548506,
@@ -3816,7 +3728,9 @@
       "league_edge_pct": 0.0,
       "fair_odd": 12.62,
       "prob_lose_pct": 7.92,
-      "fair_note": "xG 1.57/1.10 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 8.5% | blend 55/45"
+      "fair_note": "xG 1.57/1.10 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 8.5% | blend 55/45",
+      "watch_notify": true,
+      "notified": false
     },
     {
       "fixture_id": 1575452,
@@ -4143,7 +4057,9 @@
       "league_edge_pct": 0.0,
       "fair_odd": 7.28,
       "prob_lose_pct": 13.73,
-      "fair_note": "xG 0.68/1.64 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 18.5% | blend 55/45"
+      "fair_note": "xG 0.68/1.64 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 18.5% | blend 55/45",
+      "watch_notify": true,
+      "notified": false
     },
     {
       "fixture_id": 1612523,
@@ -4797,7 +4713,9 @@
       "league_edge_pct": 0.0,
       "fair_odd": 14.74,
       "prob_lose_pct": 6.79,
-      "fair_note": "xG 2.15/0.76 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 7.0% | blend 55/45"
+      "fair_note": "xG 2.15/0.76 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 7.0% | blend 55/45",
+      "watch_notify": true,
+      "notified": false
     },
     {
       "fixture_id": 1492329,
@@ -4906,7 +4824,9 @@
       "league_edge_pct": 0.0,
       "fair_odd": 11.1,
       "prob_lose_pct": 9.01,
-      "fair_note": "xG 1.65/0.84 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 9.5% | blend 55/45"
+      "fair_note": "xG 1.65/0.84 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 9.5% | blend 55/45",
+      "watch_notify": true,
+      "notified": false
     },
     {
       "fixture_id": 1610934,
@@ -5015,7 +4935,9 @@
       "league_edge_pct": 0.0,
       "fair_odd": 9.76,
       "prob_lose_pct": 10.24,
-      "fair_note": "xG 1.44/0.88 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 11.1% | blend 55/45"
+      "fair_note": "xG 1.44/0.88 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 11.1% | blend 55/45",
+      "watch_notify": true,
+      "notified": false
     },
     {
       "fixture_id": 1549720,
@@ -5124,7 +5046,9 @@
       "league_edge_pct": 0.0,
       "fair_odd": 9.24,
       "prob_lose_pct": 10.82,
-      "fair_note": "xG 0.96/1.55 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 13.8% | blend 55/45"
+      "fair_note": "xG 0.96/1.55 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 13.8% | blend 55/45",
+      "watch_notify": true,
+      "notified": false
     },
     {
       "fixture_id": 1530138,
