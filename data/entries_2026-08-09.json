@@ -439,7 +439,7 @@
       "risk_note": "Perde se empate (odd 4.26) ou vitória da zebra. Comissão 4.5% aplicada no green.",
       "passed_filters": true,
       "filter_rejections": [],
-      "stage": "pre_filter",
+      "stage": "operation",
       "status": "pending",
       "final_score": "",
       "pnl": 0.0,
@@ -449,7 +449,12 @@
       "league_edge_pct": 0.0,
       "fair_odd": 1.68,
       "prob_lose_pct": 59.45,
-      "fair_note": "xG 1.96/1.04 | calibrado c/ O2.5 | mercado 1x2 fav → 61.9% | P(Fav Win) | blend 55/45"
+      "fair_note": "xG 1.96/1.04 | calibrado c/ O2.5 | mercado 1x2 fav → 61.9% | P(Fav Win) | blend 55/45",
+      "manual_odd": 1.62,
+      "lay_stake": 1000.0,
+      "lay_profit_green": 592.1,
+      "lay_loss_red": -1000.0,
+      "ev_pct": -3.69
     },
     {
       "fixture_id": 1558168,
