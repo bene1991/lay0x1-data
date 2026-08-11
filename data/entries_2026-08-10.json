@@ -214,7 +214,7 @@
       "risk_note": "Perde se qualquer time zerar. Casa sofre em casa 67%, Fora sofre fora 100%.",
       "passed_filters": true,
       "filter_rejections": [],
-      "stage": "pre_filter",
+      "stage": "operation",
       "status": "pending",
       "final_score": "",
       "pnl": 0.0,
@@ -224,7 +224,12 @@
       "league_edge_pct": 0.0,
       "fair_odd": 1.7,
       "prob_lose_pct": 58.7,
-      "fair_note": "xG 1.64/1.23 | calibrado c/ O2.5 | Poisson+DC P(BTTS) | mercado BTTS Sim → 58.6% | P(BTTS Sim) | blend 55/45"
+      "fair_note": "xG 1.64/1.23 | calibrado c/ O2.5 | Poisson+DC P(BTTS) | mercado BTTS Sim → 58.6% | P(BTTS Sim) | blend 55/45",
+      "manual_odd": 2.12,
+      "lay_stake": 1000.0,
+      "lay_profit_green": 1069.6,
+      "lay_loss_red": -1000.0,
+      "ev_pct": 24.44
     },
     {
       "fixture_id": 1585694,
@@ -565,7 +570,7 @@
       "prob_lose_pct": 9.64,
       "fair_note": "xG 1.22/1.12 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 10.0% | blend 55/45",
       "watch_notify": true,
-      "notified": false,
+      "notified": true,
       "manual_odd": 50.0,
       "reject_reason": "Odd Lay muito alta para lay_0x1_zebra (50.0 > 20.0)",
       "ev_pct": -382.0
@@ -679,7 +684,7 @@
       "prob_lose_pct": 10.62,
       "fair_note": "xG 1.19/1.40 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 14.0% | blend 55/45",
       "watch_notify": true,
-      "notified": false
+      "notified": true
     }
   ]
 }
