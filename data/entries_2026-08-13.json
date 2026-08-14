@@ -548,7 +548,7 @@
       "prob_lose_pct": 11.51,
       "fair_note": "xG 0.85/1.68 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 15.3% | blend 55/45",
       "watch_notify": true,
-      "notified": false,
+      "notified": true,
       "manual_odd": 15.0,
       "lay_stake": 357.14,
       "lay_profit_green": 341.07,
