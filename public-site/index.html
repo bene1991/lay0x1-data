@@ -301,7 +301,6 @@
     <button class="filter-btn active" data-strat="all" onclick="setFilter('all')">Todos</button>
     <button class="filter-btn" data-strat="back_favorito" onclick="setFilter('back_favorito')">🎯 Back Favorito</button>
     <button class="filter-btn" data-strat="over_15" onclick="setFilter('over_15')">⚽ Over 1.5</button>
-    <button class="filter-btn" data-strat="back_btts" onclick="setFilter('back_btts')">🥅 Back BTTS</button>
   </div>
 
   <div id="content">
@@ -322,7 +321,7 @@
   const GITHUB_RAW = 'https://raw.githubusercontent.com/bene1991/lay0x1-data/main/data';
 
   // ── STATE ─────────────────────────────────────────────────────────────────
-  const ACTIVE_STRATEGIES = ['back_favorito', 'over_15', 'back_btts'];
+  const ACTIVE_STRATEGIES = ['back_favorito', 'over_15'];
   let currentDate = todayStr();
   let allEntries = [];
   let activeFilter = 'all';
@@ -429,7 +428,6 @@
   const STRAT_LABEL = {
     back_favorito: '🎯 Back Favorito',
     over_15:       '⚽ Over 1.5',
-    back_btts:     '🥅 Back BTTS',
   };
 
   function renderCards() {
