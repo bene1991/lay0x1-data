@@ -655,7 +655,9 @@
       "league_edge_pct": 0.0,
       "fair_odd": 11.45,
       "prob_lose_pct": 8.74,
-      "fair_note": "xG 1.29/1.19 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 9.0% | blend 55/45"
+      "fair_note": "xG 1.29/1.19 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 9.0% | blend 55/45",
+      "watch_notify": true,
+      "notified": true
     },
     {
       "fixture_id": 1547768,
