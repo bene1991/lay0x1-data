@@ -453,11 +453,11 @@
       "fair_odd": 1.3,
       "prob_lose_pct": 77.09,
       "fair_note": "xG 1.34/1.37 | Poisson P(Over 1.5) | P(Over 1.5) | sem mercado → só modelo",
-      "manual_odd": 1.382,
+      "ev_pct": 40.3,
+      "manual_odd": 1.82,
       "lay_stake": 1000.0,
-      "lay_profit_green": 364.81,
-      "lay_loss_red": -1000.0,
-      "ev_pct": 6.54
+      "lay_profit_green": 783.1,
+      "lay_loss_red": -1000.0
     },
     {
       "fixture_id": 1607651,
