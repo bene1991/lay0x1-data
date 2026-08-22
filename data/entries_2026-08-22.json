@@ -1,6 +1,6 @@
 {
   "date": "2026-08-22",
-  "generated_at": "2026-08-22T00:06:42.018109",
+  "generated_at": "2026-08-22T09:51:23.395354",
   "count": 25,
   "entries": [
     {
@@ -110,8 +110,7 @@
       "league_edge_pct": 0.0,
       "fair_odd": 1.8,
       "prob_lose_pct": 55.58,
-      "fair_note": "xG 0.94/1.86 | calibrado c/ O2.5 | mercado 1x2 fav → 53.5% | P(Fav Win) | blend 55/45",
-      "ev_pct": 789.28
+      "fair_note": "xG 0.94/1.86 | calibrado c/ O2.5 | mercado 1x2 fav → 53.5% | P(Fav Win) | blend 55/45"
     },
     {
       "fixture_id": 1550931,
