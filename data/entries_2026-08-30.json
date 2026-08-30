@@ -1,6 +1,6 @@
 {
   "date": "2026-08-30",
-  "generated_at": "2026-08-30T08:03:26.678490",
+  "generated_at": "2026-08-30T08:07:18.105156",
   "count": 40,
   "entries": [
     {
@@ -873,9 +873,7 @@
       "league_edge_pct": 0.0,
       "fair_odd": 13.45,
       "prob_lose_pct": 7.43,
-      "fair_note": "xG 1.63/1.12 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 7.9% | blend 55/45",
-      "watch_notify": true,
-      "notified": false
+      "fair_note": "xG 1.63/1.12 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 7.9% | blend 55/45"
     },
     {
       "fixture_id": 1575145,
@@ -1965,9 +1963,7 @@
       "league_edge_pct": 0.0,
       "fair_odd": 15.53,
       "prob_lose_pct": 6.44,
-      "fair_note": "xG 1.31/1.91 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 8.2% | blend 55/45",
-      "watch_notify": true,
-      "notified": false
+      "fair_note": "xG 1.31/1.91 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 8.2% | blend 55/45"
     },
     {
       "fixture_id": 1558000,
@@ -2076,9 +2072,7 @@
       "league_edge_pct": 0.0,
       "fair_odd": 13.07,
       "prob_lose_pct": 7.65,
-      "fair_note": "xG 1.06/2.03 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 10.2% | blend 55/45",
-      "watch_notify": true,
-      "notified": false
+      "fair_note": "xG 1.06/2.03 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 10.2% | blend 55/45"
     },
     {
       "fixture_id": 1593296,
@@ -2296,9 +2290,7 @@
       "league_edge_pct": 0.0,
       "fair_odd": 11.13,
       "prob_lose_pct": 8.99,
-      "fair_note": "xG 1.69/0.81 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 9.4% | blend 55/45",
-      "watch_notify": true,
-      "notified": false
+      "fair_note": "xG 1.69/0.81 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 9.4% | blend 55/45"
     },
     {
       "fixture_id": 1593298,
@@ -2843,9 +2835,7 @@
       "league_edge_pct": 0.0,
       "fair_odd": 16.29,
       "prob_lose_pct": 6.14,
-      "fair_note": "xG 2.87/1.01 | P(avg 1x0/0x1) | mercado score_0x1 → 9.8% | blend 55/45",
-      "watch_notify": true,
-      "notified": false
+      "fair_note": "xG 2.87/1.01 | P(avg 1x0/0x1) | mercado score_0x1 → 9.8% | blend 55/45"
     },
     {
       "fixture_id": 1492354,
@@ -3935,9 +3925,7 @@
       "league_edge_pct": 0.0,
       "fair_odd": 11.0,
       "prob_lose_pct": 9.09,
-      "fair_note": "xG 1.54/0.86 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 9.1% | blend 55/45",
-      "watch_notify": true,
-      "notified": false
+      "fair_note": "xG 1.54/0.86 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 9.1% | blend 55/45"
     },
     {
       "fixture_id": 1492356,
@@ -4046,9 +4034,7 @@
       "league_edge_pct": 0.0,
       "fair_odd": 9.64,
       "prob_lose_pct": 10.37,
-      "fair_note": "xG 0.90/1.64 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 12.9% | blend 55/45",
-      "watch_notify": true,
-      "notified": false
+      "fair_note": "xG 0.90/1.64 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 12.9% | blend 55/45"
     },
     {
       "fixture_id": 1492352,
@@ -4157,9 +4143,7 @@
       "league_edge_pct": 0.0,
       "fair_odd": 13.04,
       "prob_lose_pct": 7.67,
-      "fair_note": "xG 1.88/0.84 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 8.0% | blend 55/45",
-      "watch_notify": true,
-      "notified": false
+      "fair_note": "xG 1.88/0.84 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 8.0% | blend 55/45"
     },
     {
       "fixture_id": 1550946,
