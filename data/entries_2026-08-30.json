@@ -212,7 +212,7 @@
       "risk_note": "Ganhamos com 2+ gols totais na partida. BTTS geral médio: 60.0%.",
       "passed_filters": true,
       "filter_rejections": [],
-      "stage": "operation",
+      "stage": "pre_filter",
       "status": "pending",
       "final_score": "",
       "pnl": 0.0,
@@ -223,10 +223,6 @@
       "fair_odd": 1.26,
       "prob_lose_pct": 79.29,
       "fair_note": "xG 2.12/1.05 | calibrado c/ O2.5 | Poisson P(Over 1.5) | mercado Over 1.5 proxy → 73.7% | P(Over 1.5) | blend 55/45",
-      "manual_odd": 2.3,
-      "lay_stake": 1000.0,
-      "lay_profit_green": 1241.5,
-      "lay_loss_red": -1000.0,
       "ev_pct": 82.37
     },
     {
@@ -326,7 +322,7 @@
       "risk_note": "Ganhamos com 2+ gols totais na partida. BTTS geral médio: 55.0%.",
       "passed_filters": true,
       "filter_rejections": [],
-      "stage": "operation",
+      "stage": "pre_filter",
       "status": "pending",
       "final_score": "",
       "pnl": 0.0,
@@ -337,10 +333,6 @@
       "fair_odd": 1.33,
       "prob_lose_pct": 75.0,
       "fair_note": "xG 1.31/1.63 | calibrado c/ O2.5 | Poisson P(Over 1.5) | mercado Over 1.5 proxy → 67.7% | P(Over 1.5) | blend 55/45",
-      "manual_odd": 1.56,
-      "lay_stake": 1000.0,
-      "lay_profit_green": 534.8,
-      "lay_loss_red": -1000.0,
       "ev_pct": 17.0
     },
     {
@@ -666,7 +658,7 @@
       "risk_note": "Ganhamos com 2+ gols totais na partida. BTTS geral médio: 65.0%.",
       "passed_filters": true,
       "filter_rejections": [],
-      "stage": "operation",
+      "stage": "pre_filter",
       "status": "pending",
       "final_score": "",
       "pnl": 0.0,
@@ -677,10 +669,6 @@
       "fair_odd": 1.2,
       "prob_lose_pct": 83.37,
       "fair_note": "xG 1.67/1.73 | calibrado c/ O2.5 | Poisson P(Over 1.5) | mercado Over 1.5 proxy → 79.2% | P(Over 1.5) | blend 55/45",
-      "manual_odd": 1.84,
-      "lay_stake": 1000.0,
-      "lay_profit_green": 802.2,
-      "lay_loss_red": -1000.0,
       "ev_pct": 53.4
     },
     {
@@ -896,7 +884,7 @@
       "risk_note": "Ganhamos com 2+ gols totais na partida. BTTS geral médio: 55.0%.",
       "passed_filters": true,
       "filter_rejections": [],
-      "stage": "operation",
+      "stage": "pre_filter",
       "status": "pending",
       "final_score": "",
       "pnl": 0.0,
@@ -907,10 +895,6 @@
       "fair_odd": 1.38,
       "prob_lose_pct": 72.47,
       "fair_note": "xG 1.79/1.04 | calibrado c/ O2.5 | Poisson P(Over 1.5) | mercado Over 1.5 proxy → 64.5% | P(Over 1.5) | blend 55/45",
-      "manual_odd": 1.89,
-      "lay_stake": 1000.0,
-      "lay_profit_green": 849.95,
-      "lay_loss_red": -1000.0,
       "ev_pct": 36.97
     },
     {
@@ -1010,7 +994,7 @@
       "risk_note": "Ganhamos com 2+ gols totais na partida. BTTS geral médio: 60.0%.",
       "passed_filters": true,
       "filter_rejections": [],
-      "stage": "operation",
+      "stage": "pre_filter",
       "status": "pending",
       "final_score": "",
       "pnl": 0.0,
@@ -1021,10 +1005,6 @@
       "fair_odd": 1.23,
       "prob_lose_pct": 81.27,
       "fair_note": "xG 1.62/1.65 | calibrado c/ O2.5 | Poisson P(Over 1.5) | mercado Over 1.5 proxy → 76.3% | P(Over 1.5) | blend 55/45",
-      "manual_odd": 2.16,
-      "lay_stake": 1000.0,
-      "lay_profit_green": 1107.8,
-      "lay_loss_red": -1000.0,
       "ev_pct": 75.54
     },
     {
@@ -1124,7 +1104,7 @@
       "risk_note": "Ganhamos com 2+ gols totais na partida. BTTS geral médio: 85.0%.",
       "passed_filters": true,
       "filter_rejections": [],
-      "stage": "operation",
+      "stage": "pre_filter",
       "status": "pending",
       "final_score": "",
       "pnl": 0.0,
@@ -1135,10 +1115,6 @@
       "fair_odd": 1.17,
       "prob_lose_pct": 85.15,
       "fair_note": "xG 1.60/1.91 | calibrado c/ O2.5 | Poisson P(Over 1.5) | mercado Over 1.5 proxy → 81.8% | P(Over 1.5) | blend 55/45",
-      "manual_odd": 1.52,
-      "lay_stake": 1000.0,
-      "lay_profit_green": 496.6,
-      "lay_loss_red": -1000.0,
       "ev_pct": 29.43
     },
     {
@@ -1352,7 +1328,7 @@
       "risk_note": "Ganhamos com 2+ gols totais na partida. BTTS geral médio: 90.0%.",
       "passed_filters": true,
       "filter_rejections": [],
-      "stage": "operation",
+      "stage": "pre_filter",
       "status": "pending",
       "final_score": "",
       "pnl": 0.0,
@@ -1363,10 +1339,6 @@
       "fair_odd": 1.14,
       "prob_lose_pct": 88.05,
       "fair_note": "xG 2.01/1.70 | calibrado c/ O2.5 | Poisson P(Over 1.5) | mercado Over 1.5 proxy → 86.0% | P(Over 1.5) | blend 55/45",
-      "manual_odd": 2.26,
-      "lay_stake": 1000.0,
-      "lay_profit_green": 1203.3,
-      "lay_loss_red": -1000.0,
       "ev_pct": 98.99
     },
     {
@@ -1466,7 +1438,7 @@
       "risk_note": "Ganhamos com 2+ gols totais na partida. BTTS geral médio: 85.0%.",
       "passed_filters": true,
       "filter_rejections": [],
-      "stage": "pre_filter",
+      "stage": "rejected_by_odd",
       "status": "pending",
       "final_score": "",
       "pnl": 0.0,
@@ -1476,7 +1448,10 @@
       "league_edge_pct": 0.0,
       "fair_odd": 1.1,
       "prob_lose_pct": 90.87,
-      "fair_note": "xG 2.57/1.36 | calibrado c/ O2.5 | Poisson P(Over 1.5) | mercado Over 1.5 proxy → 90.2% | P(Over 1.5) | blend 55/45"
+      "fair_note": "xG 2.57/1.36 | calibrado c/ O2.5 | Poisson P(Over 1.5) | mercado Over 1.5 proxy → 90.2% | P(Over 1.5) | blend 55/45",
+      "manual_odd": 50.0,
+      "reject_reason": "Odd Lay muito alta para over_15 (50.0 > 25.0)",
+      "ev_pct": 4443.5
     },
     {
       "fixture_id": 1560006,
