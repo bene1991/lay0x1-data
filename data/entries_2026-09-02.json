@@ -766,7 +766,7 @@
       "prob_lose_pct": 9.1,
       "fair_note": "xG 2.03/0.52 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 9.6% | blend 55/45",
       "watch_notify": true,
-      "notified": false
+      "notified": true
     },
     {
       "fixture_id": 1631993,
@@ -877,7 +877,7 @@
       "prob_lose_pct": 7.78,
       "fair_note": "xG 1.57/1.06 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 7.9% | blend 55/45",
       "watch_notify": true,
-      "notified": false
+      "notified": true
     },
     {
       "fixture_id": 1492145,
@@ -1097,7 +1097,7 @@
       "prob_lose_pct": 12.95,
       "fair_note": "xG 0.92/1.38 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 17.1% | blend 55/45",
       "watch_notify": true,
-      "notified": false
+      "notified": true
     }
   ]
 }
