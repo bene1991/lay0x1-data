@@ -111,11 +111,11 @@
       "fair_odd": 1.25,
       "prob_lose_pct": 80.24,
       "fair_note": "xG 1.86/1.36 | calibrado c/ O2.5 | Poisson P(Over 1.5) | mercado Over 1.5 proxy → 74.9% | P(Over 1.5) | blend 55/45",
-      "manual_odd": 2.26,
+      "ev_pct": 20.36,
+      "manual_odd": 1.5,
       "lay_stake": 1000.0,
-      "lay_profit_green": 1203.3,
-      "lay_loss_red": -1000.0,
-      "ev_pct": 81.34
+      "lay_profit_green": 477.5,
+      "lay_loss_red": -1000.0
     },
     {
       "fixture_id": 1519632,
