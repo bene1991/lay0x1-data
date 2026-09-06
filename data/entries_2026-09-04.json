@@ -2204,7 +2204,7 @@
       "prob_lose_pct": 11.64,
       "fair_note": "xG 0.64/1.83 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 14.9% | blend 55/45",
       "watch_notify": true,
-      "notified": false
+      "notified": true
     },
     {
       "fixture_id": 1550948,
