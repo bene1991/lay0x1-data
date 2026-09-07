@@ -437,7 +437,9 @@
       "league_edge_pct": 0.0,
       "fair_odd": 12.67,
       "prob_lose_pct": 7.89,
-      "fair_note": "xG 1.73/0.88 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 7.8% | blend 55/45"
+      "fair_note": "xG 1.73/0.88 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 7.8% | blend 55/45",
+      "watch_notify": true,
+      "notified": false
     },
     {
       "fixture_id": 1584401,
@@ -655,7 +657,9 @@
       "league_edge_pct": 0.0,
       "fair_odd": 13.99,
       "prob_lose_pct": 7.15,
-      "fair_note": "xG 1.68/1.08 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 7.3% | blend 55/45"
+      "fair_note": "xG 1.68/1.08 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 7.3% | blend 55/45",
+      "watch_notify": true,
+      "notified": false
     },
     {
       "fixture_id": 1585746,
@@ -764,7 +768,9 @@
       "league_edge_pct": 0.0,
       "fair_odd": 8.17,
       "prob_lose_pct": 12.24,
-      "fair_note": "xG 0.95/0.50 | P(avg 1x0/0x1) | mercado score_0x1 → 8.5% | blend 55/45"
+      "fair_note": "xG 0.95/0.50 | P(avg 1x0/0x1) | mercado score_0x1 → 8.5% | blend 55/45",
+      "watch_notify": true,
+      "notified": false
     },
     {
       "fixture_id": 1555495,
@@ -982,7 +988,9 @@
       "league_edge_pct": 0.0,
       "fair_odd": 12.94,
       "prob_lose_pct": 7.73,
-      "fair_note": "xG 1.81/0.80 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 7.3% | blend 55/45"
+      "fair_note": "xG 1.81/0.80 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 7.3% | blend 55/45",
+      "watch_notify": true,
+      "notified": false
     },
     {
       "fixture_id": 1638142,
