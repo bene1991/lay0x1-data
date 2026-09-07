@@ -1,6 +1,6 @@
 {
   "date": "2026-09-07",
-  "generated_at": "2026-09-07T09:58:19.010872",
+  "generated_at": "2026-09-07T12:13:10.820585",
   "count": 10,
   "entries": [
     {
@@ -353,18 +353,18 @@
       "favorite": "Rizespor",
       "underdog": "Alanyaspor",
       "odds": {
-        "home_win": 1.8716666666666668,
-        "draw": 3.3833333333333333,
-        "away_win": 4.185,
-        "score_1x0": 6.75,
-        "score_0x1": 11.1,
-        "over25": 1.952,
-        "btts_yes": 1.794,
-        "prob_1x0": 14.8,
-        "prob_0x1": 9.0,
-        "short_score_risk": 23.8,
-        "favorite_odd": 1.8716666666666668,
-        "best_goleada_odd": 14.65
+        "home_win": 1.8376923076923077,
+        "draw": 3.4292307692307693,
+        "away_win": 4.388461538461538,
+        "score_1x0": 6.379,
+        "score_0x1": 10.635,
+        "over25": 2.0081818181818183,
+        "btts_yes": 1.832,
+        "prob_1x0": 15.7,
+        "prob_0x1": 9.4,
+        "short_score_risk": 25.1,
+        "favorite_odd": 1.8376923076923077,
+        "best_goleada_odd": 13.967000000000002
       },
       "home_stats": {
         "rank": 8,
@@ -432,14 +432,12 @@
       "final_score": "",
       "pnl": 0.0,
       "resistance_index": 0.0,
-      "recommended_odd": 13.94,
+      "recommended_odd": 13.4,
       "league_avg_goals": 0.0,
       "league_edge_pct": 0.0,
-      "fair_odd": 12.67,
-      "prob_lose_pct": 7.89,
-      "fair_note": "xG 1.73/0.88 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 7.8% | blend 55/45",
-      "watch_notify": true,
-      "notified": false
+      "fair_odd": 12.18,
+      "prob_lose_pct": 8.21,
+      "fair_note": "xG 1.70/0.86 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 8.2% | blend 55/45"
     },
     {
       "fixture_id": 1584401,
@@ -573,18 +571,18 @@
       "favorite": "Göztepe",
       "underdog": "Gaziantep FK",
       "odds": {
-        "home_win": 1.9033333333333335,
-        "draw": 3.535,
-        "away_win": 3.823333333333333,
-        "score_1x0": 7.8,
-        "score_0x1": 11.85,
-        "over25": 1.8079999999999998,
-        "btts_yes": 1.6620000000000001,
-        "prob_1x0": 12.8,
-        "prob_0x1": 8.4,
-        "short_score_risk": 21.3,
-        "favorite_odd": 1.9033333333333335,
-        "best_goleada_odd": 13.7
+        "home_win": 1.9538461538461536,
+        "draw": 3.4130769230769236,
+        "away_win": 3.864615384615384,
+        "score_1x0": 6.752,
+        "score_0x1": 10.144,
+        "over25": 1.9699999999999998,
+        "btts_yes": 1.777,
+        "prob_1x0": 14.8,
+        "prob_0x1": 9.9,
+        "short_score_risk": 24.7,
+        "favorite_odd": 1.9538461538461536,
+        "best_goleada_odd": 14.436000000000002
       },
       "home_stats": {
         "rank": 6,
@@ -652,14 +650,12 @@
       "final_score": "",
       "pnl": 0.0,
       "resistance_index": 0.0,
-      "recommended_odd": 15.39,
+      "recommended_odd": 13.39,
       "league_avg_goals": 0.0,
       "league_edge_pct": 0.0,
-      "fair_odd": 13.99,
-      "prob_lose_pct": 7.15,
-      "fair_note": "xG 1.68/1.08 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 7.3% | blend 55/45",
-      "watch_notify": true,
-      "notified": false
+      "fair_odd": 12.17,
+      "prob_lose_pct": 8.21,
+      "fair_note": "xG 1.58/1.01 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 8.6% | blend 55/45"
     },
     {
       "fixture_id": 1585746,
@@ -684,18 +680,18 @@
       "favorite": "Mardin 1969",
       "underdog": "Bodrum FK",
       "odds": {
-        "home_win": 1.7666666666666666,
-        "draw": 3.41,
-        "away_win": 4.218333333333333,
-        "score_1x0": 6.01,
-        "score_0x1": 10.26,
-        "over25": 2.006,
-        "btts_yes": 1.8780000000000001,
-        "prob_1x0": 16.6,
+        "home_win": 1.761538461538461,
+        "draw": 3.4299999999999997,
+        "away_win": 4.205384615384615,
+        "score_1x0": 5.872222222222223,
+        "score_0x1": 10.263333333333334,
+        "over25": 1.9845454545454544,
+        "btts_yes": 1.861,
+        "prob_1x0": 17.0,
         "prob_0x1": 9.7,
-        "short_score_risk": 26.4,
-        "favorite_odd": 1.7666666666666666,
-        "best_goleada_odd": 13.25
+        "short_score_risk": 26.8,
+        "favorite_odd": 1.761538461538461,
+        "best_goleada_odd": 13.16
       },
       "home_stats": {
         "rank": null,
@@ -768,9 +764,7 @@
       "league_edge_pct": 0.0,
       "fair_odd": 8.17,
       "prob_lose_pct": 12.24,
-      "fair_note": "xG 0.95/0.50 | P(avg 1x0/0x1) | mercado score_0x1 → 8.5% | blend 55/45",
-      "watch_notify": true,
-      "notified": false
+      "fair_note": "xG 0.95/0.50 | P(avg 1x0/0x1) | mercado score_0x1 → 8.5% | blend 55/45"
     },
     {
       "fixture_id": 1555495,
