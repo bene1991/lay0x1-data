@@ -1123,7 +1123,7 @@
       "risk_note": "Lembre-se: Ganhamos se o favorito marcar ou se o jogo empatar/zebra não fizer 0x1. Variante A/B: faixa de odd e score abertos pra mais volume.",
       "passed_filters": true,
       "filter_rejections": [],
-      "stage": "pre_filter",
+      "stage": "operation",
       "status": "pending",
       "final_score": "",
       "pnl": 0.0,
@@ -1133,7 +1133,12 @@
       "league_edge_pct": 0.0,
       "fair_odd": 11.5,
       "prob_lose_pct": 8.69,
-      "fair_note": "xG 1.82/0.76 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 9.3% | blend 55/45"
+      "fair_note": "xG 1.82/0.76 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 9.3% | blend 55/45",
+      "manual_odd": 15.5,
+      "lay_stake": 68.97,
+      "lay_profit_green": 65.86,
+      "lay_loss_red": -1000.0,
+      "ev_pct": -34.69
     },
     {
       "fixture_id": 1519479,
