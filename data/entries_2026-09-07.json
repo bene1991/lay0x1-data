@@ -1871,7 +1871,7 @@
       "prob_lose_pct": 7.73,
       "fair_note": "xG 1.81/0.80 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 7.3% | blend 55/45",
       "watch_notify": true,
-      "notified": false
+      "notified": true
     },
     {
       "fixture_id": 1638141,
