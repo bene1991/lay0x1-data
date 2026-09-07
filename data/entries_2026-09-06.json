@@ -2312,7 +2312,7 @@
       "risk_note": "Lembre-se: Ganhamos se o favorito marcar ou se o jogo empatar/zebra não fizer 1x0. Variante A/B: faixa de odd e score abertos pra mais volume.",
       "passed_filters": true,
       "filter_rejections": [],
-      "stage": "pre_filter",
+      "stage": "rejected_by_odd",
       "status": "pending",
       "final_score": "",
       "pnl": 0.0,
@@ -2322,7 +2322,10 @@
       "league_edge_pct": 0.0,
       "fair_odd": 12.39,
       "prob_lose_pct": 8.07,
-      "fair_note": "xG 1.19/1.71 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 10.2% | blend 55/45"
+      "fair_note": "xG 1.19/1.71 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 10.2% | blend 55/45",
+      "manual_odd": 50.0,
+      "reject_reason": "Odd Lay muito alta para lay_0x1_zebra_v2 (50.0 > 20.0)",
+      "ev_pct": -303.5
     },
     {
       "fixture_id": 1494265,
