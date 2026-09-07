@@ -1,6 +1,6 @@
 {
   "date": "2026-09-07",
-  "generated_at": "2026-09-07T12:54:12.953626",
+  "generated_at": "2026-09-07T16:00:31.635377",
   "count": 21,
   "entries": [
     {
@@ -1235,9 +1235,9 @@
       "favorite": "Mardin 1969",
       "underdog": "Bodrum FK",
       "odds": {
-        "home_win": 1.761538461538461,
-        "draw": 3.4299999999999997,
-        "away_win": 4.205384615384615,
+        "home_win": 1.7607692307692306,
+        "draw": 3.4315384615384614,
+        "away_win": 4.2069230769230765,
         "score_1x0": 5.872222222222223,
         "score_0x1": 10.263333333333334,
         "over25": 1.9845454545454544,
@@ -1245,7 +1245,7 @@
         "prob_1x0": 17.0,
         "prob_0x1": 9.7,
         "short_score_risk": 26.8,
-        "favorite_odd": 1.761538461538461,
+        "favorite_odd": 1.7607692307692306,
         "best_goleada_odd": 13.16
       },
       "home_stats": {
@@ -1567,18 +1567,18 @@
       "favorite": "Universitatea Craiova",
       "underdog": "Universitatea Cluj",
       "odds": {
-        "home_win": 1.5507692307692311,
-        "draw": 4.0538461538461545,
-        "away_win": 5.2361538461538455,
-        "score_1x0": 7.5040000000000004,
-        "score_0x1": 14.592000000000002,
-        "over25": 1.6445454545454545,
-        "btts_yes": 1.704,
-        "prob_1x0": 13.3,
+        "home_win": 1.5715384615384616,
+        "draw": 3.997692307692307,
+        "away_win": 5.077692307692307,
+        "score_1x0": 7.593999999999999,
+        "score_0x1": 14.394,
+        "over25": 1.6345454545454545,
+        "btts_yes": 1.6830000000000003,
+        "prob_1x0": 13.2,
         "prob_0x1": 6.9,
-        "short_score_risk": 20.2,
-        "favorite_odd": 1.5507692307692311,
-        "best_goleada_odd": 10.76
+        "short_score_risk": 20.1,
+        "favorite_odd": 1.5715384615384616,
+        "best_goleada_odd": 10.883
       },
       "home_stats": {
         "rank": 1,
@@ -1651,7 +1651,7 @@
       "league_edge_pct": 0.0,
       "fair_odd": 16.75,
       "prob_lose_pct": 5.97,
-      "fair_note": "xG 1.91/1.08 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 6.0% | blend 55/45"
+      "fair_note": "xG 1.92/1.08 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 6.0% | blend 55/45"
     },
     {
       "fixture_id": 1601520,
@@ -1896,18 +1896,18 @@
       "favorite": "Carabobo FC",
       "underdog": "Estudiantes de Merida FC",
       "odds": {
-        "home_win": 1.5116666666666667,
-        "draw": 3.8408333333333324,
-        "away_win": 5.611666666666667,
-        "score_1x0": 5.878571428571428,
-        "score_0x1": 12.892857142857142,
-        "over25": 1.8410000000000004,
-        "btts_yes": 1.9010000000000002,
+        "home_win": 1.5446153846153847,
+        "draw": 3.757692307692307,
+        "away_win": 5.265384615384615,
+        "score_1x0": 5.875,
+        "score_0x1": 12.53375,
+        "over25": 1.8372727272727274,
+        "btts_yes": 1.875,
         "prob_1x0": 17.0,
-        "prob_0x1": 7.8,
-        "short_score_risk": 24.8,
-        "favorite_odd": 1.5116666666666667,
-        "best_goleada_odd": 9.928571428571429
+        "prob_0x1": 8.0,
+        "short_score_risk": 25.0,
+        "favorite_odd": 1.5446153846153847,
+        "best_goleada_odd": 10.4475
       },
       "home_stats": {
         "rank": 3,
@@ -1975,12 +1975,12 @@
       "final_score": "",
       "pnl": 0.0,
       "resistance_index": 0.0,
-      "recommended_odd": 15.65,
+      "recommended_odd": 15.49,
       "league_avg_goals": 0.0,
       "league_edge_pct": 0.0,
-      "fair_odd": 14.23,
-      "prob_lose_pct": 7.03,
-      "fair_note": "xG 1.76/0.96 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 6.7% | blend 55/45"
+      "fair_odd": 14.08,
+      "prob_lose_pct": 7.1,
+      "fair_note": "xG 1.76/0.97 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 6.9% | blend 55/45"
     },
     {
       "fixture_id": 1493108,
@@ -2005,18 +2005,18 @@
       "favorite": "Argentinos JRS",
       "underdog": "Barracas Central",
       "odds": {
-        "home_win": 4.167692307692307,
-        "draw": 2.9407692307692304,
-        "away_win": 2.0538461538461537,
-        "score_1x0": 7.564000000000002,
-        "score_0x1": 4.811999999999999,
-        "over25": 2.9019999999999997,
-        "btts_yes": 2.349,
-        "prob_1x0": 13.2,
+        "home_win": 4.245384615384615,
+        "draw": 2.9515384615384614,
+        "away_win": 2.0276923076923077,
+        "score_1x0": 7.608,
+        "score_0x1": 4.805000000000001,
+        "over25": 2.912,
+        "btts_yes": 2.3609999999999998,
+        "prob_1x0": 13.1,
         "prob_0x1": 20.8,
         "short_score_risk": 34.0,
-        "favorite_odd": 2.0538461538461537,
-        "best_goleada_odd": 17.574
+        "favorite_odd": 2.0276923076923077,
+        "best_goleada_odd": 16.924
       },
       "home_stats": {
         "rank": 6,
@@ -2084,11 +2084,11 @@
       "final_score": "",
       "pnl": 0.0,
       "resistance_index": 0.0,
-      "recommended_odd": 7.59,
+      "recommended_odd": 7.58,
       "league_avg_goals": 0.0,
       "league_edge_pct": 0.0,
-      "fair_odd": 6.9,
-      "prob_lose_pct": 14.49,
+      "fair_odd": 6.89,
+      "prob_lose_pct": 14.52,
       "fair_note": "xG 0.77/1.23 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 18.1% | blend 55/45"
     },
     {
@@ -2114,18 +2114,18 @@
       "favorite": "Puerto Cabello",
       "underdog": "UCV",
       "odds": {
-        "home_win": 3.0275000000000003,
-        "draw": 3.0408333333333335,
-        "away_win": 2.2725,
-        "score_1x0": 7.714285714285714,
-        "score_0x1": 6.4071428571428575,
-        "over25": 2.092,
-        "btts_yes": 1.8160000000000003,
-        "prob_1x0": 13.0,
-        "prob_0x1": 15.6,
-        "short_score_risk": 28.6,
-        "favorite_odd": 2.2725,
-        "best_goleada_odd": 17.357142857142858
+        "home_win": 3.0100000000000002,
+        "draw": 3.036153846153846,
+        "away_win": 2.256923076923077,
+        "score_1x0": 7.5925,
+        "score_0x1": 6.3425,
+        "over25": 2.0810000000000004,
+        "btts_yes": 1.8090000000000004,
+        "prob_1x0": 13.2,
+        "prob_0x1": 15.8,
+        "short_score_risk": 28.9,
+        "favorite_odd": 2.256923076923077,
+        "best_goleada_odd": 17.5925
       },
       "home_stats": {
         "rank": 9,
@@ -2193,12 +2193,12 @@
       "final_score": "",
       "pnl": 0.0,
       "resistance_index": 0.0,
-      "recommended_odd": 10.16,
+      "recommended_odd": 10.13,
       "league_avg_goals": 0.0,
       "league_edge_pct": 0.0,
-      "fair_odd": 9.24,
-      "prob_lose_pct": 10.82,
-      "fair_note": "xG 0.93/1.55 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 13.6% | blend 55/45"
+      "fair_odd": 9.21,
+      "prob_lose_pct": 10.86,
+      "fair_note": "xG 0.93/1.56 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 13.7% | blend 55/45"
     },
     {
       "fixture_id": 1638142,
