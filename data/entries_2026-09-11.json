@@ -883,7 +883,7 @@
       "prob_lose_pct": 6.82,
       "fair_note": "xG 1.27/2.01 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 9.4% | blend 55/45",
       "watch_notify": true,
-      "notified": false
+      "notified": true
     },
     {
       "fixture_id": 1636829,
@@ -1539,7 +1539,7 @@
       "prob_lose_pct": 8.65,
       "fair_note": "xG 0.84/2.19 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 11.9% | blend 55/45",
       "watch_notify": true,
-      "notified": false
+      "notified": true
     },
     {
       "fixture_id": 1559782,
@@ -1759,7 +1759,7 @@
       "prob_lose_pct": 7.31,
       "fair_note": "xG 2.05/0.84 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 8.2% | blend 55/45",
       "watch_notify": true,
-      "notified": false
+      "notified": true
     },
     {
       "fixture_id": 1597929,
@@ -2088,7 +2088,7 @@
       "prob_lose_pct": 5.19,
       "fair_note": "xG 2.40/0.83 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 5.2% | blend 55/45",
       "watch_notify": true,
-      "notified": false
+      "notified": true
     },
     {
       "fixture_id": 1561926,
@@ -3398,7 +3398,7 @@
       "prob_lose_pct": 7.83,
       "fair_note": "xG 1.03/1.93 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 9.9% | blend 55/45",
       "watch_notify": true,
-      "notified": false
+      "notified": true
     },
     {
       "fixture_id": 1558216,
@@ -4058,7 +4058,7 @@
       "prob_lose_pct": 9.54,
       "fair_note": "xG 1.57/0.76 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 9.4% | blend 55/45",
       "watch_notify": true,
-      "notified": false
+      "notified": true
     },
     {
       "fixture_id": 1601531,
@@ -4607,7 +4607,7 @@
       "prob_lose_pct": 10.62,
       "fair_note": "xG 1.19/1.22 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 12.7% | blend 55/45",
       "watch_notify": true,
-      "notified": false
+      "notified": true
     },
     {
       "fixture_id": 1493125,
