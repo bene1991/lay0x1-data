@@ -4450,7 +4450,7 @@
       "prob_lose_pct": 7.17,
       "fair_note": "xG 1.91/0.63 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 5.5% | blend 55/45",
       "watch_notify": true,
-      "notified": false
+      "notified": true
     }
   ]
 }
