@@ -887,7 +887,7 @@
       "risk_note": "Lembre-se: Ganhamos se o favorito marcar ou se o jogo empatar/zebra não fizer 0x1. Odd limite do Lay: 20.0.",
       "passed_filters": true,
       "filter_rejections": [],
-      "stage": "pre_filter",
+      "stage": "operation",
       "status": "pending",
       "final_score": "",
       "pnl": 0.0,
@@ -897,7 +897,12 @@
       "league_edge_pct": 0.0,
       "fair_odd": 15.56,
       "prob_lose_pct": 6.43,
-      "fair_note": "xG 1.98/1.00 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 6.9% | blend 55/45"
+      "fair_note": "xG 1.98/1.00 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 6.9% | blend 55/45",
+      "manual_odd": 16.0,
+      "lay_stake": 333.33,
+      "lay_profit_green": 318.33,
+      "lay_loss_red": -5000.0,
+      "ev_pct": -2.88
     },
     {
       "fixture_id": 1494273,
@@ -3139,9 +3144,9 @@
       "passed_filters": true,
       "filter_rejections": [],
       "stage": "operation",
-      "status": "pending",
-      "final_score": "",
-      "pnl": 0.0,
+      "status": "green",
+      "final_score": "3x1",
+      "pnl": 434.09,
       "resistance_index": 0.0,
       "recommended_odd": 11.43,
       "league_avg_goals": 0.0,
@@ -3255,9 +3260,9 @@
       "passed_filters": true,
       "filter_rejections": [],
       "stage": "operation",
-      "status": "pending",
-      "final_score": "",
-      "pnl": 0.0,
+      "status": "green",
+      "final_score": "1x1",
+      "pnl": 530.56,
       "resistance_index": 0.0,
       "recommended_odd": 10.0,
       "league_avg_goals": 0.0,
@@ -3371,9 +3376,9 @@
       "passed_filters": true,
       "filter_rejections": [],
       "stage": "operation",
-      "status": "pending",
-      "final_score": "",
-      "pnl": 0.0,
+      "status": "red",
+      "final_score": "0x1",
+      "pnl": -5000.0,
       "resistance_index": 0.0,
       "recommended_odd": 11.68,
       "league_avg_goals": 0.0,
@@ -4927,7 +4932,7 @@
       "prob_lose_pct": 10.99,
       "fair_note": "xG 0.97/1.54 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 14.1% | blend 55/45",
       "watch_notify": true,
-      "notified": false
+      "notified": true
     }
   ]
 }
