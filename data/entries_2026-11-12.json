@@ -1,6 +1,6 @@
 {
   "date": "2026-11-12",
-  "generated_at": "2026-11-12T10:58:56.444211",
+  "generated_at": "2026-11-16T09:52:01.807423",
   "count": 1,
   "entries": [
     {
@@ -102,20 +102,20 @@
       "filter_rejections": [],
       "stage": "operation",
       "status": "green",
-      "final_score": "2x2",
-      "pnl": 68.21,
+      "final_score": "",
+      "pnl": 0.0,
       "resistance_index": 0.0,
       "recommended_odd": 13.75,
       "league_avg_goals": 0.0,
       "league_edge_pct": 0.0,
-      "fair_odd": 12.5,
-      "prob_lose_pct": 8.0,
-      "fair_note": "xG 1.59/1.01 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 8.2% | blend 55/45",
       "manual_odd": 15.0,
       "lay_stake": 71.43,
       "lay_profit_green": 68.21,
       "lay_loss_red": -1000.0,
-      "ev_pct": -20.0
+      "fair_odd": 12.5,
+      "prob_lose_pct": 8.0,
+      "fair_note": "xG 1.59/1.01 | calibrado c/ O2.5 | P(avg 1x0/0x1) | mercado score_0x1 → 8.2% | blend 55/45",
+      "ev_pct": -20.03
     }
   ]
 }
