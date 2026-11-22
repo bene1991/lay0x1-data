@@ -100,7 +100,7 @@
       "risk_note": "Lembre-se: Ganhamos se o favorito marcar ou se o jogo empatar/zebra não fizer 1x0. Variante A/B: faixa de odd e score abertos pra mais volume.",
       "passed_filters": true,
       "filter_rejections": [],
-      "stage": "pre_filter",
+      "stage": "anulado",
       "status": "pending",
       "final_score": "",
       "pnl": 0.0,
@@ -124,9 +124,10 @@
           "ajustada": true,
           "ts": "2026-11-22T03:40:28.519714+00:00"
         },
-        "vigia": "acompanhando",
+        "vigia": "fim",
         "erro": null
-      }
+      },
+      "reject_reason": "Jogo acabou sem a odd bater 16"
     },
     {
       "fixture_id": 1584471,
@@ -225,7 +226,7 @@
       "risk_note": "Lembre-se: Ganhamos se o favorito marcar ou se o jogo empatar/zebra não fizer 0x1. Variante A/B: faixa de odd e score abertos pra mais volume.",
       "passed_filters": true,
       "filter_rejections": [],
-      "stage": "pre_filter",
+      "stage": "operation",
       "status": "pending",
       "final_score": "",
       "pnl": 0.0,
@@ -249,9 +250,28 @@
           "ajustada": false,
           "ts": "2026-11-22T03:40:25.925169+00:00"
         },
-        "vigia": "acompanhando",
-        "erro": null
-      }
+        "vigia": "bateu",
+        "erro": null,
+        "ao_vivo": {
+          "odd": 15.38,
+          "ts": "2026-11-22T13:02:05.007381+00:00",
+          "min": 2,
+          "ajustada": true,
+          "stake_topo": 24.22
+        },
+        "bateu": {
+          "odd": 15.38,
+          "ts": "2026-11-22T13:02:05.007381+00:00",
+          "min": 2,
+          "ajustada": true,
+          "stake_topo": 24.22
+        }
+      },
+      "manual_odd": 15.38,
+      "lay_stake": 69.54,
+      "lay_profit_green": 66.41,
+      "lay_loss_red": -1000.0,
+      "ev_pct": -17.96
     },
     {
       "fixture_id": 1550199,
