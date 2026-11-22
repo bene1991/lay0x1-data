@@ -100,7 +100,7 @@
       "risk_note": "Lembre-se: Ganhamos se o favorito marcar ou se o jogo empatar/zebra não fizer 1x0. Variante A/B: faixa de odd e score abertos pra mais volume.",
       "passed_filters": true,
       "filter_rejections": [],
-      "stage": "anulado",
+      "stage": "operation",
       "status": "pending",
       "final_score": "",
       "pnl": 0.0,
@@ -127,7 +127,11 @@
         "vigia": "fim",
         "erro": null
       },
-      "reject_reason": "Jogo acabou sem a odd bater 16"
+      "manual_odd": 16.0,
+      "lay_stake": 66.67,
+      "lay_profit_green": 63.67,
+      "lay_loss_red": -1000.0,
+      "ev_pct": -57.12
     },
     {
       "fixture_id": 1584471,
@@ -386,13 +390,13 @@
         "token": "81825539793175193187259332824271177414506799264365135425594992636331047242852",
         "mercado_pm": "Exact Score: Bologna FC 1909 0 - 1 Udinese Calcio?",
         "leitura": {
-          "odd": 20.0,
-          "bid": 0.05,
-          "ask": 0.06,
-          "back": 16.67,
-          "stake_topo": 671.71,
+          "odd": 16.67,
+          "bid": 0.06,
+          "ask": 0.07,
+          "back": 14.29,
+          "stake_topo": 341.76,
           "ajustada": false,
-          "ts": "2026-11-22T03:40:26.117384+00:00"
+          "ts": "2026-11-22T13:31:42.052211+00:00"
         },
         "vigia": "acompanhando",
         "erro": null
@@ -511,13 +515,13 @@
         "token": "57677461460457962689074909174134968498561293743628225459621242516019125387590",
         "mercado_pm": "Exact Score: NK Maribor 0 - 1 Nafta 1903 Lendava?",
         "leitura": {
-          "odd": 32.26,
-          "bid": 0.031,
+          "odd": 31.25,
+          "bid": 0.032,
           "ask": 0.042,
           "back": 23.81,
-          "stake_topo": 6.39,
+          "stake_topo": 7.65,
           "ajustada": false,
-          "ts": "2026-11-22T03:40:26.263811+00:00"
+          "ts": "2026-11-22T13:20:38.343925+00:00"
         },
         "vigia": "acompanhando",
         "erro": null
@@ -636,13 +640,13 @@
         "token": "6239030029213121256666900063340471897174905090481306569603094024121881082930",
         "mercado_pm": "Exact Score: IF Brommapojkarna 0 - 1 Halmstads BK?",
         "leitura": {
-          "odd": 16.67,
-          "bid": 0.06,
+          "odd": 20.0,
+          "bid": 0.05,
           "ask": 0.07,
           "back": 14.29,
-          "stake_topo": 38.94,
+          "stake_topo": 196.6,
           "ajustada": false,
-          "ts": "2026-11-22T03:40:25.915573+00:00"
+          "ts": "2026-11-22T13:20:43.042143+00:00"
         },
         "vigia": "acompanhando",
         "erro": null
@@ -761,13 +765,13 @@
         "token": "107369570053685344531985157895941178660055343206265276990145468181503393185645",
         "mercado_pm": "Exact Score: RSC Anderlecht 0 - 1 Oud-Heverlee Leuven?",
         "leitura": {
-          "odd": 33.33,
-          "bid": 0.03,
+          "odd": 32.26,
+          "bid": 0.031,
           "ask": 0.041,
           "back": 24.39,
-          "stake_topo": 3.0,
+          "stake_topo": 72.79,
           "ajustada": false,
-          "ts": "2026-11-22T03:40:25.904067+00:00"
+          "ts": "2026-11-22T13:20:47.494986+00:00"
         },
         "vigia": "acompanhando",
         "erro": null
