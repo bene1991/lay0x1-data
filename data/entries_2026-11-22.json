@@ -101,9 +101,9 @@
       "passed_filters": true,
       "filter_rejections": [],
       "stage": "operation",
-      "status": "pending",
-      "final_score": "",
-      "pnl": 0.0,
+      "status": "green",
+      "final_score": "0x0",
+      "pnl": 63.67,
       "resistance_index": 0.0,
       "recommended_odd": 11.2,
       "league_avg_goals": 0.0,
@@ -231,9 +231,9 @@
       "passed_filters": true,
       "filter_rejections": [],
       "stage": "operation",
-      "status": "pending",
-      "final_score": "",
-      "pnl": 0.0,
+      "status": "green",
+      "final_score": "2x1",
+      "pnl": 66.41,
       "resistance_index": 0.0,
       "recommended_odd": 14.33,
       "league_avg_goals": 0.0,
@@ -375,9 +375,9 @@
       "passed_filters": true,
       "filter_rejections": [],
       "stage": "operation",
-      "status": "pending",
-      "final_score": "",
-      "pnl": 0.0,
+      "status": "green",
+      "final_score": "1x1",
+      "pnl": 66.41,
       "resistance_index": 0.0,
       "recommended_odd": 14.67,
       "league_avg_goals": 0.0,
@@ -713,7 +713,7 @@
       "risk_note": "Lembre-se: Ganhamos se o favorito marcar ou se o jogo empatar/zebra não fizer 0x1. Variante A/B: faixa de odd e score abertos pra mais volume.",
       "passed_filters": true,
       "filter_rejections": [],
-      "stage": "pre_filter",
+      "stage": "anulado",
       "status": "pending",
       "final_score": "",
       "pnl": 0.0,
@@ -737,9 +737,28 @@
           "ajustada": false,
           "ts": "2026-11-22T13:20:43.042143+00:00"
         },
-        "vigia": "acompanhando",
-        "erro": null
-      }
+        "vigia": "gol",
+        "erro": null,
+        "linha": [
+          {
+            "min": 1,
+            "odd": 18.18,
+            "ts": "2026-11-22T15:36:34.374728+00:00"
+          }
+        ],
+        "ao_vivo": {
+          "odd": 18.18,
+          "ts": "2026-11-22T15:36:34.374728+00:00",
+          "min": 1,
+          "ajustada": true,
+          "stake_topo": 69.21
+        },
+        "fim": {
+          "placar": "0-1",
+          "min": 6
+        }
+      },
+      "reject_reason": "Saiu gol (0-1 aos 6') antes da odd bater 16"
     },
     {
       "fixture_id": 1558680,
@@ -838,7 +857,7 @@
       "risk_note": "Lembre-se: Ganhamos se o favorito marcar ou se o jogo empatar/zebra não fizer 0x1. Variante A/B: faixa de odd e score abertos pra mais volume.",
       "passed_filters": true,
       "filter_rejections": [],
-      "stage": "pre_filter",
+      "stage": "anulado",
       "status": "pending",
       "final_score": "",
       "pnl": 0.0,
@@ -862,9 +881,158 @@
           "ajustada": false,
           "ts": "2026-11-22T13:20:47.494986+00:00"
         },
-        "vigia": "acompanhando",
-        "erro": null
-      }
+        "vigia": "gol",
+        "erro": null,
+        "linha": [
+          {
+            "min": 1,
+            "odd": 28.17,
+            "ts": "2026-11-22T17:33:21.916152+00:00"
+          },
+          {
+            "min": 2,
+            "odd": 28.57,
+            "ts": "2026-11-22T17:34:29.902599+00:00"
+          },
+          {
+            "min": 3,
+            "odd": 28.57,
+            "ts": "2026-11-22T17:35:04.144653+00:00"
+          },
+          {
+            "min": 4,
+            "odd": 29.41,
+            "ts": "2026-11-22T17:36:13.145657+00:00"
+          },
+          {
+            "min": 5,
+            "odd": 35.4,
+            "ts": "2026-11-22T17:37:21.573850+00:00"
+          },
+          {
+            "min": 6,
+            "odd": 35.4,
+            "ts": "2026-11-22T17:37:56.159045+00:00"
+          },
+          {
+            "min": 7,
+            "odd": 39.22,
+            "ts": "2026-11-22T17:39:05.105146+00:00"
+          },
+          {
+            "min": 8,
+            "odd": 40.0,
+            "ts": "2026-11-22T17:39:39.451507+00:00"
+          },
+          {
+            "min": 9,
+            "odd": 38.46,
+            "ts": "2026-11-22T17:41:22.083691+00:00"
+          },
+          {
+            "min": 10,
+            "odd": 39.6,
+            "ts": "2026-11-22T17:42:30.385039+00:00"
+          },
+          {
+            "min": 11,
+            "odd": 39.6,
+            "ts": "2026-11-22T17:43:04.691534+00:00"
+          },
+          {
+            "min": 12,
+            "odd": 35.71,
+            "ts": "2026-11-22T17:44:12.992382+00:00"
+          },
+          {
+            "min": 13,
+            "odd": 30.3,
+            "ts": "2026-11-22T17:45:21.873198+00:00"
+          },
+          {
+            "min": 14,
+            "odd": 29.85,
+            "ts": "2026-11-22T17:46:30.726671+00:00"
+          },
+          {
+            "min": 15,
+            "odd": 29.85,
+            "ts": "2026-11-22T17:47:05.336319+00:00"
+          },
+          {
+            "min": 16,
+            "odd": 26.49,
+            "ts": "2026-11-22T17:48:13.781509+00:00"
+          },
+          {
+            "min": 17,
+            "odd": 24.54,
+            "ts": "2026-11-22T17:49:56.754770+00:00"
+          },
+          {
+            "min": 19,
+            "odd": 26.14,
+            "ts": "2026-11-22T17:51:04.910288+00:00"
+          },
+          {
+            "min": 20,
+            "odd": 22.35,
+            "ts": "2026-11-22T17:51:39.096608+00:00"
+          },
+          {
+            "min": 21,
+            "odd": 19.7,
+            "ts": "2026-11-22T17:53:21.485097+00:00"
+          },
+          {
+            "min": 22,
+            "odd": 19.7,
+            "ts": "2026-11-22T17:53:55.823703+00:00"
+          },
+          {
+            "min": 23,
+            "odd": 18.87,
+            "ts": "2026-11-22T17:55:04.501955+00:00"
+          },
+          {
+            "min": 24,
+            "odd": 18.26,
+            "ts": "2026-11-22T17:56:12.901163+00:00"
+          },
+          {
+            "min": 25,
+            "odd": 17.62,
+            "ts": "2026-11-22T17:56:47.004329+00:00"
+          },
+          {
+            "min": 26,
+            "odd": 17.02,
+            "ts": "2026-11-22T17:57:55.138369+00:00"
+          },
+          {
+            "min": 27,
+            "odd": 17.02,
+            "ts": "2026-11-22T17:59:25.138844+00:00"
+          },
+          {
+            "min": 28,
+            "odd": 17.02,
+            "ts": "2026-11-22T17:59:59.459043+00:00"
+          }
+        ],
+        "ao_vivo": {
+          "odd": 17.02,
+          "ts": "2026-11-22T17:59:59.459043+00:00",
+          "min": 28,
+          "ajustada": true,
+          "stake_topo": 0.0
+        },
+        "fim": {
+          "placar": "0-1",
+          "min": 29
+        }
+      },
+      "reject_reason": "Saiu gol (0-1 aos 29') antes da odd bater 16"
     },
     {
       "fixture_id": 1639837,
@@ -1093,7 +1261,7 @@
       "risk_note": "Lembre-se: Ganhamos se o favorito marcar ou se o jogo empatar/zebra não fizer 1x0. Variante A/B: faixa de odd e score abertos pra mais volume.",
       "passed_filters": true,
       "filter_rejections": [],
-      "stage": "pre_filter",
+      "stage": "anulado",
       "status": "pending",
       "final_score": "",
       "pnl": 0.0,
@@ -1113,13 +1281,52 @@
           "bid": 0.05,
           "ask": 0.06,
           "back": 16.67,
-          "stake_topo": 347.05,
+          "stake_topo": 461.27,
           "ajustada": false,
-          "ts": "2026-11-22T03:40:28.902101+00:00"
+          "ts": "2026-11-22T19:49:39.698377+00:00"
         },
-        "vigia": "acompanhando",
-        "erro": null
-      }
+        "vigia": "gol",
+        "erro": null,
+        "linha": [
+          {
+            "min": 1,
+            "odd": 20.0,
+            "ts": "2026-11-22T20:01:40.030102+00:00"
+          },
+          {
+            "min": 2,
+            "odd": 20.0,
+            "ts": "2026-11-22T20:02:43.532018+00:00"
+          },
+          {
+            "min": 3,
+            "odd": 20.0,
+            "ts": "2026-11-22T20:04:26.884115+00:00"
+          },
+          {
+            "min": 5,
+            "odd": 25.0,
+            "ts": "2026-11-22T20:05:32.800984+00:00"
+          },
+          {
+            "min": 6,
+            "odd": 16.67,
+            "ts": "2026-11-22T20:09:46.501668+00:00"
+          }
+        ],
+        "ao_vivo": {
+          "odd": 16.67,
+          "ts": "2026-11-22T20:09:46.501668+00:00",
+          "min": 6,
+          "ajustada": false,
+          "stake_topo": 349.18
+        },
+        "fim": {
+          "placar": "0-1",
+          "min": 11
+        }
+      },
+      "reject_reason": "Saiu gol (0-1 aos 11') antes da odd bater 16"
     },
     {
       "fixture_id": 1632067,
@@ -1218,7 +1425,7 @@
       "risk_note": "Lembre-se: Ganhamos se o favorito marcar ou se o jogo empatar/zebra não fizer 1x0. Variante A/B: faixa de odd e score abertos pra mais volume.",
       "passed_filters": true,
       "filter_rejections": [],
-      "stage": "pre_filter",
+      "stage": "operation",
       "status": "pending",
       "final_score": "",
       "pnl": 0.0,
@@ -1238,13 +1445,39 @@
           "bid": 0.05,
           "ask": 0.06,
           "back": 16.67,
-          "stake_topo": 14.05,
+          "stake_topo": 14.4,
           "ajustada": false,
-          "ts": "2026-11-22T03:40:28.899183+00:00"
+          "ts": "2026-11-22T19:49:45.414180+00:00"
         },
-        "vigia": "acompanhando",
-        "erro": null
-      }
+        "vigia": "bateu",
+        "erro": null,
+        "linha": [
+          {
+            "min": 1,
+            "odd": 12.5,
+            "ts": "2026-11-22T21:03:08.693540+00:00"
+          }
+        ],
+        "ao_vivo": {
+          "odd": 12.5,
+          "ts": "2026-11-22T21:03:08.693540+00:00",
+          "min": 1,
+          "ajustada": true,
+          "stake_topo": 0.0
+        },
+        "bateu": {
+          "odd": 12.5,
+          "ts": "2026-11-22T21:03:08.693540+00:00",
+          "min": 1,
+          "ajustada": true,
+          "stake_topo": 0.0
+        }
+      },
+      "manual_odd": 12.5,
+      "lay_stake": 86.96,
+      "lay_profit_green": 83.04,
+      "lay_loss_red": -1000.0,
+      "ev_pct": -18.25
     },
     {
       "fixture_id": 1649569,
@@ -1363,9 +1596,9 @@
           "bid": 0.06,
           "ask": 0.07,
           "back": 14.29,
-          "stake_topo": 25.86,
+          "stake_topo": 33.3,
           "ajustada": false,
-          "ts": "2026-11-22T03:40:29.288754+00:00"
+          "ts": "2026-11-22T19:49:49.409143+00:00"
         },
         "vigia": "acompanhando",
         "erro": null
