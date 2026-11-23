@@ -225,7 +225,7 @@
       "risk_note": "Lembre-se: Ganhamos se o favorito marcar ou se o jogo empatar/zebra não fizer 0x1. Variante A/B: faixa de odd e score abertos pra mais volume.",
       "passed_filters": true,
       "filter_rejections": [],
-      "stage": "pre_filter",
+      "stage": "operation",
       "status": "pending",
       "final_score": "",
       "pnl": 0.0,
@@ -249,9 +249,35 @@
           "ajustada": false,
           "ts": "2026-11-23T15:50:45.006807+00:00"
         },
-        "vigia": "acompanhando",
-        "erro": null
-      }
+        "vigia": "bateu",
+        "erro": null,
+        "linha": [
+          {
+            "min": 1,
+            "odd": 15.04,
+            "ts": "2026-11-23T16:33:04.417572+00:00"
+          }
+        ],
+        "ao_vivo": {
+          "odd": 15.04,
+          "ts": "2026-11-23T16:33:04.417572+00:00",
+          "min": 1,
+          "ajustada": true,
+          "stake_topo": 0.0
+        },
+        "bateu": {
+          "odd": 15.04,
+          "ts": "2026-11-23T16:33:04.417572+00:00",
+          "min": 1,
+          "ajustada": true,
+          "stake_topo": 0.0
+        }
+      },
+      "manual_odd": 15.04,
+      "lay_stake": 71.23,
+      "lay_profit_green": 68.02,
+      "lay_loss_red": -1000.0,
+      "ev_pct": 14.12
     },
     {
       "fixture_id": 1585830,
