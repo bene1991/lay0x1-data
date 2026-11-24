@@ -100,7 +100,7 @@
       "risk_note": "Lembre-se: Ganhamos se o favorito marcar ou se o jogo empatar/zebra não fizer 0x1. Variante A/B: faixa de odd e score abertos pra mais volume.",
       "passed_filters": true,
       "filter_rejections": [],
-      "stage": "pre_filter",
+      "stage": "operation",
       "status": "pending",
       "final_score": "",
       "pnl": 0.0,
@@ -124,9 +124,35 @@
           "ajustada": false,
           "ts": "2026-11-24T02:09:19.975518+00:00"
         },
-        "vigia": "acompanhando",
-        "erro": null
-      }
+        "vigia": "bateu",
+        "erro": null,
+        "linha": [
+          {
+            "min": 2,
+            "odd": 15.38,
+            "ts": "2026-11-24T18:03:15.619436+00:00"
+          }
+        ],
+        "ao_vivo": {
+          "odd": 15.38,
+          "ts": "2026-11-24T18:03:15.619436+00:00",
+          "min": 2,
+          "ajustada": true,
+          "stake_topo": 26.12
+        },
+        "bateu": {
+          "odd": 15.38,
+          "ts": "2026-11-24T18:03:15.619436+00:00",
+          "min": 2,
+          "ajustada": true,
+          "stake_topo": 26.12
+        }
+      },
+      "manual_odd": 15.38,
+      "lay_stake": 69.54,
+      "lay_profit_green": 66.41,
+      "lay_loss_red": -1000.0,
+      "ev_pct": -3.82
     },
     {
       "fixture_id": 1601621,
@@ -225,7 +251,7 @@
       "risk_note": "Lembre-se: Ganhamos se o favorito marcar ou se o jogo empatar/zebra não fizer 0x1. Variante A/B: faixa de odd e score abertos pra mais volume.",
       "passed_filters": true,
       "filter_rejections": [],
-      "stage": "pre_filter",
+      "stage": "anulado",
       "status": "pending",
       "final_score": "",
       "pnl": 0.0,
@@ -249,9 +275,43 @@
           "ajustada": false,
           "ts": "2026-11-24T02:09:19.980287+00:00"
         },
-        "vigia": "acompanhando",
-        "erro": null
-      }
+        "vigia": "gol",
+        "erro": null,
+        "linha": [
+          {
+            "min": 1,
+            "odd": 34.48,
+            "ts": "2026-11-24T19:04:07.711204+00:00"
+          },
+          {
+            "min": 3,
+            "odd": 28.57,
+            "ts": "2026-11-24T19:05:13.562431+00:00"
+          },
+          {
+            "min": 4,
+            "odd": 50.63,
+            "ts": "2026-11-24T19:10:20.664565+00:00"
+          },
+          {
+            "min": 9,
+            "odd": 2000.0,
+            "ts": "2026-11-24T19:15:24.283482+00:00"
+          }
+        ],
+        "ao_vivo": {
+          "odd": 2000.0,
+          "ts": "2026-11-24T19:15:24.283482+00:00",
+          "min": 9,
+          "ajustada": true,
+          "stake_topo": 0.0
+        },
+        "fim": {
+          "placar": "1-0",
+          "min": 14
+        }
+      },
+      "reject_reason": "Saiu gol (1-0 aos 14') antes da odd bater 16"
     },
     {
       "fixture_id": 1601613,
@@ -350,7 +410,7 @@
       "risk_note": "Lembre-se: Ganhamos se o favorito marcar ou se o jogo empatar/zebra não fizer 0x1. Variante A/B: faixa de odd e score abertos pra mais volume.",
       "passed_filters": true,
       "filter_rejections": [],
-      "stage": "pre_filter",
+      "stage": "anulado",
       "status": "pending",
       "final_score": "",
       "pnl": 0.0,
@@ -374,9 +434,33 @@
           "ajustada": false,
           "ts": "2026-11-24T02:09:20.040670+00:00"
         },
-        "vigia": "acompanhando",
-        "erro": null
-      }
+        "vigia": "gol",
+        "erro": null,
+        "linha": [
+          {
+            "min": 2,
+            "odd": 41.67,
+            "ts": "2026-11-24T19:05:16.097160+00:00"
+          },
+          {
+            "min": 3,
+            "odd": 2000.0,
+            "ts": "2026-11-24T19:10:20.678340+00:00"
+          }
+        ],
+        "ao_vivo": {
+          "odd": 2000.0,
+          "ts": "2026-11-24T19:10:20.678340+00:00",
+          "min": 3,
+          "ajustada": true,
+          "stake_topo": 0.0
+        },
+        "fim": {
+          "placar": "1-0",
+          "min": 8
+        }
+      },
+      "reject_reason": "Saiu gol (1-0 aos 8') antes da odd bater 16"
     },
     {
       "fixture_id": 1601616,
