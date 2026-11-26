@@ -461,7 +461,7 @@
       "risk_note": "Lembre-se: Ganhamos se o favorito marcar ou se o jogo empatar/zebra não fizer 1x0. Variante A/B: faixa de odd e score abertos pra mais volume.",
       "passed_filters": true,
       "filter_rejections": [],
-      "stage": "pre_filter",
+      "stage": "operation",
       "status": "pending",
       "final_score": "",
       "pnl": 0.0,
@@ -487,7 +487,12 @@
         },
         "vigia": null,
         "erro": null
-      }
+      },
+      "manual_odd": 13.33,
+      "lay_stake": 81.1,
+      "lay_profit_green": 77.45,
+      "lay_loss_red": -1000.0,
+      "ev_pct": 2.82
     }
   ]
 }
