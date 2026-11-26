@@ -101,9 +101,9 @@
       "passed_filters": true,
       "filter_rejections": [],
       "stage": "operation",
-      "status": "pending",
-      "final_score": "",
-      "pnl": 0.0,
+      "status": "green",
+      "final_score": "1x2",
+      "pnl": 71.86,
       "resistance_index": 0.0,
       "recommended_odd": 11.65,
       "league_avg_goals": 0.0,
@@ -230,7 +230,7 @@
       "risk_note": "Lembre-se: Ganhamos se o favorito marcar ou se o jogo empatar/zebra não fizer 1x0. Variante A/B: faixa de odd e score abertos pra mais volume.",
       "passed_filters": true,
       "filter_rejections": [],
-      "stage": "pre_filter",
+      "stage": "operation",
       "status": "pending",
       "final_score": "",
       "pnl": 0.0,
@@ -250,13 +250,119 @@
           "bid": 0.05,
           "ask": 0.06,
           "back": 16.67,
-          "stake_topo": 24.6,
+          "stake_topo": 65.7,
           "ajustada": false,
-          "ts": "2026-11-26T02:10:33.537128+00:00"
+          "ts": "2026-11-26T18:03:12.640126+00:00"
         },
-        "vigia": "acompanhando",
-        "erro": null
-      }
+        "vigia": "bateu",
+        "erro": null,
+        "linha": [
+          {
+            "min": 1,
+            "odd": 20.0,
+            "ts": "2026-11-26T20:01:56.606313+00:00"
+          },
+          {
+            "min": 2,
+            "odd": 18.18,
+            "ts": "2026-11-26T20:03:02.386885+00:00"
+          },
+          {
+            "min": 3,
+            "odd": 20.0,
+            "ts": "2026-11-26T20:03:33.808878+00:00"
+          },
+          {
+            "min": 4,
+            "odd": 20.0,
+            "ts": "2026-11-26T20:05:10.820810+00:00"
+          },
+          {
+            "min": 5,
+            "odd": 20.0,
+            "ts": "2026-11-26T20:05:42.131129+00:00"
+          },
+          {
+            "min": 6,
+            "odd": 17.39,
+            "ts": "2026-11-26T20:07:24.267785+00:00"
+          },
+          {
+            "min": 7,
+            "odd": 19.05,
+            "ts": "2026-11-26T20:07:58.601833+00:00"
+          },
+          {
+            "min": 8,
+            "odd": 22.22,
+            "ts": "2026-11-26T20:09:06.854051+00:00"
+          },
+          {
+            "min": 9,
+            "odd": 18.18,
+            "ts": "2026-11-26T20:10:15.183621+00:00"
+          },
+          {
+            "min": 10,
+            "odd": 20.0,
+            "ts": "2026-11-26T20:10:48.931436+00:00"
+          },
+          {
+            "min": 11,
+            "odd": 19.05,
+            "ts": "2026-11-26T20:11:54.273995+00:00"
+          },
+          {
+            "min": 12,
+            "odd": 22.22,
+            "ts": "2026-11-26T20:12:59.829897+00:00"
+          },
+          {
+            "min": 13,
+            "odd": 16.67,
+            "ts": "2026-11-26T20:14:05.346155+00:00"
+          },
+          {
+            "min": 14,
+            "odd": 16.67,
+            "ts": "2026-11-26T20:15:08.261103+00:00"
+          },
+          {
+            "min": 15,
+            "odd": 16.67,
+            "ts": "2026-11-26T20:16:11.265055+00:00"
+          },
+          {
+            "min": 16,
+            "odd": 16.67,
+            "ts": "2026-11-26T20:16:42.632199+00:00"
+          },
+          {
+            "min": 17,
+            "odd": 14.81,
+            "ts": "2026-11-26T20:17:48.304894+00:00"
+          }
+        ],
+        "ao_vivo": {
+          "odd": 14.81,
+          "ts": "2026-11-26T20:17:48.304894+00:00",
+          "min": 17,
+          "ajustada": true,
+          "stake_topo": 105.1
+        },
+        "bateu": {
+          "odd": 14.81,
+          "ts": "2026-11-26T20:17:48.304894+00:00",
+          "min": 17,
+          "ajustada": true,
+          "stake_topo": 105.1
+        }
+      },
+      "manual_odd": 14.81,
+      "lay_stake": 72.41,
+      "lay_profit_green": 69.15,
+      "lay_loss_red": -1000.0,
+      "ev_pct": -21.59
     },
     {
       "fixture_id": 1636336,
@@ -371,15 +477,15 @@
         "token": "67285850879388688662391521023194890371854436415857646999403051844247505391472",
         "mercado_pm": "Exact Score: AC Sparta Praha 1 - 0 AZ?",
         "leitura": {
-          "odd": 16.67,
-          "bid": 0.06,
-          "ask": 0.07,
-          "back": 14.29,
-          "stake_topo": 71.94,
-          "ajustada": false,
-          "ts": "2026-11-26T02:10:33.298422+00:00"
+          "odd": 13.33,
+          "bid": 0.07,
+          "ask": 0.08,
+          "back": 12.5,
+          "stake_topo": 0.35,
+          "ajustada": true,
+          "ts": "2026-11-26T18:03:15.741344+00:00"
         },
-        "vigia": "acompanhando",
+        "vigia": null,
         "erro": null
       }
     }
