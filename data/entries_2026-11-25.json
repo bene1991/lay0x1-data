@@ -100,7 +100,7 @@
       "risk_note": "Lembre-se: Ganhamos se o favorito marcar ou se o jogo empatar/zebra não fizer 1x0. Variante A/B: faixa de odd e score abertos pra mais volume.",
       "passed_filters": true,
       "filter_rejections": [],
-      "stage": "pre_filter",
+      "stage": "anulado",
       "status": "pending",
       "final_score": "",
       "pnl": 0.0,
@@ -120,13 +120,102 @@
           "bid": 0.048,
           "ask": 0.05,
           "back": 20.0,
-          "stake_topo": 1.2,
+          "stake_topo": 270.69,
           "ajustada": false,
-          "ts": "2026-11-25T06:37:20.655993+00:00"
+          "ts": "2026-11-25T17:34:04.016790+00:00"
         },
-        "vigia": "acompanhando",
-        "erro": null
-      }
+        "vigia": "gol",
+        "erro": null,
+        "linha": [
+          {
+            "min": 1,
+            "odd": 23.81,
+            "ts": "2026-11-25T20:01:45.960962+00:00"
+          },
+          {
+            "min": 2,
+            "odd": 22.22,
+            "ts": "2026-11-25T20:03:22.937062+00:00"
+          },
+          {
+            "min": 3,
+            "odd": 23.81,
+            "ts": "2026-11-25T20:03:54.521583+00:00"
+          },
+          {
+            "min": 4,
+            "odd": 20.0,
+            "ts": "2026-11-25T20:04:57.427387+00:00"
+          },
+          {
+            "min": 5,
+            "odd": 25.0,
+            "ts": "2026-11-25T20:06:00.240043+00:00"
+          },
+          {
+            "min": 6,
+            "odd": 21.39,
+            "ts": "2026-11-25T20:07:08.074649+00:00"
+          },
+          {
+            "min": 7,
+            "odd": 19.23,
+            "ts": "2026-11-25T20:07:39.667388+00:00"
+          },
+          {
+            "min": 8,
+            "odd": 25.0,
+            "ts": "2026-11-25T20:09:19.470767+00:00"
+          },
+          {
+            "min": 9,
+            "odd": 35.09,
+            "ts": "2026-11-25T20:09:53.646497+00:00"
+          },
+          {
+            "min": 10,
+            "odd": 27.78,
+            "ts": "2026-11-25T20:10:59.401072+00:00"
+          },
+          {
+            "min": 11,
+            "odd": 19.61,
+            "ts": "2026-11-25T20:12:02.359871+00:00"
+          },
+          {
+            "min": 12,
+            "odd": 17.24,
+            "ts": "2026-11-25T20:13:36.994147+00:00"
+          },
+          {
+            "min": 13,
+            "odd": 25.0,
+            "ts": "2026-11-25T20:14:08.452092+00:00"
+          },
+          {
+            "min": 14,
+            "odd": 25.32,
+            "ts": "2026-11-25T20:14:42.546886+00:00"
+          },
+          {
+            "min": 15,
+            "odd": 25.32,
+            "ts": "2026-11-25T20:15:16.609187+00:00"
+          }
+        ],
+        "ao_vivo": {
+          "odd": 25.32,
+          "ts": "2026-11-25T20:15:16.609187+00:00",
+          "min": 15,
+          "ajustada": true,
+          "stake_topo": 0.0
+        },
+        "fim": {
+          "placar": "0-1",
+          "min": 15
+        }
+      },
+      "reject_reason": "Saiu gol (0-1 aos 15') antes da odd bater 16"
     },
     {
       "fixture_id": 1632072,
@@ -468,7 +557,7 @@
       "risk_note": "Lembre-se: Ganhamos se o favorito marcar ou se o jogo empatar/zebra não fizer 0x1. Variante A/B: faixa de odd e score abertos pra mais volume.",
       "passed_filters": true,
       "filter_rejections": [],
-      "stage": "pre_filter",
+      "stage": "operation",
       "status": "pending",
       "final_score": "",
       "pnl": 0.0,
@@ -494,7 +583,12 @@
         },
         "vigia": null,
         "erro": null
-      }
+      },
+      "manual_odd": 14.29,
+      "lay_stake": 75.24,
+      "lay_profit_green": 71.86,
+      "lay_loss_red": -1000.0,
+      "ev_pct": -27.18
     },
     {
       "fixture_id": 1650516,
