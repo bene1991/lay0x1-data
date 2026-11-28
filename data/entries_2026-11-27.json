@@ -467,9 +467,9 @@
       "passed_filters": true,
       "filter_rejections": [],
       "stage": "operation",
-      "status": "pending",
-      "final_score": "",
-      "pnl": 0.0,
+      "status": "green",
+      "final_score": "2x2",
+      "pnl": 71.86,
       "resistance_index": 0.0,
       "recommended_odd": 14.7,
       "league_avg_goals": 0.0,
@@ -597,9 +597,9 @@
       "passed_filters": true,
       "filter_rejections": [],
       "stage": "operation",
-      "status": "pending",
-      "final_score": "",
-      "pnl": 0.0,
+      "status": "green",
+      "final_score": "2x3",
+      "pnl": 83.04,
       "resistance_index": 0.0,
       "recommended_odd": 11.69,
       "league_avg_goals": 0.0,
@@ -727,9 +727,9 @@
       "passed_filters": true,
       "filter_rejections": [],
       "stage": "operation",
-      "status": "pending",
-      "final_score": "",
-      "pnl": 0.0,
+      "status": "red",
+      "final_score": "0x1",
+      "pnl": -1000.0,
       "resistance_index": 0.0,
       "recommended_odd": 12.31,
       "league_avg_goals": 0.0,
@@ -857,9 +857,9 @@
       "passed_filters": true,
       "filter_rejections": [],
       "stage": "operation",
-      "status": "pending",
-      "final_score": "",
-      "pnl": 0.0,
+      "status": "green",
+      "final_score": "0x0",
+      "pnl": 83.04,
       "resistance_index": 0.0,
       "recommended_odd": 10.7,
       "league_avg_goals": 0.0,
@@ -986,7 +986,7 @@
       "risk_note": "Lembre-se: Ganhamos se o favorito marcar ou se o jogo empatar/zebra não fizer 0x1. Variante A/B: faixa de odd e score abertos pra mais volume.",
       "passed_filters": true,
       "filter_rejections": [],
-      "stage": "pre_filter",
+      "stage": "anulado",
       "status": "pending",
       "final_score": "",
       "pnl": 0.0,
@@ -1010,9 +1010,38 @@
           "ajustada": false,
           "ts": "2026-11-27T01:57:19.810361+00:00"
         },
-        "vigia": "acompanhando",
-        "erro": null
-      }
+        "vigia": "gol",
+        "erro": null,
+        "linha": [
+          {
+            "min": 1,
+            "odd": 23.26,
+            "ts": "2026-11-27T20:31:05.130231+00:00"
+          },
+          {
+            "min": 2,
+            "odd": 23.26,
+            "ts": "2026-11-27T20:32:13.526378+00:00"
+          },
+          {
+            "min": 3,
+            "odd": 28.17,
+            "ts": "2026-11-27T20:33:21.395065+00:00"
+          }
+        ],
+        "ao_vivo": {
+          "odd": 28.17,
+          "ts": "2026-11-27T20:33:21.395065+00:00",
+          "min": 3,
+          "ajustada": true,
+          "stake_topo": 0.02
+        },
+        "fim": {
+          "placar": "1-0",
+          "min": 4
+        }
+      },
+      "reject_reason": "Saiu gol (1-0 aos 4') antes da odd bater 16"
     },
     {
       "fixture_id": 1632072,
@@ -1127,16 +1156,52 @@
         "token": "63959870360318582493575865929288503177291816322973046979806464989687377080375",
         "mercado_pm": "Exact Score: Sportivo Luqueno 1 - 0 Club Olimpia?",
         "leitura": {
-          "odd": 19.61,
-          "bid": 0.051,
-          "ask": 0.061,
-          "back": 16.39,
-          "stake_topo": 5.1,
+          "odd": 17.86,
+          "bid": 0.056,
+          "ask": 0.063,
+          "back": 15.87,
+          "stake_topo": 3.1,
           "ajustada": false,
-          "ts": "2026-11-27T01:57:20.044141+00:00"
+          "ts": "2026-11-27T22:10:17.750326+00:00"
         },
-        "vigia": "acompanhando",
-        "erro": null
+        "vigia": "bateu",
+        "erro": null,
+        "linha": [
+          {
+            "min": 2,
+            "odd": 3.82,
+            "ts": "2026-11-27T23:02:44.353804+00:00"
+          },
+          {
+            "min": 3,
+            "odd": 6.15,
+            "ts": "2026-11-27T23:03:18.973117+00:00"
+          },
+          {
+            "min": 4,
+            "odd": 6.64,
+            "ts": "2026-11-27T23:04:26.898769+00:00"
+          },
+          {
+            "min": 5,
+            "odd": 6.64,
+            "ts": "2026-11-27T23:05:01.217875+00:00"
+          }
+        ],
+        "ao_vivo": {
+          "odd": 6.64,
+          "ts": "2026-11-27T23:05:01.217875+00:00",
+          "min": 5,
+          "ajustada": true,
+          "stake_topo": 0.0
+        },
+        "bateu": {
+          "odd": 6.64,
+          "ts": "2026-11-27T23:05:01.217875+00:00",
+          "min": 5,
+          "ajustada": true,
+          "stake_topo": 0.0
+        }
       }
     },
     {
